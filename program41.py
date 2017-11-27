@@ -1,0 +1,22 @@
+print(".....................Math...................................................")
+
+import math
+print(math.ceil(23.34))
+print(math.ceil(-24.34))
+print(math.e)
+print(math.exp(7))
+print(math.e**7)
+print(math.floor(3.4444444444444))
+print(math.sqrt(2))
+print(math.log(5))
+print(math.log10(5))
+print(math.log(math.e))
+print(max(2,4,6,7,2,4,6,7,4,100))
+print(min(2,4,6,7,2,4,6,7,4,100))
+print(round(100.1223,2))
+print(math.modf(10.0001))
+print(math.pow(2,3))
+print(math.pi)
+print(math.degrees(4))
+print(math.radians(-180))
+
