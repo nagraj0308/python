@@ -30,4 +30,30 @@ else:
 
 """ Feige-Fiat-Shamir Protocol """
 
+k = 10
+s = []
+v = []
+c = []
+for i in range(k):
+    r = random.randint(1, n)
+    s.append(r)
+    v.append((r * r) % n)
+    c.append(random.randint(0, 1))
+
+r = random.randint(1, n - 1)  # commitment
+y1 = r
+x = (r * r) % n  # witness
+y2 = x
+for i in range(k):
+    y1 *= (s[i] ** c[i])
+    y2 *= (v[i] ** c[i])
+
+v1 = (y1 ** 2) % n
+v2 = y2 % n
+
+if v1 == v2:
+    print("Bob   : Probable")
+else:
+    print("Bob   : Improbable")
+
 """ Guillou-Quisquater Protocol """
