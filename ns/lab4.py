@@ -28,6 +28,10 @@ if v1 == v2:
 else:
     print("Bob   : Improbable")
 
+
+
+
+
 """ Feige-Fiat-Shamir Protocol """
 
 k = 10
@@ -56,4 +60,62 @@ if v1 == v2:
 else:
     print("Bob   : Improbable")
 
+
+
+
+
 """ Guillou-Quisquater Protocol """
+
+
+def fi(a, b):
+    return (a - 1) * (b - 1)
+
+
+def gcd(a, b):
+    while a != 0 and b != 0:
+        if a > b:
+            a %= b
+        else:
+            b %= a
+    return a + b
+
+
+def inverse(a):
+    a = a % n
+    for j in range(1, n):
+        if (a * j) % n == 1:
+            return j
+    return 1
+
+
+def bezout(a, b):
+    oldB = b
+    x, xx, y, yy = 1, 0, 0, 1
+    while b:
+        q = a // b
+        a, b = b, a % b
+        x, xx = xx, x - xx * q
+        y, yy = yy, y - yy * q
+    if x < 0:
+        x = x + oldB
+    return x
+
+
+p = 31
+q = 29
+f = fi(p, q)
+e = random.randint(1, f)
+while gcd(e, f) != 1:
+    e = e + 1
+s = bezout(e, f)
+v = inverse(s ** e)
+r = random.randint(1, n)
+x = (r ** e) % n
+c = random.randint(1, e)
+y = (r * (s ** c)) % n
+v1 = x
+v2 = ((y ** e) * (v ** c)) % n
+if v1 == v2:
+    print("Bob   : Probable")
+else:
+    print("Bob   : Improbable")
