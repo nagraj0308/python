@@ -1,9 +1,9 @@
 s = ['this is 1stline','this is 2nd line']
-file1=open("file24.txt","w")
+file1=open("data_files/file24.txt", "w")
 file1.writelines(s)
 file1.close()
 
-file=open("file24.txt","r")
+file=open("data_files/file24.txt", "r")
 print (file.read())
 file.close()
 
@@ -11,11 +11,11 @@ file.close()
 character to the end of string. You have to do itby adding \n"""
 
 s = ['this is 1stline\n','this is 2nd line\n']
-file1=open("file24.txt","w")
+file1=open("data_files/file24.txt", "w")
 file1.writelines(s)
 file1.close()
 
-file=open("file24.txt","r")
+file=open("data_files/file24.txt", "r")
 print (file.read())
 file.seek(5,0) #seek is used to send cursor at specific point
 print(file.read(5))#now file read next5 byte from 5

@@ -1,11 +1,11 @@
 import os
 
-file=open("file28a.txt","r")
+file=open("data_files/file28a.txt", "r")
 
-print(os.path.abspath("file28a.txt"))#will give us the complete path name of the data file.
+print(os.path.abspath("data_files/file28a.txt"))#will give us the complete path name of the data file.
 
 
-print(os.path.isfile("file28a.txt"))
+print(os.path.isfile("data_files/file28a.txt"))
 
 print(file.closed,file.mode,file.name)
 

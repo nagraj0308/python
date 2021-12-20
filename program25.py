@@ -1,5 +1,5 @@
 def fileHandling():
-	file = open("file25.txt","w+")
+	file = open("data_files/file25.txt", "w+")
 	while (True):
 		line =input("enter sentence :")
 		file.write(line)
