@@ -11,18 +11,16 @@ sys module. Methods which are available for I/O operations in it are
 1-read() for reading a byte at a time from keyboard
 2-write() for writing data on terminal i.e. monitor"""
 
-#Example..
+# Example..
 import sys
+
 print("Enter your name..: ")
+name = ""
+c = sys.stdin.read()
+if c == 'a':
+    name = name + c
+sys.stdout.write("Your Name is: ", name)
 
-	c=sys.stdin.read()
-	if (c=='a'):
-		break
-	name=name+c
-	sys.stdout.write("Your Name is: ",name)
-
-
-
-#same can be done using high level methods also
+# same can be done using high level methods also
 name = input('Enter your name :')
-print ('your name is ',name)
+print('your name is ', name)
