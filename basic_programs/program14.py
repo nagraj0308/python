@@ -21,9 +21,9 @@ def all_thread():
 
     # p2
     # print ID of current process
-    print("ID of process running main program: {}".format(os.getpid()))
+    print("ID of process running name_and_main program: {}".format(os.getpid()))
 
-    # print name of main thread
+    # print name of name_and_main thread
     print("Main thread name: {}".format(threading.current_thread().name))
 
     # creating threads

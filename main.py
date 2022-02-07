@@ -1,5 +1,7 @@
-# basics_of_python()
-# all_math()
+from basic_programs.program1 import basics_of_python, all_math
+
+basics_of_python()
+all_math()
 # all_loops()
 # all_list()
 # all_tuple()
