@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+          <title>Project Tracker</title> 
+    <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.29/dojo/resources/dojo.css"/>
+     
+    <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.29/dijit/themes/tundra/tundra.css"/>
+      
+    <link href="CSS/StyleSheet.css" rel="stylesheet" type="text/css"/>
+     
+    <link rel="stylesheet" type="text/css" href="Styles/ohp_site.css"/>
+      
+    <link rel="stylesheet" href="https://js.arcgis.com/3.29/esri/css/esri.css">
+     
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+     
+    <link rel="stylesheet"
+          href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css"/>
+       
+    <script src="https://js.arcgis.com/3.29/"></script>
+       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js"></script>
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css">
+     
+    <link rel="stylesheet" type="text/css" href="css/SingleWing.css">
+      
+    <script type="text/javascript">
+                 dojoConfig = { parseOnLoad: true }          /*Browser Detection*/         function GetBrowser() {             var ua = navigator.userAgent, tem,                 M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\\/))\\/?\\s*([\\d\\.]+)/i) || [];             if (/trident/i.test(M[1])) {                 tem = /\\brv[ :]+(\\d+(\\.\\d+)?)/g.exec(ua) || [];                 return \'MSIE \' + (tem[1] || \'\');             }             M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, \'-?\'];             if ((tem = ua.match(/version\\/([\\.\\d]+)/i)) != null) M[2] = tem[1];             return M.join(\' \');         }         Browser = GetBrowser().split(" ")[0];         BrowserVersion = GetBrowser().split(" ")[1]; \t\t//alert(BrowserVersion + "  " + Browser + "  " + GetBrowser().split(" ")[2] + " ::" + GetBrowser()) \t\t//alert(navigator.appVersion.split(" ")[4]); \t\t    is_iPad = navigator.userAgent.match(/iPad/i) != null; \t\t         if ((Browser == "MSIE" && BrowserVersion == "11.0")) {           document.write(\'<link id=IeCSS rel="stylesheet" type="text/css" href="css/IE11.css" />\');           if (window.innerWidth < 1250) {             document.write(\'<link id=IeCSS rel="stylesheet" type="text/css" href="css/IE11_1200.css" />\');           }         }         if ((Browser == "MSIE" && BrowserVersion == "10.0")) {           document.write(\'<link rel="stylesheet" type="text/css" href="css/IE10.css" />\');         }          if (Browser == "MSIE" && parseInt(BrowserVersion) < 10) {             var msg = "*****   Attention Internet Explorer User  ***** \\n\\n"             msg = msg + "Please use IE 10 or IE 11 OR ensure that compatibility mode is not enabled for this site... \\n\\n"              msg = msg + "To check compatibilty settings do the following:\\n\\n"             msg = msg + "Hit F10-->Tools-->Compatibility View Settings\\n\\n"             msg = msg + "Alternatively, please consider using Chrome or Firefox"             alert(msg)         }          if (Browser == "Chrome") {           document.write(\'<link id="ChromeCSS" rel="stylesheet" type="text/css" href="CSS/Chrome.css" />\');           if (window.innerWidth < 1200) {             document.write(\'<link id="ChromeCSS" rel="stylesheet" type="text/css" href="CSS/Chrome_1200.css" />\');           }         }         if (Browser == "Safari") {           if (is_iPad) {             if (window.orientation == 0) {               //alert(\'Portrait Mode, Home Button bottom\');               document.write(\'<link id="IPad" rel="stylesheet" type="text/css" href="CSS/IPAD_portrait.css" />\');             } else if (window.orientation == 90) {               document.write(\'<link id="IPad"  rel="stylesheet" type="text/css" href="CSS/IPAD_Landscape.css" />\');               //alert(\'Landscape Mode, Home Button right\');             } else if (window.orientation == -90) {               //alert(\'Landscape Mode, Home Button left\');               document.write(\'<link id="IPad"  rel="stylesheet" type="text/css" href="CSS/IPAD_Landscape.css" />\');             } else if (window.orientation == 180) {               //alert(\'Portrait Mode, Home Button top\');               document.write(\'<link  id="IPad" rel="stylesheet" type="text/css" href="CSS/IPAD_portrait.css" />\');             }           } else {             document.write(\'<link rel="stylesheet" type="text/css" href="CSS/Safari.css" />\');           }         }          if (Browser == "Firefox") {             document.write(\'<link rel="stylesheet" type="text/css" href="CSS/Firefox.css" />\');         }     
+    </script>
+        
+    <script type="text/javascript">
+              (function(i,s,o,g,r,a,m){       i[\'GoogleAnalyticsObject\']=r;i[r]=i[r]||function(){           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })         (window,document,\'script\',\'//www.google-analytics.com/analytics.js\',\'ga\');          ga(\'create\', \'UA-26874019-3\', \'auto\', {\'allowLinker\': true});         ga(\'require\', \'linker\');         ga(\'linker:autoLink\', [\'txdot.com\', \'publiccm.txdot.gov\', \'careers.txdot.gov\', \'dot.state.tx.us\', \'ftp.dot.state.tx.us\'] );         ga(\'send\', \'pageview\');      
+    </script>
+       
+</head>
+ 
+<body class="tundra" onload="init()" onresize="GetBrowser2()"> 
+<form name="form1" method="post" action="./" id="form1"> <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+                                                                   value="/wEPDwULLTIwMTAwOTUyODdkZMMFDHmEKPVgMOh36PFurM1un2/3QDc6O2fY0IMotBt0"/>   
+    <script src="/apps-cq/project_tracker/ScriptResource.axd?d=Ukm0pIHcx4ki6Vo1NrX_wQJBtO72lmcBuaLQ-mfw-SjS4v6o0VkQqr4N4qpDPQIzzUkdHAuQXbzy8yOp4BpflQnz9_KbFeBVbKpgFrM_m4JcUe_s-Rt_gWeFSubXx6ViXFM83ZabLo0zocLsZ61QCqDg1RPUMOrx21RKf9flx02vVtccltCgvKZS330pNJ4Z0&amp;t=363be08"
+            type="text/javascript"></script>
+     
+    <script type="text/javascript">
+         //<![CDATA[ if (typeof(Sys) === \'undefined\') throw new Error(\'ASP.NET Ajax client-side framework failed to load.\'); //]]> 
+    </script>
+      
+    <script src="js/singleWing.js" type="text/javascript"></script>
+     
+    <script src="js/functions.js" type="text/javascript"></script>
+     <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="80DAFEB1"/>     
+    <div id="content">   \t 
+        <div class="header_background_block" style="overflow:hidden"> \t
+            <div class="header_background"> \t <a href="http://www.txdot.gov/"> \t
+                <!--<img alt="Texas Department of Transportation Logo" src="/apps-cg/_asset_collection/txdot_logo.png" width="584" height="94" style="border-width: 0px">-->
+                  <img alt="Texas Department of Transportation Logo" src="img/txdot_logo.png" width="584" height="94"
+                          style="border-width: 0px"> \t </a> 
+                <!--        <div class="search_and_links_block">             <div class="headerarea_font site_index_and_spanish_block">                 <!--<a href="http://www.txdot.gov/inside-txdot/sitemap.html" style="color: #FFFFFF; text-decoration: none">A - Z Site Index</a> &nbsp;|&nbsp;                  <a href="http://www.txdot.gov/inside-txdot/contact-us.html" style="color: #FFFFFF; text-decoration: none">Contact Us</a> &nbsp;|&nbsp;                  <a href="http://www.txdot.gov/inside-txdot/spanish.html" style="color: #FFFFFF; text-decoration: none">Espa&ntilde;ol</a>-->
+                 
+            </div>
+             
+            <div style="height:57px;"></div>
+            --> 
+        </div>
+         \t
+    </div>
+     </div> 
+    <!--<script LANGUAGE="JavaScript" SRC="/apps-cg/_site_includes/pagecomponents/s_code.js" TYPE="text/javascript"></script> <script LANGUAGE="JavaScript" SRC="/apps-cg/_site_includes/pagecomponents/pagevariables.js" TYPE="text/javascript"></script>-->
+          <img id="LoadingImg" alt="" src="img/Loading.gif"
+                           style="position:absolute; z-index:104; left: 500px; top: 335px; visibility: hidden;"/> 
+    <img id="LoadingImg2" alt="" src="img/download.png"
+         style="position:absolute; z-index:104; left: 500px; top: 435px; visibility: hidden;"/>  
+    <div id="general">   
+        <div id="divptheader">  
+            <table style="border: none;"> 
+                <tr class="altHeader"> 
+                    <td align="left" style="border: none; width: 10%; padding: 0px;">  <img alt="Project Tracker"
+                                                                                               title="Click to reset page"
+                                                                                               style="position: relative; left: -1px; height:33px"
+                                                                                               src="img/icons/pt-ribbon.png"
+                                                                                               onclick="resetPage();"/>
+                         
+                    </td>
+                     
+                    <td align="Left" class="OtherModes tdNoBorder2"
+                        style="font-size: 15px; vertical-align: middle; width: auto;"> 
+                        <div style="padding-left: 1px;">  
+                            <ul id="HelpNavigation1"> 
+                                <li class="sub"><a href="http://www.TxDOT.gov" target="_blank">TxDOT</a></li>
+                                 
+                                <li style="color: #FFF; height: 27px; text-align: center;">|</li>
+                                \t\t\t\t  
+                                <li style="color: #FFF;"><a href="http://gis-txdot.opendata.arcgis.com/"
+                                                            target="_blank">Open Data Portal</a></li>
+                                 
+                                <li style="color: #FFF; height: 27px; text-align: center;">|</li>
+                                 
+                                <li style="color: #FFF;"><a
+                                        href="http://www.txdot.gov/apps/statewide_mapping/StatewidePlanningMap.html"
+                                        target="_blank">Statewide Planning Map</a></li>
+                                 \t\t\t\t\t\t\t  
+                            </ul>
+                             
+                        </div>
+                         
+                    </td>
+                     
+                    <td class="ExportData"> 
+                        <ul id="navigation"> 
+                            <li><a href="http://www.txdot.gov/inside-txdot/projects/project-tracker.html"  
+                                   target="_blank" style="text-decoration: none;">About</a></li>
+                             
+                            <li style="color: #fff; height: 27px; text-align: center;">|</li>
+                             
+                            <li class="sub"><a href="#" style="text-decoration: none;">Help</a> 
+                                <ul style="margin-bottom: 0px; padding-bottom: 0px;">   
+                                    <li class="sub"><a
+                                            href="https://txdot.maps.arcgis.com/apps/Cascade/index.html?appid=a9c6a2a7ff7944c19ce532968db96dd8"
+                                            target="_blank" style="text-decoration: none;">Interactive</a></li>
+                                     
+                                    <li class="sub"><a href="https://youtu.be/W_RmvKovYpQ" target="_blank">Tutorial</a>
+                                    </li>
+                                     
+                                    <li class="sub"><a href="mailto:Project.Tracker@txdot.gov">Contact Us</a></li>
+                                     
+                                </ul>
+                                 
+                            </li>
+                              
+                            <li style="color: #fff; height: 27px; text-align: center;">|</li>
+                             
+                            <li class="sub"><a href="#" style="text-decoration: none;">Export Data</a> 
+                                <ul style="margin-bottom: 0px; padding-bottom: 0px;"> 
+                                    <li class="sub"><a href="#" onClick="BuildFilteredReport(\'PDF\');">PDF</a></li>
+                                      
+                                    <li class="sub"><a href="#" onClick="BuildFilteredReport(\'XLSX\');">XLSX</a></li>
+                                     
+                                    <li style="padding-bottom: 0px;"><a
+                                            href="ftp://ftp.dot.state.tx.us/pub/txdot-info/tpp/project-tracker/ProjectTracker.xml"
+                                              target="_blank">XML</a></li>
+                                     
+                                    <li class="sub"><a href="#" onClick="Detailed_Export(\'SHP\');"> ShapeFile</a></li>
+                                     
+                                </ul>
+                                 
+                            </li>
+                             
+                        </ul>
+                         
+                    </td>
+                     
+                </tr>
+                 
+            </table>
+             
+        </div>
+         
+    </div>
+       
+    <div id="main"> 
+        <div id="sidebar" class="sidebar-offcanvas"> 
+            <div class="col-md-12 no-padding"> 
+                <div id="filterOptions"> 
+                    <div class="search_options" ,
+                    "text-center"> 
+                    <div class="search_keyword">  <h3>SEARCH by KEYWORD <img alt="Key Help" title="Keyword Help"
+                                                                                style="position: relative; left: 0px;"
+                                                                                src="img/Help.png"
+                                                                                onclick="KeywordHelp()"/>   </h3> 
+                        <div id="search" style=" box-sizing:border-box"></div>
+                         
+                    </div>
+                       
+                    <div id="divSearchYear" class="search_year">  <h3 class="letter-spaced">Est. Construction Begin
+                        Year</h3> 
+                        <div id="searchByYear" class="row"> 
+                            <div class="col-lg-6">  <input type="text" placeholder="From" data-date-format="yyyy"
+                                                              name="SearchYearName" id="inputYearFromValue" value="2010"
+                                                              class="form-control search-from-year"> 
+                            </div>
+                             
+                            <div class="col-lg-6">  <input type="text" placeholder="To" data-date-format="yyyy"
+                                                              name="SearchYearName" id="inputYearToValue" value="2045"
+                                                              class="form-control search-to-year"> 
+                            </div>
+                             
+                        </div>
+                         
+                    </div>
+                     
+                    <div id="Advanced" style="display: none;">  <h3 class="letter-spaced">PHASE</h3> 
+                        <table style="border: none;"> 
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;"> \t\t\t\t\t\t
+                                    <label> <input id="chkCS" type="checkbox" checked=true name="phases"
+                                                   onclick="TogglePhase(\'chkCS\');"
+                                                   value="Construction underway or begins soon"/> Construction underway
+                                        or begins soon</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <label> <input
+                                        id="chkFC" type="checkbox" checked=true name="phases"
+                                        onclick="TogglePhase(\'chkFC\');" value="Construction begins within 4 years"/>
+                                    Construction begins within 4 years</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <label> <input
+                                        id="chkUD" type="checkbox" checked=true name="phases"
+                                        onclick="TogglePhase(\'chkUD\');" value="Construction begins in 5 to 10 years"/>
+                                    Construction begins in 5 to 10 years</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <label> <input
+                                        id="chkLTP" type="checkbox" checked=true name="phases"
+                                        onclick="TogglePhase(\'chkLTP\');"
+                                        value="Corridor Studies, construction 10+ years"/> Corridor Studies,
+                                    construction 10+ years</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                        </table>
+                           <h3 class="letter-spaced">TYPE <small>(OPTIONAL)</small></h3> 
+                        <table style="border: none;"> 
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkAltTrans" type="checkbox" name="phases"
+                                        onclick="ToggleType(\'chkAltTrans\');" value="Alternative Transportation">
+                                    <label for="chkAltTrans">Alternative Transportation</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkBridge" type="checkbox" name="phases"
+                                        onclick="ToggleType(\'chkBridge\');" value="Bridge"> <label for="chkBridge">Bridge</label> 
+                                </td>
+                                 
+                            </tr>
+                              
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkMaintenance" type="checkbox" name="phases"
+                                        onclick="ToggleType(\'chkMaintenance\');" value="Roadway_Maintenance"> <label
+                                        for="chkMaintenance">Maintenance</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkMiscellaneous" type="checkbox" name="phases"
+                                        onclick="ToggleType(\'chkMiscellaneous\');" value="Miscellaneous"> <label
+                                        for="chkMiscellaneous">Miscellaneous</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkMobility" type="checkbox" name="phases"
+                                        onclick="ToggleType(\'chkMobility\');" value="Mobility"> <label
+                                        for="chkMobility">Mobility</label>  
+                                </td>
+                                 
+                            </tr>
+                              
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkSafety" type="checkbox" name="phases"
+                                        onclick="ToggleType(\'chkSafety\');" value="Safety"> <label for="chkSafety">Safety</label>
+                                     
+                                </td>
+                                 
+                            </tr>
+                             
+                        </table>
+                           <h3 class="letter-spaced">PROGRAM <small>(OPTIONAL)</small></h3> 
+                        <table style="border: none;"> 
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkTop100" type="checkbox" name="phases"
+                                        onclick="ToggleProgram(\'chkTop100\');" value="Top 100"> <label for="chkTop100">Top
+                                    100 Most Congested</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkFreight" type="checkbox" name="phases"
+                                        onclick="ToggleProgram(\'chkFreight\');" value="Freight"> <label
+                                        for="chkFreight">Freight</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkTrunk" type="checkbox" name="phases"
+                                        onclick="ToggleProgram(\'chkTrunk\');" value="Trunk"> <label for="chkTrunk">Trunk</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkEnergySector" type="checkbox" name="phases"
+                                        onclick="ToggleProgram(\'chkEnergySector\');" value="Energy Sector"> <label
+                                        for="chkEnergySector">Energy Sector</label> 
+                                </td>
+                                 
+                            </tr>
+                             
+                            <tr class="altHeaderAdvanced"> 
+                                <td align="left" style="border: none; width: 10%; padding: 0px;">  <input
+                                        id="chkUTPApproved" type="checkbox" name="phases"
+                                        title="Projects listed in the current UTP"
+                                        onclick="ToggleProgram(\'chkUTPApproved\');" value="UTP Approved"> <label
+                                        for="chkUTPApproved">Current UTP</label> 
+                                </td>
+                                 
+                            </tr>
+                              
+                        </table>
+                          
+                    </div> <!-- Advanced --> 
+                    <div class="search_actions row">  
+                        <div class="col-lg-6"> 
+                            <button onclick="resetPage(); return false;" style="background: #ca7c29;"
+                                    class="btn letter-spaced button btn-md">RESET
+                            </button>
+                             
+                        </div>
+                         
+                    </div>
+                       
+                    <div id="SwitchSearch" class="center advancedSearch" style="display: block;">  <i
+                            class="glyphicon glyphicon-transfer"></i> <a href="#"
+                                                                         onClick="toggleDIV(\'Advanced\'); return false;">Switch
+                        to Advanced search</a> 
+                    </div>
+                     
+                    <div id="SwitchSearchAdvanced" class="center advancedSearch" style="display: none;">  <i
+                            class="glyphicon glyphicon-transfer"></i> <a href="#"
+                                                                         onClick="toggleDIV(\'Advanced\'); return false;">Switch
+                        to Basic search</a> 
+                    </div>
+                      
+                </div><!-- .searchOptions -->  
+                <hr/>
+                 
+                <div id="projectStatusOptions" style="display: block;"> 
+                    <div id="projectStatusNotice"></div>
+                     
+                </div>
+                 
+                <div id="projectStatusOptionsAdvanced" class="projectStatusOptions-advanced" style="display: none;"> 
+                    <h3 class="letter-spaced Advanced_Summarize">Summarize Results By:</h3>  <select
+                            id="selSummarizeBy" onchange="getSystemStatsAdvanced()" class="form-control"> 
+                        <option value="status">Project Phase</option>
+                         
+                        <option value="district">District</option>
+                         
+                        <option value="year">Year</option>
+                            </select>   <br><br> 
+                    <div id="projectStatusNoticeAdvanced" style="display: none;"></div>
+                     
+                </div>
+                 
+            </div><!-- filterOptions --> 
+        </div>
+         
+    </div>
+      
+    <div id="map" style="position: relative;"> 
+        <div id="SiteDownDiv" style="display: none; z-index:999;" title="This application"> \t <br> \t
+            <p1><strong>Oooops. Something went wrong.</strong></p1>
+             \t <br> \t <br> \t
+            <p2 style="font-size: .7em; line-height: 150%;">We apologize, but one of the servers that hosts our feature
+                layers has gone down.
+            </p2>
+            \t \t <br> \t
+            <p2 style="font-size: .7em; line-height: 150%;">Please stay tuned while the problem is fixed.</p2>
+            \t \t <br> \t <br> \t
+            <button id="noThanks" onclick="CloseSurveyDiv()" style="padding: 5px 10px; position: relative; right: 7px;">
+                Close
+            </button>
+             \t
+            <!-- <button id="takeSurvey" style="padding: 5px 10px; position: relative; left: 7px;"><strong> Take the Survey </strong></button> -->
+             \t <br> \t <br> \t
+            <form style="font-size: .7em; position: absolute; bottom: 15px; width: 93%;"> \t\t <input id="doNotShow"
+                                                                                                         type="checkbox"
+                                                                                                         name="opt-out">
+                Do not show this message again<br> \t
+            </form>
+             
+        </div>
+         \t\t
+        <div id="dialog" style="display: none; z-index:999;" title="This application is best viewed:"> \t\t
+            <hr>
+             \t\t <p> \t\t 1. From your desktop \t\t </p> \t\t <p> \t\t\t With Firefox or Chrome, Safari,
+                Microsoft Edge or Internet Explorer 11 (or higher) \t\t\t with compatibility mode turned
+                off \t\t </p> \t\t <p> \t\t 2. IPAD - IOS 10.3.3 or Higher \t\t </p> \t\t <br> \t\t
+            <p> \t\t <b>For information on:</b> \t\t
+            <hr>
+             \t\t   </p> \t\t <p> \t\t Highway road conditions, visit <a href="https://drivetexas.org"
+                                                                                  target="_blank">DriveTexas<sup>TM</sup></a> \t\t
+            </p> \t\t <p> \t\t How we\'re addressing congestion, visit <a
+                    href="http://www.dot.state.tx.us/texasclearlanes/" target="_blank">TexasClearLanes</a> \t\t </p>
+             \t\t
+            <button name="yes" onclick="DisableStartPopUp()" class="yes"> Never Show This Window Again</button>
+             \t\t
+        </div>
+        \t 
+        <div id="header2" class="btn-group btn-group-responsive"> <!--style="z-index:999; position:absolute;"> --> 
+            <button type="button" class="btn btn-default" onclick="addTxDOT()" id="txdotMap"
+                    title="View the TxDOT Base Map">TxDOT
+            </button>
+             
+            <button type="button" class="btn btn-default" onclick="addStreets()" id="streets" title="View ESRI Streets">
+                 \t Streets
+            </button>
+             
+            <button type="button" class="btn btn-default" onclick="addImagery()" id="imagery"
+                    title="View Satellite Imagery">Imagery
+            </button>
+             
+            <button type="button" class="btn btn-default" onclick="openGoogleMaps()" id="googleMaps"
+                    title="Open Google Maps">Google Maps
+            </button>
+             
+        </div><!-- header2--> \t\t
+        <div class="HomeButton" role="presentation" id="HomeButton" widgetid="HomeButton" style="display: block;">
+             \t\t\t
+            <div class="homeContainer"> \t\t\t\t\t
+                <div data-dojo-attach-point="_homeNode" title="Default extent" onclick="GoHome()" role="button"
+                     class="home" tabindex="0"><span>Home</span></div>
+                 \t\t\t
+            </div>
+              \t\t
+        </div>
+         
+        <div id="divHelp"> 
+            <table style="border: none; height: 12px;"> 
+                <tr> 
+                    <td align="right" class="OtherModes tdNoBorder2"
+                        style="font-size: 15px; vertical-align: middle; width: auto;"> 
+                        <div style="padding-left: 1px;">  
+                            <ul id="HelpNavigation"> 
+                                <li><img hspace="7" class="HelpIcons" alt="Public Transportation"
+                                         src="img/publictransportation.png" onclick="ShowPDF(\'Public\')"
+                                         title="Public Transportation"/></li>
+                                   
+                                <li class="dropdown">  \t <a href="#"> \t <img class="dropbtn, HelpIcons"
+                                                                                     hspace="5" alt="Rail"
+                                                                                     src="img/Bridge.png"
+                                                                                     title="Major Transportation Projects"/>
+                                     \t\t </a> 
+                                    <div class="dropdown-content">  <a href="#" onclick="ShowPDF(\'Major\')">Description</a> 
+                                        <a href="#" onclick="ShowCSJProject(\'025304146\')">US 281</a>  <a
+                                                href="http://ftp.dot.state.tx.us/pub/txdot-info/spd/cda/sh99-hi/project-sheet.pdf"
+                                                target="_blank">SH 99 Seg. H&1</a> 
+                                    </div>
+                                     
+                                </li>
+                                 
+                                <li><img hspace="7" class="HelpIcons" alt="Rail" src="img/rail.png"
+                                         onclick="ShowPDF(\'Rail\')" title="Rail"/></li>
+                                 
+                                <li><img hspace="7" class="HelpIcons" alt="Maritime" src="img/maritime.png"
+                                         onclick="ShowPDF(\'Maritime\')" title="Maritime"/></li>
+                                 
+                                <li><img hspace="7" class="HelpIcons" alt="Aviation" src="img/aviation.png"
+                                         onclick="ShowPDF(\'Aviation\')" title="Aviation"/></li>
+                                 
+                            </ul>
+                             
+                        </div>
+                         
+                    </td>
+                     
+                </tr>
+                 
+            </table>
+             
+        </div>
+         
+        <div id="divLegend" title="Click to show help for Legend" class="legend">  <img class="tppLegend"
+                                                                                           src="Image/PT_Legend_3.png"
+                                                                                           alt="Project Legend"/> 
+             
+        </div>
+         
+    </div> <!-- #map --> 
+    <div id="CPA_PE_Pop"></div>
+           </div> <!-- #main --> 
+    <div id="selectionResultsContainer"> 
+        <div id="selectionResultsContainerWrapper"> 
+            <div id="selectionResultsControl"> 
+                <button type="button" class="close close-info" onclick="closeInfo(); return false;" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                 
+                <div class="center text-center project-summary">  <b>Project Summary</b>    </div>
+                 
+                <button onclick="previousSelected(); return false;" class="btn-paging">&lt; prev</button>
+                <button onclick="nextSelected(); return false;" class="btn-paging">next &gt;</button>
+                <span id="selectionCount"></span>  
+                <button class="button btn-close pull-right" onclick="closeInfo(); return false;">CLEAR</button>
+                <br> 
+            </div>
+             
+            <div id="ShowHide" class="center text-center project-summary"> 
+                <button class="buttonShowHide" onclick="Show_All_popup(); return false;">Show All</button>
+                 
+                <button class="buttonShowHide" onclick="Hide_All_popup(); return false;">Hide All</button>
+                 
+            </div>
+             
+            <div id="selectionResults">  <p>Click a project on the map for detailed information.</p> </div>
+             
+        </div>
+         
+    </div><!-- #selectionResultsContainer -->             </div> <!-- #content -->  
+</form>
+ 
+</body>
+ 
+</html> '
