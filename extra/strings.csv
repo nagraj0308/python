@@ -1,0 +1,696 @@
+0,1
+d0,0
+d1,1
+d2,2
+d3,3
+d4,4
+d5,5
+d6,6
+d7,7
+d8,8
+d9,9
+d10,10
+d11,11
+d12,12
+label_select_chart1,--Select Chart--
+zero_to_20_kmph,0 to 20\nKMPH
+twenty_to_50_kmph,20 to 50\nKMPH
+fifty_to_80_kmph,50 to 80\nKMPH
+eighty_plus_kmph,80+\nKMPH
+actual_weight,Actual Weight
+add,Add
+add_lr_manually,Add LR Manually
+add_manually,Add Manually
+additional_charges_qr,Additional charges - QR
+after_booking,After Booking
+after_departure,After Departure
+agent_city,Agent City
+agent_net_amount,Agent Net Amount :
+agent_type,Agent Type
+agent_branch,Agent/Branch
+all_hamali,All Hamali
+all_trips,All Trips
+amount_plus_gst,Amount + GST
+amount_payable,Amount payable
+label_amount,Amount:
+apply,Apply
+arrange_transfer,Arrange Transfer
+auto_cancel_new,Auto Cancel New
+auto_wala,Auto Wala
+balance,Balance
+bank_name,Bank name
+base_fare,Base Fare
+base_fare_with_gst,Base fare with GST
+before_departure,Before Departure
+bengaluru,Bengaluru
+bill_date,Bill date
+bill_info,Bill Info
+block_lr,Block LR
+blocking_party,Blocking Party
+boarded,Boarded
+book,Book
+book_again,Book again
+book_amt,Book Amt
+booked_by,Booked By
+booking_amount,Booking Amount
+booking_city,Booking City
+booking_date_wise,Booking Datewise report
+booking_from_to,Booking From - To
+booking_other_charges,Booking Other Charges
+booking_transfer,Booking Transfer
+booking_type,Booking Type
+booking_remark,Booking Remark
+label_both,Both
+branch_agent_booking_report,Branch /Agent Booking Report
+tv_brach_phone,Branch phone
+branch_recharge,Branch Recharge
+branch_recharge_is_not_allowed,Branch recharge is not allowed
+branch_stock,Branch Stock
+dispatch_report_type_7,Branch Summary
+branch_transfer,Branch Transfer
+branch_transfer_receive,Branch Transfer Receive
+branch_transfer_received,Branch Transfer Received
+label_branch_name,Branch:
+broker,Broker
+bus_advance,Bus Advance
+bus_no,Bus No
+bus_qrs,Bus QRs
+tracking,Bus Tracking
+bus_transactions,Bus transaction
+by_branch,By branch
+camera,Camera
+cancel_chart,Cancel chart
+toolbar_dispatched,Cancel Dispatch
+cancel_transfer,Cancel Transfer
+label_cancel_by_branch,CAND Branch
+label_cancel_date,CAND Date
+label_cancel_by_user,CAND User
+ezetap_payment,Card payment
+toolbar_rate_inquiry,Cargo | Rate\ETA Inquiry
+cartage,Cartage
+cash_amount,Cash Amount
+cash_transactions_and_no_concession,Cash Transactions and No Concession
+cash,Cash
+cb_cash_amount,CB Cash amount
+cb_non_cash_amount,CB Non Cash amount
+cc_earned,CC Earned
+challan_no,Challan No
+challan_wise,Challan wise
+chart_arrangement_transfer,Chart / Arrangement transfer
+chart_date_wise_report,Chart Date Wise Report
+toolbar_chart_details,Chart Details
+toolbar_chart_transfer,Chart Transfer
+check_pos_card_and_upi_qr_transaction_details,Check POS Card &amp; UPI QR Transaction Details
+mode_type,Cheque / Draft / Card #
+choose_date,Choose a payment date!
+close,Close
+close_all,Close All
+cm,cm
+close_sender_details,Close Sender Details
+comm,Comm
+common_lr,Common LR
+company,Company
+company_branch_user_qr,"Company, Branch, User QR"
+label_company_name,Company Name
+compliance,compliance
+conc_rate,Concession rate
+conc_amt,Conc Amt
+conc_pass_no,Conc Pass No.
+label_confirm_sms,Confirm SMS
+connect_at_least_4_dots,Connect at least 4 dots
+label_consignee,Consignee
+Consignment,Consignment
+consignment_declaration,Consignment Declaration
+consignment_refund,Consignment Refund
+consignment_type,Consignment Type
+label_consignor,Consignor
+contact_no,Contact No
+continue_scan,Continue Scan
+copy_fare,Copy fare
+coupon_code,Coupon code
+coupon_discount,Coupon Discount
+label_credit_limit,Credit Limit :
+crossing,Crossing
+crossing_cartage,Crossing Cartage
+crossing_remarks,Crossing Remarks
+label_crossings,Crossings
+current_branch,Current Branch
+current_city,Current City
+customer_mobile_number,Customer Mobile Number
+customer_name,Customer name
+date,Date
+datetime,Date Time
+label_dddv,DDDV
+label_dddv_amount,DDDV Amount
+label_dddv_dispatch,DDDV Dispatch
+label_dddv_freight,DDDV Freight
+label_dddv_gst_other,DDDV GST + Other
+label_ddv_count1,DDDV LR Count
+label_dddv_receive,DDDV Receive
+label_ddv_count,DDDV Units
+label_ddv_ftl,DDDV/FTL
+declared_value,Declared Value
+delayed_by,Delayed By
+deletee,Delete
+delivery_date,Delivery date
+delivery_discount,Delivery Discount
+delivery_gst,Delivery GST
+delivery_hamali_and_extra_hamali,Delivery Hamali and Extra Hamali
+delivery_hamali_charges,Delivery Hamali Charges
+delivery_other_charges,Delivery Other Charges
+delivery_time,Delivery Time
+delivery_transfer,Delivery Transfer
+demurrage,Demurrage
+desc,Desc
+label_dest_branch,Dest Branch
+label_dest_city,Dest City
+label_detail,Detail
+receive_report_type_1,Detailed
+toolbar_detailed_receive_report,Detailed - Receive Report
+dispatch_report_type_4,Detailed Summary
+device_id,Device Id
+disable_old_devices,Disable Old Devices
+discount_coupon,Discount Coupon
+label_dis_from_branch,Disp From Branch
+label_dis_from_city,Disp From City
+dispatch_date_time,Dispacth date time
+label_dispatch_by,Dispatch By
+label_dispatch_by_city,Dispatch By City
+msg_cancel_dispatch_faild,Dispatch Cancelled Fail
+msg_cancel_dispatch_success,Dispatch Cancelled Successfully
+label_dispatch_date_range,Dispatch Date Range
+dispatch_date_,Dispatch Date:
+dispatch_from,Dispatch From
+label_dispatch_from_branch,Dispatch From Branch
+dispatch_memo_no,Dispatch memo no
+dispatch_more,Dispatch More
+dispatch_new,Dispatch New
+dispatch_no,Dispatch No
+dispatch_report,Dispatch Report
+dispatched_by_branch,Dispatched By Branch
+dispatched_to,Dispatched To
+dispatched_from_city,Dispatched from City
+dispatched_successfully,Dispatched Successfully
+label_dispatch_to_branch,Dispatched To Branch
+label_dispatch_to_city,Dispatched To City
+download,Download
+dropoff2,Dropoff :
+dropoff_details,Dropoff Details
+msg_drop_off_loading,Dropoff is loading
+dropoff_location,Dropoff Location
+edit,Edit
+label_edit_dispatch,Edit Dispatch
+email_id,Email ID
+enable_printing,Enable Printing
+end_price,End price
+enter_booking_id,Enter Booking Id
+label_correct_eway_bill,Enter Correct Eway Bill
+enter_coupon_code,Enter Coupon Code
+otp,Enter OTP
+enter_passenger_details_to_send_link,Enter passenger details to send link
+enter_passenger_mobile_no,Enter passenger mobile no
+enter_sender_id_number,Enter Sender ID Number
+enter_transaction_code,Enter transaction code
+enter_vehicle_no,Enter Vehicle No.
+error_non_reporting_seat,Error while non-reporting seats!
+error_storing_in_cache,Error while storing into cache!
+label_eta_days,ETA (Days)
+ewb_status,EWB Status
+express_checkout,Express Checkout
+extra_hamali_charges,Extra Hamali Charges
+fare_copy,Fare Copy
+fare_in_rupees,Fare in rs
+fare_refund,Fare Refund
+female,Female
+fetch_pending_transactions,Fetch Pending Transactions
+filter,Filter
+foc,FOC
+label_foc_self_amount,FOC + Self Amount
+label_foc_self_freight,FOC + Self Freight
+label_foc_self_gst_other,FOC + Self GST+ Other
+label_foc_self_lr_count1,FOC + Self LR Count
+label_foc_self_lr_count,FOC + Self Units
+for_approval,FOC approval authority
+for_security,For security
+for_security_confirm_pattern,"For security, Confirm Pattern"
+four,Four
+label_amount_tooltext,Freight + Hamali + Cartage
+from_branch,From branch
+from_gallery,From Gallery
+label_from_lr_booking_date,From LR Booking Date
+from_stage,From Stage
+label_ftl,FTL
+generated_on,Generated on
+generate_qr_for_scanning,Generate QR for scanning
+generated_date_and_time,Generated Date and Time
+label_report_generation_time,Generation Time:
+get_orders,Get Orders
+get_qr_to_scan,Get QR to scan
+label_go,GO
+go_to_seatchart,go to seat chart
+godown,Godown
+loading_godown_city_list,Godown City List is loading!
+group_boarding_report,Group Boarding Report
+gst_on_cc_plus,GST on CC (+) :
+gstn_paid_by_transporter,(GSTN paid by Transporter)
+gstn,GSTN
+hamali_and_operator_hamali,Hamali and Operator Hamali
+label_hide_qr,Hide QR
+hired_vehicle,Hired vehicle
+hold_release,Hold release
+hrs,Hrs
+i_was_there,I was there
+in_bus_bookings,In Bus Bookings
+inch,inch
+label_correct_information,Is the information correct?
+isd_code,ISD
+issuer,Issuer
+item_name,Item Name
+item_type_,Item type
+jour_dt,Jour. Dt
+tv_landmark,Landmark
+legal_compliance,Legal Compliance
+less,Less
+lit,LIT
+loading_data,Loading Data...
+label_location_not_provided,Location is not provided
+tv_location_name,Location name
+tv_location_time,Location time
+location_sync_is_in_progress,Location sync is in progress...
+label_lr_count,LR Count/Unit
+label_lr_details,LR Details
+lr_number,LR Number
+lr_report,LR Report
+lrs,LRs
+luggage_short_received_successfully,Luggage Short Received Successfully!
+male,Male
+manage_devices,Manage Devices
+travels_name,Mantis travels
+manuel_lr_no,Manual LR No
+method_of_packing,Method Of Packing
+cover_freight_restrictions,Minimum freight should be 40
+packet_freight_restrictions,Minimum freight should be 90
+mins,Mins
+mm,mm
+mobile_number,Mobile number
+mod_charges_plus,Mod. charges (+) :
+month,Month
+monthly,Monthly
+more,More
+label_more,more
+net_fare,Net fare
+net_fare_with_gst,Net fare with GST
+netrate,Netrate
+net_total,Net Total
+neww,New
+new_bus_type,New Bus Type
+label_new_Seat_chart,new Chart
+label_new_drop_off,New Dropoff
+label_new_pick_up,New Pickup
+label_new_seat,New Seats
+next_trips,Next Trips
+no_data_found,No Data Found
+no_godown_branch_found,No Godown Branch Found
+no_godown_cities,No Godown Cities Found
+dispatch_report_type_8,No Vehicle Group
+non_cash_amount,Non Cash amount
+non_report_seat,Non Report Seat
+label_nop_units,NOP/Units
+not_available,Not Available
+number_given,Number given
+label_offline,Offline
+offline_bkg_cash_amnt,Offline Bkg Cash Amt
+offline_bkg_non_cash_amnt,Offline Bkg Non Cash Amt
+label_old_Seat_chart,Old Chart
+label_old_drop_off,Old Dropoff
+label_old_pick_up,Old Pickup
+label_old_seat,Old Seats
+onaccount,OnAccount
+label_on_account_amount,OnAccount Amount
+label_on_account_amt,OnAccount Amt
+label_on_account_freight,OnAccount Freight
+label_on_account_gst_other,OnAccount GST + Other
+label_on_account_lr_count1,OnAccount LR Count
+label_on_account_lr_count,OnAccount Units
+label_online,Online
+op_name,Opearor name
+open_report,Open Report
+open_ticket,Open Ticket
+operator_hamali,Operator Hamali
+or,Or
+order_id,Order ID
+order_list,Order list
+other_charges,Other Charges
+other_expenses,Other expenses
+other_qrs,Other QRs
+other_transactions,Other transactions
+otp_sent_to_your_mobile_number,OTP sent to you mobile number
+label_paid_amount,Paid Amount
+label_paid_freight,Paid Freight
+label_paid_gst_other,Paid GST + Other
+label_paid_lr_count1,Paid LR Count
+label_paid_lr_count,Paid Units
+party_address,Party Address
+party_bill_date,Party Bill Date
+party_bill_value,Party Bill Value
+party_credit_limit,Party creditLimit
+party_details,Party Details
+party_email_id,Party Email ID
+party_gstn,Party GSTN
+hint_party_id,Party ID
+party_mobile,Party Mobile No
+party_name,Party Name
+party_number,Party Number
+party_pin_code,Party Pincode
+amntin_rs,Pass penalty
+passenger_number,Passenger Number
+passenger_report,Passenger Report
+path_route,Path route
+pay,Pay
+payment_info,Payment info
+label_payment_summary,Payment Summary -
+payout_type,Payout Type
+pdbf_voucher,PBDF Voucher
+pd_refund,PD Charges Refund
+phone,Phone
+pd_charge,Pickup dropoff charge
+pickup_group,Pickup Group
+msg_pickup_loading,Pickup is loading
+pickup_location,Pickup Location
+pickup_point,Pickup Point
+pickup_man_mob_no,Pickupman mobile number
+pin,Pin
+pinCode,Pincode
+please,Please
+please_enter_collection_cartage,Please enter Collection cartage
+please_enter_crossing_remarks,Please enter Crossing Remarks
+please_enter_goods_value,Please enter goods value
+message_type_2,Please select booked seats
+label_select_different_seat,Please select different seat
+message_type_1,Please select empty seats
+select_godown_city_first,Please select Godown City first
+self_booking_pnr,PNR Number
+pnr_number,PNR number
+pos,POS
+pre_bus_type,Pre Bus Type
+prepaid_card,Prepaid Card
+primary_mobile_number,Primary mobile number
+print,Print
+print_cust_copy,Print customer copy
+print_compact_receipt,Print Compact Receipt
+print_detailed_receipt,Print Detailed Receipt
+print_office_copy,Print office copy
+print_remarks,Print Remarks
+print_report,Print Report
+provide_contact_details_to_send_express_checkout,Provide contact details to send Express Checkout
+qr,QR
+qr_selection_type,QR Selection Type
+label_qr_pending_payment,QR Pending Payments
+quick_view_detail,Quick View Detail
+quota_of,Quota of
+label_rate_per_kg,Rate (Rs/KG)
+transfer_reason,Reason
+reason_for_refund,Reason for refund
+receipt,Receipt
+receipt_type,Receipt Type
+label_receive_branch,Receive Branch
+receive_city,Receive City
+received_by,Received By
+received_by_branch,Received By Branch
+receiver_id_proof,Receiver Id Proof
+receiver_id_proof_no,Receiver Id Proof No
+receiver_image_id,Receiver Image Id
+receiver_mobile_no_,Receiver mobile No
+label_receiver_name,Receiver Name
+receiver_city_and_state,Receiver City &amp; State
+receiver_pin_code,Receiver Pincode
+label_receiving_branch,Receiving Branch
+lebel_receiving_city,Receiving City
+recharge_amount,Recharge amount
+label_recharge_date,RechargeDate:
+receiver_name_,Reciever Name
+refresh,Refresh
+refund_amount,Refund amount
+refund_success,Refund is successful
+remote_pos,Remote POS
+report_type,Report Type
+request_recharge,Request Recharge
+resend_otp,Resend
+reset,Reset
+review_and_pay,Review and Pay
+review_and_proceed,Review and proceed
+label_route_is_loading,Route is loading
+s1,S1
+s3,S3
+s5,S5
+scan,Scan
+search_driver,Search Driver
+search_with_name,Search with Name
+seat_fare,Seat Fare
+seat_numbers,Seat Numbers
+seat_type_number,Seat type number
+select_agent_name,Select Agent Name
+select_agent_city,Select Agent City
+select_all,Select All
+label_select_booking_type,Select Booking Type
+toolbar_select_from_map,Select Branch From Map
+label_select_chart,Select Chart
+error_select_chart,Select chart for transfer
+select_consignment_type,Select Consignment Type
+select_coupon_type,Select Coupon Type
+select_destination_city_short,Select Destination City
+select_dispatch_by_branch,Select Dispatch By Branch
+saved_details,Select from saved details
+select_id_proof_type,Select ID Proof
+select_input_type,Select input type
+select_issuer,Select issuer
+select_item_type,Select item type
+select_items,Select Items
+select_ledger,Select Ledger
+label_select_new_drop_off,Select New Dropoff
+label_select_new_pick_up,Select New Pickup
+select_party,Select Party
+select_payment_mode,Select Payment Mode
+select_pickup_droooff,Select Pickup &amp; Dropoff
+select_month,Select month
+select_pnr,Select PNR
+select_qr_payment_mode,Select QR payment mode
+select_qr_provider,Select QR Provider
+label_select_received_by_branch,Select Received By Branch
+select_receving_branch,Select Receving Branch
+select_receiver_id_type,Select Receiver ID Type
+label_select_report_type,Select Report Type
+select_seats,Select Seats
+select_sender_id_type,Select Sender ID Type
+label_select_summary_type,Select Summary Type
+toolbar_report_type,Select Summary Type
+select_transfer_branch,Select Transfer Branch
+select_transfer_branch_in,Select Transfer Branch in
+select_vehicle_no,select Vehicle No
+selected_lr_no,Selected LR No
+label_select_seat,Selected old seats
+selected_trans_ids,Selected Trans. Ids
+label_self,Self
+label_self_freight,Self Freight
+send_gps_link,Send GPS Link
+send_i_was_there,Send I was there SMS
+send_link_to_multiple_passenger,Send link to multiple passenger
+send_express_checkout,Send Express Checkout
+sender_city_and_state,Sender City &amp; State
+sender_id_and_image,Sender ID &amp; Image
+sender_id_image,Sender ID Image
+sender_id_proof,Sender ID Proof
+sender_id_proof_no,Sender ID Proof No
+sender_image,Sender Image
+sender_mobile_no_,Sender mobile No
+service_name,Service Name
+short_receive,Short Receive
+show_all,Show All
+label_show_auto_receive,Show Auto Receive Only
+show_date,Show date
+show_list,Show List
+show_list_all,Show list all
+label_near_by_branches,Show Nearby Branches
+show_qr,Show QR
+label_rate_enquiry,Show Rate
+show_time,Show time
+sms_info,SMS Info
+sms_pnr_info,SMS PNR Info
+label_sms_success,Sms sent successfully
+sms_template,SMS Template
+sms_template_here,SMS Template Here..
+sms_type,SMS Type
+source_branch,Source Branch
+source_city,Source City
+special_vehicle,Special vehicle
+label_sr,Sr.
+staff_mno,Staff MNo.
+dec_date,Start date
+start_date,Start date
+start_recording,Start recording
+start_syncing,Start Syncing
+stop_recording,Stop recording
+stop_syncing,Stop Syncing
+stop_trip,Stop Trip
+submit_otp,Submit OTP
+receive_report_type_2,Summary
+toolbar_summary_receive_report,Summary -Receive Report
+dispatch_report_type_3,Summary Only
+dispatch_report_type_5,Summary with Hamali &amp; Cartage
+dispatch_report_type_6,Summary with other charges
+swiping_charges,Swiping Charges
+label_tnc,T&amp;C
+test,Test
+label_already_added,This Eway bill already added
+tv_given_time,Time
+end_date,To Date
+to_stage,To Stage
+label_to_lr_booking_date,To LR Booking Date
+label_to_pay,To-Pay
+offline_trips_tonetag,Tonetag - Offline trips
+topay,Topay
+label_to_pay_amount,ToPay Amount
+label_to_pay_freight,ToPay Freight
+label_to_pay_gst_other,ToPay GST + Other
+label_to_pay_lr_count,ToPay LR Count
+label_to_pay_units,ToPay Units
+total_damage_qty,Total Damage Qty
+total_eway_bill_count,Total Eway Bill Count
+total_fare_gst,Total Fare(+GST)
+total_freight,Total Freight
+total_gst,Total GST
+label_total_gst_other,Total GST + Other
+total_items_,Total Items:
+total_lr_count,Total LR Count
+label_total_net_amount,Total Net Amount
+total_qty,Total Qty
+total_short_qty,Total Short Qty
+total_units,Total Units
+transaction_amount,Transaction amount
+trans_amount,Transaction amount
+transaction_code_,Transaction code
+trans_dt_time,Transaction date time
+transaction_id,Transaction Id
+transaction_status,Transaction Status
+transfer,Transfer
+transfer_all,Transfer all
+transfer_by_branch,Transfer By Branch
+transfer_by_user,Transfer By User
+transfer_branch,Transfer Branch
+transfer_date,Transfer Date
+error_transfer_insert,Transfer Failed! Try again
+label_transfer_from_branch,Transfer From Branch
+label_transfer_from_city,Transfer From City
+transfer_luggage,Transfer Luggage
+transfer_new,Transfer New
+transfer_receive,Transfer Receive
+msg_transfer_success,Transfer Success
+transfer_to,Transfer To
+transfer_to_branch,Transfer To Branch
+transfer_to_city,Transfer To City
+transfer_type,Transfer Type
+transporter_name,Transporter Name
+tv_trip_name,Trip name
+type_of_collection,Type of collection
+type_of_goods,Type of goods
+units,Units
+unknown,Unknown
+upi_qr,UPI QR
+upload_receiver_image,Upload Receiver Image
+upload_receiver_image_and_id,Upload Receiver Image and Id
+upload_receiver_id_image,Upload Receiver Id Image
+upload_sender_id_image,Upload Sender ID Image
+upload_sender_image,Upload Sender Image
+label_usages,Usage :
+label_user_location,User Location Point :
+valid,Valid
+validate,Validate
+validate_boarding,Validate Boarding for seat
+validate_with_pin,Validation with pin
+validity,Validity
+valuation_charge,Valuation Charge
+vehicle,Vehicle
+label_vehicle_wise,vehicle wise
+vehicle_wise,vehicle wise
+vehicle_wise_challan_wise_summary,Vehicle-wise Challan-wise Summary
+dispatch_report_type_2,Vehicle-wise Summary (Cancelled dispatch)
+verify,Verify
+verification_status,Verification Status
+version_name,Version name
+view_coupons,View Coupons
+voucher_success,Voucher success
+weight_charge,Weight Charge
+blocked_lrno_is,Blocked LRNO is
+label_gps_config_fail,Bus not assigned or GPS not configured.
+click_swipe_machine,Click preferred swipe machine type to proceed
+inactive_trip,Currently all sub-routes are closed !
+change_destination_branch,Do you want to change the Destination Branch?
+enter_4_digits_pin,Enter 4 digits pin
+msg_if_you_have_forgotten,"*If you have forgotten the saved pattern , logout,login and create a new pattern"
+payment_modes_not_loaded,Payment modes list is not loaded!
+label_select_ewaybill,Please Select At Least One Eway Bill
+qr_valid_fail,QR validation failed
+rate_entered_for_party,Rate Entered For Party Booking Does Not Match Assigned Rate!
+msg_confirm_non_report_seat,Seat will be non-reported by following action.
+message_ewaybilt_different_transporter,Transporter-ID does not match to yours
+trip_detail_not_found_error,Trip Details Not Found For Selected Chart Date
+volumetric_inch,Volumetric Weight(KG) =(Length*Width*Height*16.3871/5000)
+volumetric_cm,Volumetric Weight(KG) =(Length*Width*Height/5000)
+volumetric_mm,Volumetric Weight(KG) =(Length*Width*Height/5000000)
+booking_reprint,Booking reprint
+booking_cancel,Booking cancel
+delivery_cancel,Delivery cancel
+delivery_reprint,Delivery reprint
+booking_date_and_time,<![CDATA[Booking Date & Time]]>
+way_bill_no_lr_no,Way Bill No (LR No.)
+reprint_duplicate_copy,REPRINT (DUPLICATE COPY)
+delivery_date_and_time,<![CDATA[Delivery Date & Time]]>
+received_date_and_time,<![CDATA[Received Date & Time]]>
+more_options_underline,<u>More Options</u>
+more_options_fields_underline,<u>More Optional Fields</u>
+charged_weight,Charged Weight
+delivered_by,Delivered By
+delivery_charge,Delivery Charge
+search_new_lr,search new lr
+dispatch_remarks,Dispatch Remarks
+receive_remarks,Receive Remarks
+select_option_search_by,Select Option Search By
+not_authorised,Not Authorised
+location_setting,Location settings
+fetch_failed,Fetch failed
+terms_of_use,Terms of use
+privacy_policy,Privacy policy
+data_pending_to_upload,Data pending to upload!
+can_not_logout,Can not logout!
+unable_to_open_google_playstore,Unable to open Google Play Store
+update_avaiable,Update available
+add_more_details,<u>Add More Details</u>
+show_less,<u>Show less</u>
+add_receiver_details,<u>Add Receiver Details</u>
+add_sender_details,<u>Add Sender Details</u>
+validate_underline,<u>Validate</u>
+label_rate_enquiry_underlined,<u>Show Rate</u>
+remove_underline,<u>Remove</u>
+change_underline,<u>Change</u>
+msg_warning_payment,Please do not press back button or home button thought the payment for a better payment experience
+msg_transfer_succesfully,You have successfully transferred old seats to new seats
+msg_confirm_add_expense,\nDo you want to add expense ?
+msg_tnc_link,You agree to our Terms of Use agreement and Privacy Policy
+msg_give_permission_blutooth_connnnect,Please give us bluetooth connect or nearby devices permission!!
+msg_give_permission_blutooth_scan,Please give us bluetooth scan permission!!
+msg_per__read_storage,Please give us write storage permission!!
+msg_per_write_storage,Please give us read storage permission!!
+msg_per_camera,Please give us camera permission!!
+msg_check_pnp,Please agree to our Terms of Use agreement and Privacy Policy
+msg_monthly_rental,Monthly rental for this app is
+msg_kindly_contact_reprensentative,Kindly contact your representative for more information.
+msg_not_access_to_app,Your access to app is not authorised or expired.
+msg_contact_maventech,Kindly contact the MavenTech Labs accounts team for assistance!
+msg_new_update_avaible,New update for the app is available. Update the app to enjoy latest features!
+msg_app_required_gps,App requires GPS to run! Change the location setting to enable GPS
+msg_app_wont_work_without_permission,App won\'t work without the permission. Grant permission from settings
+msg_mobile_not_verified,Mobile number is not verified!
+msg_qr_less_amount_error,"Scanned amount is less than the total fare, Scan different QR or change the payment mode to continue the booking !"
+msg_fill_info,Fill with customer Mobile number and Email ID(optional) to generate prepaid card against the mobile number.
+msg_cover_warning_for_other_booking_type,Only Payment Type Paid Is Applicable For This Consignment Type
+msg_packet_warning_for_other_booking_type,Payment Type should not be TO-PAY for this consignment type
