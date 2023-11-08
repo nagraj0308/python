@@ -1,0 +1,696 @@
+Key,English Words,Translation
+d0,0,0
+d1,1,1
+d2,2,2
+d3,3,3
+d4,4,4
+d5,5,5
+d6,6,6
+d7,7,7
+d8,8,8
+d9,9,9
+d10,10,10
+d11,11,11
+d12,12,12
+label_select_chart1,--Select Chart--,चार्ट चुनें
+zero_to_20_kmph,0 to 20 KMPH,0 से 20 किमी प्रति घंटा
+twenty_to_50_kmph,20 to 50 KMPH,20 से 50 किमी प्रति घंटा
+fifty_to_80_kmph,50 to 80 KMPH,50 से 80 किलोमीटर प्रति घंटा
+eighty_plus_kmph,80+ KMPH,80+ किमी प्रति घंटा
+actual_weight,Actual Weight,वास्तविक भार
+add,Add,जोड़ें
+add_lr_manually,Add LR Manually,एलआर को मैन्युअल रूप से जोड़ें
+add_manually,Add Manually,मैन्युअल रूप से जोड़ें
+additional_charges_qr,Additional charges - QR,अतिरिक्त शुल्क - क्यूआर
+after_booking,After Booking,बुकिंग के बाद
+after_departure,After Departure,प्रस्थान के बाद
+agent_city,Agent City,एजेंट शहर
+agent_net_amount,Agent Net Amount :,एजेंट की कुल राशि :
+agent_type,Agent Type,एजेंट का प्रकार
+agent_branch,Agent/Branch,एजेंट/शाखा
+all_hamali,All Hamali,सभी हमाली
+all_trips,All Trips,सभी ट्रिप्स
+amount_plus_gst,Amount + GST,राशि + जीएसटी
+amount_payable,Amount payable,देय राशि
+label_amount,Amount:,संख्या
+apply,Apply,आवेदन करें
+arrange_transfer,Arrange Transfer,स्थानांतरण की व्यवस्था करें
+auto_cancel_new,Auto Cancel New,"ऑटो कैंसल, नया "
+auto_wala,Auto Wala,ऑटो वाला
+balance,Balance,बैलेंस/शेष
+bank_name,Bank name,बैंक का नाम
+base_fare,Base Fare,बेस किराया
+base_fare_with_gst,Base fare with GST, जीएसटी के साथ बेस किराया
+before_departure,Before Departure,जाने से पहले/रवाना होने से पहले
+bengaluru,Bengaluru,बेंगलुरु
+bill_date,Bill date,बिल की तिथि
+bill_info,Bill Info,बिल की जानकारी
+block_lr,Block LR,एलआर ब्लॉक करें
+blocking_party,Blocking Party,पार्टी ब्लॉक करें
+boarded,Boarded,बोर्ड किया
+book,Book,बुक करना/बुक करें
+book_again,Book again,फिर से बुक करें
+book_amt,Book Amt,राशि बुक करें
+booked_by,Booked By,किसके द्वारा बुक किया गया
+booking_amount,Booking Amount,बुकिंग राशि
+booking_city,Booking City,बुकिंग शहर
+booking_date_wise,Booking Datewise report,तिथि के अनुसार बुकिंग रिपोर्ट
+booking_from_to,Booking From - To, कहाँ से कहाँ तक बुकिंग
+booking_other_charges,Booking Other Charges, अन्य शुल्क बुक करना
+booking_transfer,Booking Transfer,स्थानान्तरण बुक करना
+booking_type,Booking Type,बुकिंग का प्रकार
+booking_remark,Booking Remark,बुकिंग टिप्पणी
+label_both,Both,दोनों
+branch_agent_booking_report,Branch /Agent Booking Report,शाखा/एजेंट बुकिंग रिपोर्ट
+tv_brach_phone,Branch phone,शाखा फ़ोन
+branch_recharge,Branch Recharge,शाखा रीचार्ज
+branch_recharge_is_not_allowed,Branch recharge is not allowed,शाखा रीचार्ज की अनुमति नहीं है
+branch_stock,Branch Stock,शाखा स्टॉक
+dispatch_report_type_7,Branch Summary,शाखा सारांश
+branch_transfer,Branch Transfer,शाखा स्थानांतरण
+branch_transfer_receive,Branch Transfer Receive,शाखा स्थानांतरण प्राप्त करें
+branch_transfer_received,Branch Transfer Received,शाखा स्थानांतरण प्राप्त हुआ
+label_branch_name,Branch:,शाखा:
+broker,Broker,ब्रोकर
+bus_advance,Bus Advance,बस एडवांस
+bus_no,Bus No,बस संख्या
+bus_qrs,Bus QRs,बस क्यूआर
+tracking,Bus Tracking,बस ट्रैकिंग
+bus_transactions,Bus transaction,बस लेनदेन
+by_branch,By branch,शाखा द्वारा
+camera,Camera,कैमरा
+cancel_chart,Cancel chart,कैंसल चार्ट /चार्ट रद्द करें
+toolbar_dispatched,Cancel Dispatch,कैंसल डिस्पैच / डिस्पैच रद्द करें
+cancel_transfer,Cancel Transfer,कैंसल ट्रांसफर/ स्थानांतरण रद्द करें
+label_cancel_by_branch,CAND Branch,सी.ए.एन.डी/CAND शाखा
+label_cancel_date,CAND Date,सी.ए.एन.डी/CAND तिथि
+label_cancel_by_user,CAND User,सी.ए.एन.डी/CAND उपयोगकर्ता
+ezetap_payment,Card payment,कार्ड भुगतान
+toolbar_rate_inquiry,Cargo | Rate\ETA Inquiry,कार्गो मूल्य \ई.टी.ए. पूछताछ
+cartage,Cartage,कार्टेज
+cash_amount,Cash Amount,नकद राशि
+cash_transactions_and_no_concession,Cash Transactions and No Concession,नकद लेनदेन और कोई छूट नहीं
+cash,Cash,नकद
+cb_cash_amount,CB Cash amount,सीबी नकद राशि
+cb_non_cash_amount,CB Non Cash amount,सीबी गैर नकद राशि
+cc_earned,CC Earned,कमाई गयी सी.सी.
+challan_no,Challan No,चालान संख्या
+challan_wise,Challan wise,चालान अनुसार
+chart_arrangement_transfer,Chart / Arrangement transfer,चार्ट/व्यवस्था स्थानांतरण
+chart_date_wise_report,Chart Date Wise Report,चार्ट तिथि वार रिपोर्ट
+toolbar_chart_details,Chart Details,चार्ट विवरण
+toolbar_chart_transfer,Chart Transfer,चार्ट स्थानांतरण
+check_pos_card_and_upi_qr_transaction_details,Check POS Card & UPI QR Transaction Details,पीओएस कार्ड और यूपीआई क्यूआर लेनदेन विवरण की जांच करें
+mode_type,Cheque / Draft / Card #,चेक / ड्राफ्ट / कार्ड #
+choose_date,Choose a payment date!,भुगतान तिथि चुनें
+close,Close,बंद करना
+close_all,Close All,सब बंद करें
+cm,cm,सी.एम्.
+close_sender_details,Close Sender Details,सेंडर का विवरण बंद करें
+comm,Comm,सीओएमएम
+common_lr,Common LR,सामान्य एलआर
+company,Company,कंपनी
+company_branch_user_qr,"Company, Branch, User QR","कंपनी, शाखा, उपयोगकर्ता क्यूआर"
+label_company_name,Company Name,कंपनी का नाम
+compliance,compliance,अनुपालन
+conc_rate,Concession rate,रियायती दर
+conc_amt,Conc Amt,रियायती राशि
+conc_pass_no,Conc Pass No.,रियायती पास संख्या
+label_confirm_sms,Confirm SMS,एसएमएस की पुष्टि करें
+connect_at_least_4_dots,Connect at least 4 dots,कम से कम 4 बिंदु कनेक्ट करें
+label_consignee,Consignee,कंसाईनी
+Consignment,Consignment,कंसाईन्मेंट
+consignment_declaration,Consignment Declaration,कंसाईन्मेंट  घोषणा
+consignment_refund,Consignment Refund,कंसाईन्मेंट  रीफंड
+consignment_type,Consignment Type,कंसाईन्मेंट का प्रकार
+label_consignor,Consignor,कंसाईनर
+contact_no,Contact No,संपर्क संख्या
+continue_scan,Continue Scan,स्कैन जारी रखें
+copy_fare,Copy fare,किराया कॉपी करें
+coupon_code,Coupon code,कूपन कोड
+coupon_discount,Coupon Discount,कूपन छूट
+label_credit_limit,Credit Limit :,क्रेडिट सीमा :
+crossing,Crossing,क्रासिंग
+crossing_cartage,Crossing Cartage,क्रॉसिंग कार्टेज
+crossing_remarks,Crossing Remarks,क्रॉसिंग टिप्पणियाँ
+label_crossings,Crossings,क्रॉसिंग
+current_branch,Current Branch,वर्तमान शाखा
+current_city,Current City,वर्तमान शहर
+customer_mobile_number,Customer Mobile Number,ग्राहक का मोबाइल संख्या
+customer_name,Customer name,ग्राहक का नाम
+date,Date,तिथि
+datetime,Date Time,तिथि समय
+label_dddv,DDDV,डीडीडीवी
+label_dddv_amount,DDDV Amount,डीडीडीवी राशि
+label_dddv_dispatch,DDDV Dispatch,डीडीडीवी डिस्पैच
+label_dddv_freight,DDDV Freight,डीडीडीवी माल धुलाई किराया
+label_dddv_gst_other,DDDV GST + Other,डीडीडीवी जीएसटी + अन्य
+label_ddv_count1,DDDV LR Count,डीडीडीवी एलआर गणना
+label_dddv_receive,DDDV Receive,डीडीडीवी प्राप्त करना
+label_ddv_count,DDDV Units,डीडीडीवी इकाइयां
+label_ddv_ftl,DDDV/FTL,डीडीडीवी/एफटीएल
+declared_value,Declared Value,घोषित मूल्य
+delayed_by,Delayed By,द्वारा विलंबित
+deletee,Delete,मिटाएं
+delivery_date,Delivery date,डिलीवरी की तिथि
+delivery_discount,Delivery Discount,डिलिवरी छूट
+delivery_gst,Delivery GST,डिलिवरी जीएसटी
+delivery_hamali_and_extra_hamali,Delivery Hamali and Extra Hamali,डिलिवरी हमाली और अतिरिक्त हमाली
+delivery_hamali_charges,Delivery Hamali Charges,डिलिवरी हमाली शुल्क
+delivery_other_charges,Delivery Other Charges,डिलिवरी अन्य शुल्क
+delivery_time,Delivery Time,डिलीवरी का समय
+delivery_transfer,Delivery Transfer,डिलिवरी स्थानांतरण
+demurrage,Demurrage,डीमुरेज
+desc,Desc,डीईएसससी
+label_dest_branch,Dest Branch,गंतव्य/डेस्टिनेशन शाखा
+label_dest_city,Dest City,गंतव्य/डेस्टिनेशन शहर
+label_detail,Detail,विवरण
+receive_report_type_1,Detailed,विस्तृत
+toolbar_detailed_receive_report,Detailed - Receive Report,विस्तृत - रिपोर्ट प्राप्त करना
+dispatch_report_type_4,Detailed Summary,विस्तृत सारांश
+device_id,Device Id,डिवाइस आईडी
+disable_old_devices,Disable Old Devices,पुराने डिवाइस अक्षम करें
+discount_coupon,Discount Coupon,डिस्काउंट कूपन
+label_dis_from_branch,Disp From Branch,शाखा से डिस्पैच
+label_dis_from_city,Disp From City,शहर से डिस्पैच
+dispatch_date_time,Dispacth date time,डिस्पैच तिथि समय
+label_dispatch_by,Dispatch By,किसके द्वारा डिस्पैच
+label_dispatch_by_city,Dispatch By City,शहर द्वारा डिस्पैच
+msg_cancel_dispatch_faild,Dispatch Cancelled Fail,डिस्पैच रद्द विफल
+msg_cancel_dispatch_success,Dispatch Cancelled Successfully,डिस्पैच सफलतापूर्वक रद्द कर दिया गया
+label_dispatch_date_range,Dispatch Date Range,डिस्पैच तिथि सीमा
+dispatch_date_,Dispatch Date:,डिस्पैच की तिथि:
+dispatch_from,Dispatch From,कहाँ से डिस्पैच
+label_dispatch_from_branch,Dispatch From Branch,किस शाखा से डिस्पैच
+dispatch_memo_no,Dispatch memo no,डिस्पैच मेमो संख्या
+dispatch_more,Dispatch More,अधिक डिस्पैच
+dispatch_new,Dispatch New,नया डिस्पैच
+dispatch_no,Dispatch No,डिस्पैच संख्या
+dispatch_report,Dispatch Report,डिस्पैच रिपोर्ट
+dispatched_by_branch,Dispatched By Branch,किस शाखा द्वारा डिस्पैच किया गया
+dispatched_to,Dispatched To,किसे डिस्पैच किया गया
+dispatched_from_city,Dispatched from City,किस शहर से डिस्पैच किया गया
+dispatched_successfully,Dispatched Successfully,सफलतापूर्वक डिस्पैच किया गया
+label_dispatch_to_branch,Dispatched To Branch,किस शाखा में डिस्पैच किया गया
+label_dispatch_to_city,Dispatched To City,किस शहर में डिस्पैच किया गया
+download,Download,डाउनलोड करें
+dropoff2,Dropoff :,ड्राप ऑफ
+dropoff_details,Dropoff Details,ड्रॉपऑफ़ विवरण
+msg_drop_off_loading,Dropoff is loading,ड्रॉपऑफ़ लोड हो रहा है
+dropoff_location,Dropoff Location,ड्रॉप ऑफ स्थान
+edit,Edit,बदलें
+label_edit_dispatch,Edit Dispatch,डिस्पैच बदलें
+email_id,Email ID,ईमेल आईडी
+enable_printing,Enable Printing,प्रिंटिंग सक्षम करें
+end_price,End price,एंड मूल्य
+enter_booking_id,Enter Booking Id,बुकिंग आईडी दर्ज करें
+label_correct_eway_bill,Enter Correct Eway Bill,सही ईवे बिल दर्ज करें
+enter_coupon_code,Enter Coupon Code,कूपन कोड दर्ज करें
+otp,Enter OTP,ओटीपी दर्ज करें
+enter_passenger_details_to_send_link,Enter passenger details to send link,लिंक भेजने के लिए यात्री विवरण दर्ज करें
+enter_passenger_mobile_no,Enter passenger mobile no,यात्री का मोबाइल संख्या दर्ज करें
+enter_sender_id_number,Enter Sender ID Number,भेजने वाले की पहचान प्रमाण/ आईडी संख्या दर्ज करें
+enter_transaction_code,Enter transaction code,लेनदेन कोड दर्ज करें
+enter_vehicle_no,Enter Vehicle No.,वाहन क्रमांक दर्ज करें
+error_non_reporting_seat,Error while non-reporting seats!,नॉन-रिपोर्टिंग सीट के समय त्रुटि
+error_storing_in_cache,Error while storing into cache!,कैशे में भंडारित करते समय त्रुटि
+label_eta_days,ETA (Days),आने का अपेक्षित समय/ई.टी.ए. (दिन)
+ewb_status,EWB Status,ईडब्ल्यूबी स्थिति
+express_checkout,Express Checkout,एक्सप्रेस चेक आउट
+extra_hamali_charges,Extra Hamali Charges,अतिरिक्त हमाली शुल्क
+fare_copy,Fare Copy,किराया कॉपी करना
+fare_in_rupees,Fare in rs,किराया रुपये में
+fare_refund,Fare Refund,किराया रीफंड
+female,Female,महिला
+fetch_pending_transactions,Fetch Pending Transactions,लंबित लेनदेन प्राप्त करें
+filter,Filter,फ़िल्टर
+foc,FOC,एफओसी
+label_foc_self_amount,FOC + Self Amount,एफओसी + सेल्फ राशि
+label_foc_self_freight,FOC + Self Freight,एफओसी + सेल्फ फ्रेट
+label_foc_self_gst_other,FOC + Self GST+ Other,एफओसी + सेल्फ जीएसटी + अन्य
+label_foc_self_lr_count1,FOC + Self LR Count,एफओसी + सेल्फ एलआर काउंट
+label_foc_self_lr_count,FOC + Self Units,एफओसी + सेल्फ इकाइयां
+for_approval,FOC approval authority,एफओसी अनुमोदन अधिकारी
+for_security,For security,सुरक्षा के लिए
+for_security_confirm_pattern,"For security, Confirm Pattern","सुरक्षा के लिए, पैटर्न की पुष्टि करें"
+four,Four,चार
+label_amount_tooltext,Freight + Hamali + Cartage,माल ढुलाई/फ्रेट + हमाली + ढुलाई
+from_branch,From branch,शाखा से
+from_gallery,From Gallery,गैलरी से
+label_from_lr_booking_date,From LR Booking Date,एलआर बुकिंग तिथि से
+from_stage,From Stage,स्टेज से
+label_ftl,FTL,एफटीएल
+generated_on,Generated on,कब उत्पन्न किया गया/कब बनाया गया
+generate_qr_for_scanning,Generate QR for scanning,स्कैनिंग के लिए क्यूआर बनाएं
+generated_date_and_time,Generated Date and Time,उत्पन्न की गई तिथि और समय
+label_report_generation_time,Generation Time:,उत्पादन समय:
+get_orders,Get Orders,ऑर्डर प्राप्त करें
+get_qr_to_scan,Get QR to scan,स्कैन करने के लिए क्यूआर प्राप्त करें
+label_go,GO,जाएं
+go_to_seatchart,go to seat chart,सीट चार्ट पर जाएं
+godown,Godown,गोदाम
+loading_godown_city_list,Godown City List is loading!,गोदाम शहर सूची लोड हो रही है!
+group_boarding_report,Group Boarding Report,ग्रुप बोर्डिंग रिपोर्ट
+gst_on_cc_plus,GST on CC (+) :,सीसी(+) पर जीएसटी :
+gstn_paid_by_transporter,(GSTN paid by Transporter),(ट्रांसपोर्टर द्वारा भुगतान किया गया जीएसटीएन)
+gstn,GSTN,जीएसटीएन
+hamali_and_operator_hamali,Hamali and Operator Hamali,हमाली और संचालक हमाली
+label_hide_qr,Hide QR,क्यूआर छुपाएं
+hired_vehicle,Hired vehicle,किराए पर वाहन
+hold_release,Hold release,रिलीज़ रोकें
+hrs,Hrs,घंटे
+i_was_there,I was there,मैं वहां था
+in_bus_bookings,In Bus Bookings,बस बुकिंग में
+inch,inch,इंच
+label_correct_information,Is the information correct?,क्या जानकारी सही है?
+isd_code,ISD,आईएसडी
+issuer,Issuer,जारीकर्ता
+item_name,Item Name,वस्तु का नाम
+item_type_,Item type,वस्तु का प्रकार
+jour_dt,Jour. Dt,यात्रा तिथि
+tv_landmark,Landmark,लैंडमार्क
+legal_compliance,Legal Compliance,कानूनी अनुपालन
+less,Less,कम
+lit,LIT,एलआईटी
+loading_data,Loading Data...,डेटा लोड हो रहा है...
+label_location_not_provided,Location is not provided,स्थान उपलब्ध नहीं कराया गया है
+tv_location_name,Location name,स्थान का नाम
+tv_location_time,Location time,स्थान का समय
+location_sync_is_in_progress,Location sync is in progress...,स्थान सिंकिंग की क्रिया हो रही है
+label_lr_count,LR Count/Unit,एलआर गणना/यूनिट
+label_lr_details,LR Details,एलआर विवरण
+lr_number,LR Number,एलआर संख्या
+lr_report,LR Report,एलआर रिपोर्ट
+lrs,LRs,एलआरएस
+luggage_short_received_successfully,Luggage Short Received Successfully!,कम सामान सफलतापूर्वक प्राप्त हुआ!
+male,Male,पुरुष
+manage_devices,Manage Devices,डिवाइस प्रबंधित करें
+travels_name,Mantis travels,मेंटिस यात्राएं
+manuel_lr_no,Manual LR No,मैनुअल एलआर संख्या
+method_of_packing,Method Of Packing,पैकिंग तिथि
+cover_freight_restrictions,Minimum freight should be 40,न्यूनतम भाड़ा/किराया 40 होना चाहिए
+packet_freight_restrictions,Minimum freight should be 90,न्यूनतम भाड़ा/किराया 90 होना चाहिए
+mins,Mins,मिनट
+mm,mm,मिमी
+mobile_number,Mobile number,मोबाइल संख्या
+mod_charges_plus,Mod. charges (+) :,शुल्क संशोधित करें (+) :
+month,Month,महीना
+monthly,Monthly,मासिक
+more,More,अधिक
+label_more,more,अधिक
+net_fare,Net fare,शुद्ध किराया
+net_fare_with_gst,Net fare with GST,जीएसटी के साथ शुद्ध किराया
+netrate,Netrate,शुद्ध दर
+net_total,Net Total,शुद्ध योग
+neww,New,नया
+new_bus_type,New Bus Type,नई बस का प्रकार
+label_new_Seat_chart,new Chart,नया चार्ट
+label_new_drop_off,New Dropoff,नया ड्रॉपऑफ़
+label_new_pick_up,New Pickup,नया पिकअप
+label_new_seat,New Seats,नई सीटें
+next_trips,Next Trips,अगली यात्राएँ
+no_data_found,No Data Found,डेटा प्राप्त नहीं हुआ
+no_godown_branch_found,No Godown Branch Found,कोई गोदाम शाखा नहीं मिली
+no_godown_cities,No Godown Cities Found,कोई गोदाम शहर नहीं मिला
+dispatch_report_type_8,No Vehicle Group,कोई वाहन समूह नहीं
+non_cash_amount,Non Cash amount,गैर नकद राशि
+non_report_seat,Non Report Seat,नॉन रिपोर्ट सीट
+label_nop_units,NOP/Units,एनओपी/इकाइयाँ
+not_available,Not Available,उपलब्ध नहीं है
+number_given,Number given,दी गयी संख्याएं
+label_offline,Offline,ऑफलाइन
+offline_bkg_cash_amnt,Offline Bkg Cash Amt,ऑफ़लाइन बीकेजी नकद राशि
+offline_bkg_non_cash_amnt,Offline Bkg Non Cash Amt,ऑफ़लाइन बीकेजी गैर नकद राशि
+label_old_Seat_chart,Old Chart,पुराना चार्ट
+label_old_drop_off,Old Dropoff,पुराना ड्रॉपऑफ़
+label_old_pick_up,Old Pickup,पुराना पिकअप
+label_old_seat,Old Seats,पुरानी सीटें
+onaccount,OnAccount,खाते पर
+label_on_account_amount,OnAccount Amount,खाते पर राशि
+label_on_account_amt,OnAccount Amt,खाते पर राशि
+label_on_account_freight,OnAccount Freight,खाते पर माल ढुलाई/फ्रेट
+label_on_account_gst_other,OnAccount GST + Other,खाते पर जीएसटी + अन्य
+label_on_account_lr_count1,OnAccount LR Count,खाते पर एलआर गणना
+label_on_account_lr_count,OnAccount Units,खाते पर इकाइयाँ
+label_online,Online,ऑनलाइन
+op_name,Opearor name,संचालक का नाम
+open_report,Open Report,रिपोर्ट खोलें
+open_ticket,Open Ticket,टिकट खोलें
+operator_hamali,Operator Hamali,संचालक हमाली
+or,Or,या
+order_id,Order ID,ऑर्डर आईडी
+order_list,Order list,ऑर्डर सूची
+other_charges,Other Charges,अन्य शुल्क
+other_expenses,Other expenses,अन्य व्यय
+other_qrs,Other QRs,अन्य क्यूआर
+other_transactions,Other transactions,अन्य लेन-देन
+otp_sent_to_your_mobile_number,OTP sent to you mobile number,आपके मोबाइल संख्या पर ओटीपी भेजा गया
+label_paid_amount,Paid Amount,भुगतान की गई राशि
+label_paid_freight,Paid Freight,माल ढुलाई/फ्रेट का भुगतान किया गया
+label_paid_gst_other,Paid GST + Other,भुगतान किया गया जीएसटी + अन्य
+label_paid_lr_count1,Paid LR Count,भुगतान किया गया एलआर काउंट
+label_paid_lr_count,Paid Units,भुगतान की गई इकाइयाँ
+party_address,Party Address,पार्टी का पता
+party_bill_date,Party Bill Date,पार्टी बिल तिथि
+party_bill_value,Party Bill Value,पार्टी बिल मूल्य
+party_credit_limit,Party creditLimit,पार्टी क्रेडिट सीमा
+party_details,Party Details,पार्टी विवरण
+party_email_id,Party Email ID,पार्टी ईमेल आईडी
+party_gstn,Party GSTN,पार्टी जीएसटीएन
+hint_party_id,Party ID,पार्टी आईडी/पहचान प्रमाण
+party_mobile,Party Mobile No,पार्टी मोबाइल संख्या
+party_name,Party Name,पार्टी का नाम
+party_number,Party Number,पार्टी संख्या
+party_pin_code,Party Pincode,पार्टी पिनकोड
+amntin_rs,Pass penalty,पास पेनल्टी
+passenger_number,Passenger Number,यात्री संख्या
+passenger_report,Passenger Report,यात्री रिपोर्ट
+path_route,Path route,पथ मार्ग
+pay,Pay,भुगतान करें
+payment_info,Payment info,भुगतान की जानकारी
+label_payment_summary,Payment Summary -,भुगतान सारांश -
+payout_type,Payout Type,भुगतान प्रकार
+pdbf_voucher,PBDF Voucher,पीबीडीएफ वाउचर
+pd_refund,PD Charges Refund,पीडी चार्ज रिफंड
+phone,Phone,फ़ोन
+pd_charge,Pickup dropoff charge,पिकअप ड्रॉपऑफ़ शुल्क
+pickup_group,Pickup Group,पिकअप समूह
+msg_pickup_loading,Pickup is loading,पिकअप लोड हो रहा है
+pickup_location,Pickup Location,पिकअप स्थान
+pickup_point,Pickup Point,पिक अप बिंदु
+pickup_man_mob_no,Pickupman mobile number,पिकअपमैन की मोबाइल संख्या
+pin,Pin,पिन
+pinCode,Pincode,पिन कोड
+please,Please,कृपया
+please_enter_collection_cartage,Please enter Collection cartage,कृपया कलेक्शन कार्टेज दर्ज करें
+please_enter_crossing_remarks,Please enter Crossing Remarks,कृपया क्रॉसिंग टिप्पणियाँ दर्ज करें
+please_enter_goods_value,Please enter goods value,कृपया माल/सामान का मूल्य दर्ज करें
+message_type_2,Please select booked seats,कृपया बुक की गई सीटें चुनें
+label_select_different_seat,Please select different seat,कृपया अलग सीट चुनें
+message_type_1,Please select empty seats,कृपया खाली सीटें चुनें
+select_godown_city_first,Please select Godown City first,कृपया पहले गोदाम शहर चुनें
+self_booking_pnr,PNR Number,पी एन आर संख्या
+pnr_number,PNR number,पी एन आर संख्या
+pos,POS,पीओएस
+pre_bus_type,Pre Bus Type,प्री बस प्रकार
+prepaid_card,Prepaid Card,प्रीपेड कार्ड
+primary_mobile_number,Primary mobile number,प्राथमिक मोबाइल संख्या
+print,Print,प्रिंट करें
+print_cust_copy,Print customer copy,ग्राहक प्रति प्रिंट करें
+print_compact_receipt,Print Compact Receipt,कॉम्पैक्ट रसीद प्रिंट करें
+print_detailed_receipt,Print Detailed Receipt,विस्तृत रसीद प्रिंट करें
+print_office_copy,Print office copy,कार्यालय प्रति प्रिंट करें
+print_remarks,Print Remarks,टिप्पणियाँ प्रिंट करें
+print_report,Print Report,रिपोर्ट प्रिंट करें
+provide_contact_details_to_send_express_checkout,Provide contact details to send Express Checkout,एक्सप्रेस चेकआउट भेजने के लिए संपर्क विवरण प्रदान करें
+qr,QR,क्यूआर
+qr_selection_type,QR Selection Type,क्यूआर चयन प्रकार
+label_qr_pending_payment,QR Pending Payments,क्यूआर लंबित भुगतान
+quick_view_detail,Quick View Detail,त्वरित विवरण देखें
+quota_of,Quota of,किसका कोटा
+label_rate_per_kg,Rate (Rs/KG),दर (रुपये/किग्रा)
+transfer_reason,Reason,कारण
+reason_for_refund,Reason for refund,रीफंड का कारण
+receipt,Receipt,रसीद
+receipt_type,Receipt Type,रसीद का प्रकार
+label_receive_branch,Receive Branch,रिसीव शाखा
+receive_city,Receive City,रिसीव शहर
+received_by,Received By,किसके द्वारा रिसीव किया गया/प्राप्त किया गया
+received_by_branch,Received By Branch,शाखा द्वारा प्राप्त
+receiver_id_proof,Receiver Id Proof,प्राप्तकर्ता का पहचान प्रमाण पत्र
+receiver_id_proof_no,Receiver Id Proof No,प्राप्तकर्ता के पहचान प्रमाणपत्र की संख्या
+receiver_image_id,Receiver Image Id,प्राप्तकर्ता का चित्र पहचान पत्र
+receiver_mobile_no_,Receiver mobile No,प्राप्तकर्ता की मोबाइल संख्या
+label_receiver_name,Receiver Name,प्राप्तकर्ता का नाम
+receiver_city_and_state,Receiver City & State,प्राप्तकर्ता शहर एवं राज्य
+receiver_pin_code,Receiver Pincode,प्राप्तकर्ता पिनकोड
+label_receiving_branch,Receiving Branch,प्राप्तकर्ता शाखा
+lebel_receiving_city,Receiving City,प्राप्तकर्ता शहर
+recharge_amount,Recharge amount,रीचार्ज राशि
+label_recharge_date,RechargeDate:,रिचार्ज तिथि:
+receiver_name_,Reciever Name,प्राप्तकर्ता का नाम
+refresh,Refresh,रीफ्रेश
+refund_amount,Refund amount,राशि वापस करें
+refund_success,Refund is successful,रीफंड सफलतापूर्वक हुआ
+remote_pos,Remote POS,रिमोट पीओएस
+report_type,Report Type,रिपोर्ट का प्रकार
+request_recharge,Request Recharge,रिचार्ज का अनुरोध करें
+resend_otp,Resend,पुन: भेजें
+reset,Reset,पुन: सेट करें
+review_and_pay,Review and Pay,समीक्षा करें और भुगतान करें
+review_and_proceed,Review and proceed,समीक्षा करें और आगे बढ़ें
+label_route_is_loading,Route is loading,रूट लोड हो रहा है
+s1,S1,एस 1
+s3,S3,एस3
+s5,S5,एस 5
+scan,Scan,स्कैन करें
+search_driver,Search Driver,ड्राइवर खोजें
+search_with_name,Search with Name,नाम से खोजें
+seat_fare,Seat Fare,सीट किराया
+seat_numbers,Seat Numbers,सीट संख्या
+seat_type_number,Seat type number,सीट प्रकार संख्या
+select_agent_name,Select Agent Name,एजेंट का नाम चुनें
+select_agent_city,Select Agent City,एजेंट का शहर चुनें
+select_all,Select All,सभी चुनें
+label_select_booking_type,Select Booking Type,बुकिंग प्रकार चुनें
+toolbar_select_from_map,Select Branch From Map,मानचित्र से शाखा चुनें
+label_select_chart,Select Chart,चार्ट चुनें
+error_select_chart,Select chart for transfer,स्थानांतरण के लिए चार्ट चुनें
+select_consignment_type,Select Consignment Type,कंसाईन्मेंट प्रकार चुनें
+select_coupon_type,Select Coupon Type,कूपन के प्रकार चुनें
+select_destination_city_short,Select Destination City,गंतव्य शहर चुनें
+select_dispatch_by_branch,Select Dispatch By Branch,शाखा द्वारा डिस्पैच चुनें
+saved_details,Select from saved details,सहेजे गए विवरणों में से विवरण चुनें
+select_id_proof_type,Select ID Proof,आईडी प्रूफ चुनें
+select_input_type,Select input type,इनपुट प्रकार चुनें
+select_issuer,Select issuer,जारीकर्ता चुनें
+select_item_type,Select item type,वस्तु प्रकार चुनें
+select_items,Select Items,वस्तुएं चुनें
+select_ledger,Select Ledger,लेजर चुनें
+label_select_new_drop_off,Select New Dropoff,नया ड्रॉपऑफ़ चुनें
+label_select_new_pick_up,Select New Pickup,नया पिकअप चुनें
+select_party,Select Party,पार्टी चुनें
+select_payment_mode,Select Payment Mode,भुगतान मोड चुनें
+select_pickup_droooff,Select Pickup & Dropoff,पिकअप और ड्रॉपऑफ़ चुनें
+select_month,Select month,महीना चुनें
+select_pnr,Select PNR,पी.एन.आर. चुनें
+select_qr_payment_mode,Select QR payment mode,क्यूआर भुगतान मोड चुनें
+select_qr_provider,Select QR Provider,क्यूआर प्रदाता चुनें
+label_select_received_by_branch,Select Received By Branch,शाखा द्वारा प्राप्त चुनें
+select_receving_branch,Select Receving Branch,प्राप्तकर्ता शाखा चुनें
+select_receiver_id_type,Select Receiver ID Type,प्राप्तकर्ता पहचान प्रमाण/आईडी प्रकार चुनें
+label_select_report_type,Select Report Type,रिपोर्ट प्रकार चुनें
+select_seats,Select Seats,सीटें चुनें
+select_sender_id_type,Select Sender ID Type,भेजने वाले का पहचान प्रमाण/ आईडी प्रकार चुनें
+label_select_summary_type,Select Summary Type,सारांश प्रकार चुनें
+toolbar_report_type,Select Summary Type,सारांश प्रकार चुनें
+select_transfer_branch,Select Transfer Branch,स्थानांतरण शाखा चुनें
+select_transfer_branch_in,Select Transfer Branch in,"किस शाखा में स्थानान्तरण करना हैं, वह चुनें"
+select_vehicle_no,select Vehicle No,वाहन क्रमांक चुनें
+selected_lr_no,Selected LR No,चयनित एलआर संख्या
+label_select_seat,Selected old seats,चयनित पुरानी सीटें
+selected_trans_ids,Selected Trans. Ids,चयनित स्थानान्तरण पहचान
+label_self,Self,सेल्फ
+label_self_freight,Self Freight,सेल्फ फ्रेट
+send_gps_link,Send GPS Link,जीपीएस लिंक भेजें
+send_i_was_there,Send I was there SMS,"मैं वहां था, एसएमएस भेजें"
+send_link_to_multiple_passenger,Send link to multiple passenger,एक से अधिक यात्रियों को लिंक भेजें
+send_express_checkout,Send Express Checkout,एक्सप्रेस चेकआउट भेजें
+sender_city_and_state,Sender City & State,भेजने वाला शहर और राज्य
+sender_id_and_image,Sender ID & Image,भेजने वाले की पहचान और चित्र
+sender_id_image,Sender ID Image,भेजने वाले की पहचान छवि
+sender_id_proof,Sender ID Proof,भेजने वाले की पहचान का प्रमाण
+sender_id_proof_no,Sender ID Proof No,भेजने वाले की पहचान प्रमाण की संख्या
+sender_image,Sender Image,भेजने वाले का चित्र
+sender_mobile_no_,Sender mobile No,भेजने वाले की मोबाइल संख्या
+service_name,Service Name,सर्विस का नाम
+short_receive,Short Receive,कम प्राप्त हुआ
+show_all,Show All,सब दिखाएं
+label_show_auto_receive,Show Auto Receive Only,केवल ऑटो रिसीव/प्राप्त हुआ दिखाएँ
+show_date,Show date,तिथि दिखाएँ
+show_list,Show List,सूची दिखाएँ
+show_list_all,Show list all,सभी की सूची दिखाएँ
+label_near_by_branches,Show Nearby Branches,निकटवर्ती शाखाएँ दिखाएँ
+show_qr,Show QR,क्यूआर दिखाएँ
+label_rate_enquiry,Show Rate,दर दिखाएँ
+show_time,Show time,समय दिखाएं
+sms_info,SMS Info, जानकारी एसएमएस करें
+sms_pnr_info,SMS PNR Info,पीएनआर जानकारी एसएमएस करें
+label_sms_success,Sms sent successfully,एसएमएस सफलतापूर्वक भेजा गया
+sms_template,SMS Template,एसएमएस टेम्पलेट
+sms_template_here,SMS Template Here..,एसएमएस टेम्प्लेट यहाँ..
+sms_type,SMS Type,एसएमएस प्रकार
+source_branch,Source Branch,स्रोत शाखा
+source_city,Source City,स्रोत शहर
+special_vehicle,Special vehicle,विशेष वाहन
+label_sr,Sr.,क्रमसंख्या
+staff_mno,Staff MNo.,स्टाफ की मोबाइल संख्या
+dec_date,Start date,आरंभ करने की तिथि
+start_date,Start date,आरंभ करने की तिथि
+start_recording,Start recording,रिकॉर्डिंग शुरू
+start_syncing,Start Syncing,सिंक करना प्रारंभ करें
+stop_recording,Stop recording,रिकॉर्डिंग बंद करें
+stop_syncing,Stop Syncing,सिंक करना बंद करें
+stop_trip,Stop Trip,यात्रा रोकें
+submit_otp,Submit OTP,ओटीपी सबमिट करें
+receive_report_type_2,Summary,सारांश
+toolbar_summary_receive_report,Summary -Receive Report,सारांश-रिपोर्ट प्राप्त करें
+dispatch_report_type_3,Summary Only,केवल सारांश
+dispatch_report_type_5,Summary with Hamali & Cartage,हमाली और कार्टेज के साथ सारांश
+dispatch_report_type_6,Summary with other charges,अन्य शुल्कों के साथ सारांश
+swiping_charges,Swiping Charges,स्वैपिंग शुल्क
+label_tnc,T&C,नियम एवं शर्तें
+test,Test,जांच
+label_already_added,This Eway bill already added,इस ईवे बिल को पहले भी जोड़ा जा चुका है
+tv_given_time,Time,समय
+end_date,To Date,किस तिथि तक
+to_stage,To Stage,किस स्टेज तक
+label_to_lr_booking_date,To LR Booking Date,एलआर बुकिंग तिथि तक
+label_to_pay,To-Pay,भुगतान करने के लिए
+offline_trips_tonetag,Tonetag - Offline trips,टोनटैग - ऑफ़लाइन यात्राएँ
+topay,Topay,भुगतान करने के लिए
+label_to_pay_amount,ToPay Amount,भुगतान की जाने वाली राशि
+label_to_pay_freight,ToPay Freight,मालभाड़ा/फ्रेट का भुगतान करने के लिए
+label_to_pay_gst_other,ToPay GST + Other,जीएसटी + अन्य का भुगतान करें
+label_to_pay_lr_count,ToPay LR Count, एलआर काउंट का भुगतान करने के लिए
+label_to_pay_units,ToPay Units,इकाइयों का भुगतान करने के लिए
+total_damage_qty,Total Damage Qty,कुल क्षति मात्रा
+total_eway_bill_count,Total Eway Bill Count,कुल ईवे बिल गणना
+total_fare_gst,Total Fare(+GST),कुल किराया(+जीएसटी)
+total_freight,Total Freight,कुल मालभाड़ा
+total_gst,Total GST,कुल जीएसटी
+label_total_gst_other,Total GST + Other,कुल जीएसटी + अन्य
+total_items_,Total Items:,कुल वस्तुएं
+total_lr_count,Total LR Count,कुल एलआर गणना
+label_total_net_amount,Total Net Amount,कुल शुद्ध राशि
+total_qty,Total Qty,कुल मात्रा
+total_short_qty,Total Short Qty,कुल कम मात्रा
+total_units,Total Units,कुल इकाइयाँ
+transaction_amount,Transaction amount,लेनदेन राशि
+trans_amount,Transaction amount,लेनदेन राशि
+transaction_code_,Transaction code,लेनदेन कोड
+trans_dt_time,Transaction date time,लेन-देन की तिथि समय
+transaction_id,Transaction Id,लेनदेन पहचान
+transaction_status,Transaction Status,लेन-देन की स्थिति
+transfer,Transfer,स्थानांतरण
+transfer_all,Transfer all,सभी को स्थानांतरित करें
+transfer_by_branch,Transfer By Branch,शाखा द्वारा स्थानांतरण
+transfer_by_user,Transfer By User,उपयोगकर्ता द्वारा स्थानांतरण
+transfer_branch,Transfer Branch,स्थानांतरण शाखा
+transfer_date,Transfer Date,स्थानान्तरण की तिथि
+error_transfer_insert,Transfer Failed! Try again,स्थानांतरण विफल हुआ! पुनः प्रयास करें
+label_transfer_from_branch,Transfer From Branch,शाखा से स्थानांतरण
+label_transfer_from_city,Transfer From City,शहर से स्थानांतरण
+transfer_luggage,Transfer Luggage,सामान स्थानांतरण
+transfer_new,Transfer New,नया स्थानान्तरण
+transfer_receive,Transfer Receive,स्थानांतरण प्राप्त करें
+msg_transfer_success,Transfer Success,स्थानांतरण सफल हुआ
+transfer_to,Transfer To,किसे स्थानान्तरण
+transfer_to_branch,Transfer To Branch,शाखा में स्थानांतरण
+transfer_to_city,Transfer To City,शहर में स्थानांतरण
+transfer_type,Transfer Type,स्थानांतरण प्रकार
+transporter_name,Transporter Name,ट्रांसपोर्टर का नाम
+tv_trip_name,Trip name,यात्रा का नाम
+type_of_collection,Type of collection,संग्रह का प्रकार
+type_of_goods,Type of goods,माल का प्रकार
+units,Units,इकाइयां
+unknown,Unknown,अज्ञात
+upi_qr,UPI QR,यूपीआई क्यूआर
+upload_receiver_image,Upload Receiver Image,पाने वाले का चित्र अपलोड करें
+upload_receiver_image_and_id,Upload Receiver Image and Id,पाने वाले का चित्र और पहचान प्रमाण अपलोड करें
+upload_receiver_id_image,Upload Receiver Id Image,पाने वाले के पहचान प्रमाण का चित्र अपलोड करें
+upload_sender_id_image,Upload Sender ID Image,पाने वाले के पहचान प्रमाण का चित्र अपलोड करें
+upload_sender_image,Upload Sender Image,भेजने वाले का चित्र अपलोड करें
+label_usages,Usage :,उपयोग :
+label_user_location,User Location Point :,उपयोगकर्ता स्थान बिंदु:
+valid,Valid,वैध
+validate,Validate,सत्यापित करें
+validate_boarding,Validate Boarding for seat,सीट के लिए बोर्डिंग सत्यापन करें
+validate_with_pin,Validation with pin,पिन के साथ सत्यापन
+validity,Validity,वैधता
+valuation_charge,Valuation Charge,मूल्यांकन शुल्क
+vehicle,Vehicle,वाहन
+label_vehicle_wise,vehicle wise,वाहन के अनुसार
+vehicle_wise,vehicle wise,वाहन के अनुसार
+vehicle_wise_challan_wise_summary,Vehicle-wise Challan-wise Summary,वाहन-वार चालान-वार सारांश
+dispatch_report_type_2,Vehicle-wise Summary (Cancelled dispatch),वाहन-वार सारांश (रद्द डिस्पैच)
+verify,Verify,सत्यापित करें
+verification_status,Verification Status,सत्यापन स्थिति
+version_name,Version name,संस्करण का नाम
+view_coupons,View Coupons,कूपन देखें
+voucher_success,Voucher success,वाउचर सफलता
+weight_charge,Weight Charge,वज़न शुल्क
+blocked_lrno_is,Blocked LRNO is,अवरुद्ध किया गया एलआरएनओ है
+label_gps_config_fail,Bus not assigned or GPS not configured.,बस असाइन नहीं की गई या जीपीएस कॉन्फ़िगर नहीं किया गया।
+click_swipe_machine,Click preferred swipe machine type to proceed,आगे बढ़ने के लिए कृपया मनपसन्द स्वाइप मशीन प्रकार पर क्लिक करें
+inactive_trip,Currently all sub-routes are closed !,फिलहाल सभी सब-रूट्स/उपमार्ग बंद हैं
+change_destination_branch,Do you want to change the Destination Branch?,क्या आप डेस्टिनेशन शाखा बदलना चाहते हैं?
+enter_4_digits_pin,Enter 4 digits pin,4 अंकों का पिन दर्ज करें
+msg_if_you_have_forgotten,"*If you have forgotten the saved pattern , logout,login and create a new pattern","*यदि आप अपने सेव किए गए पैटर्न को भूल गए हैं तो लॉगआउट करें, लॉगिन करें और एक नया पैटर्न बनाएं"
+payment_modes_not_loaded,Payment modes list is not loaded!,भुगतान मोड सूची अभी लोड नहीं हुई है!
+label_select_ewaybill,Please Select At Least One Eway Bill,कृपया कम से कम एक ईवे बिल चुनें
+qr_valid_fail,QR validation failed,क्यूआर सत्यापन विफल रहा
+rate_entered_for_party,Rate Entered For Party Booking Does Not Match Assigned Rate!,"पार्टी बुकिंग के लिए जिस मूल्य/दर को दर्ज किया गया है, वह निर्धारित दर के अनुसार नहीं हैं "
+msg_confirm_non_report_seat,Seat will be non-reported by following action.,निम्नलिखित क़दमों द्वारा सीटें नॉन-रिपोर्टेड की जाएँगी
+message_ewaybilt_different_transporter,Transporter-ID does not match to yours,ट्रांसपोर्टर-पहचान प्रमाण आपके पहचान विवरण के अनुसार नहीं है
+trip_detail_not_found_error,Trip Details Not Found For Selected Chart Date,चुनी गयी चार्ट तिथि के लिए यात्रा विवरण नहीं मिला
+volumetric_inch,Volumetric Weight(KG) =(Length*Width*Height*16.3871/5000),वॉल्यूमेट्रिक वजन (किग्रा) =(लंबाई*चौड़ाई*ऊंचाई*16.3871/5000)
+volumetric_cm,Volumetric Weight(KG) =(Length*Width*Height/5000),वॉल्यूमेट्रिक वजन (किग्रा) =(लंबाई*चौड़ाई*ऊंचाई/5000)
+volumetric_mm,Volumetric Weight(KG) =(Length*Width*Height/5000000),वॉल्यूमेट्रिक वजन (किग्रा) =(लंबाई*चौड़ाई*ऊंचाई/5000000)
+booking_reprint,Booking reprint,बुकिंग दुबारा प्रिंट करें
+booking_cancel,Booking cancel,बुकिंग रद्द करें
+delivery_cancel,Delivery cancel,डिलिवरी रद्द करें
+delivery_reprint,Delivery reprint,डिलीवरी दुबारा प्रिंट करें
+booking_date_and_time,Booking Date & Time,बुकिंग की तिथि और समय
+way_bill_no_lr_no,Way Bill No (LR No.),वे बिल संख्या (एलआर संख्या)
+reprint_duplicate_copy,REPRINT (DUPLICATE COPY),दोबारा प्रिंट करें  (डुप्लिकेट प्रति)
+delivery_date_and_time,Delivery Date & Time,डिलीवरी की तिथि और समय
+received_date_and_time,Received Date & Time,प्राप्त तिथि एवं समय
+more_options_underline,More Options,अधिक विकल्प
+more_options_fields_underline,More Optional Fields,अधिक वैकल्पिक फ़ील्ड
+charged_weight,Charged Weight,वजन पर शुल्क लगाया गया
+delivered_by,Delivered By,किसके द्वारा डिलीवर किया गया
+delivery_charge,Delivery Charge,डिलीवरी शुल्क
+search_new_lr,search new lr,नया एलआर खोजें
+dispatch_remarks,Dispatch Remarks,डिस्पैच टिप्पणियाँ
+receive_remarks,Receive Remarks,रिसीव टिप्पणियाँ
+select_option_search_by,Select Option Search By,किसके द्वारा खोजें विकल्प चुना गया
+not_authorised,Not Authorised,अधिकृत नहीं
+location_setting,Location settings,स्थान सेटिंग्स
+fetch_failed,Fetch failed,फ़ेच विफल रहा
+terms_of_use,Terms of use,उपयोग की शर्तें
+privacy_policy,Privacy policy,गोपनीयता नीति
+data_pending_to_upload,Data pending to upload!,डेटा अपलोड होना शेष है!
+can_not_logout,Can not logout!,लॉगआउट नहीं कर सकते!
+unable_to_open_google_playstore,Unable to open Google Play Store,गूगल प्ले स्टोर खोलने में असमर्थ
+update_avaiable,Update available,अपडेट उपलब्ध
+add_more_details,Add More Details,अधिक विवरण जोड़ें
+show_less,Show less,कम दिखाएं
+add_receiver_details,Add Receiver Details,पाने वाले का विवरण जोड़ें
+add_sender_details,Add Sender Details,भेजने वाले का विवरण जोड़ें
+validate_underline,Validate,सत्यापित करें
+label_rate_enquiry_underlined,Show Rate,दर दिखाएँ
+remove_underline,Remove,निकालें
+change_underline,Change,बदलें
+msg_warning_payment,Please do not press back button or home button thought the payment for a better payment experience,भुगतान के एक बेहतर अनुभव के लिए कृपया बैक बटन या होम बटन न दबाएं
+msg_transfer_succesfully,You have successfully transferred old seats to new seats,आपने पुरानी सीटों को नई सीटों पर सफलतापूर्वक स्थानांतरित कर दिया है
+msg_confirm_add_expense,Do you want to add expense ?,क्या आप व्यय जोड़ना चाहते हैं?
+msg_tnc_link,You agree to our Terms of Use agreement and Privacy Policy,आप हमारे उपयोग की शर्तों के अनुबंध और गोपनीयता नीति के प्रति सहमत हैं
+msg_give_permission_blutooth_connnnect,Please give us bluetooth connect or nearby devices permission!!,कृपया हमें ब्लूटूथ कनेक्ट या नजदीकी डिवाइस के प्रयोग की अनुमति दें
+msg_give_permission_blutooth_scan,Please give us bluetooth scan permission!!,कृपया हमें ब्लूटूथ स्कैन की अनुमति दें!!
+msg_per__read_storage,Please give us write storage permission!!,कृपया हमें भंडारण/स्टोरेज लिखने की अनुमति दें!!
+msg_per_write_storage,Please give us read storage permission!!,कृपया हमें भंडारण/स्टोरेज पढ़ने की अनुमति दें!!
+msg_per_camera,Please give us camera permission!!,कृपया हमें कैमरे की अनुमति दें!!
+msg_check_pnp,Please agree to our Terms of Use agreement and Privacy Policy,कृपया हमारे उपयोग की शर्तों के अनुबंध और गोपनीयता नीति के प्रति सहमति प्रदान करें
+msg_monthly_rental,Monthly rental for this app is,इस ऐप का मासिक किराया है
+msg_kindly_contact_reprensentative,Kindly contact your representative for more information.,अधिक जानकारी के लिए कृपया अपने प्रतिनिधि से संपर्क करें।
+msg_not_access_to_app,Your access to app is not authorised or expired.,आप एप से संपर्क करने के लिए या तो अधिकृत नहीं हैं या आपकी वैधता समाप्त हो गयी है
+msg_contact_maventech,Kindly contact the MavenTech Labs accounts team for assistance!,सहायता के लिए कृपया मेवेनटेक लैब्स अकाउंट टीम से संपर्क करें!
+msg_new_update_avaible,New update for the app is available. Update the app to enjoy latest features!,ऐप के लिए नया अपडेट उपलब्ध है| यदि आप नई खूबियाँ पाना चाहते हैं तो एप को अपडेट करें!
+msg_app_required_gps,App requires GPS to run! Change the location setting to enable GPS,ऐप संचालन के लिए जीपीएस की आवश्यकता है! जीपीएस सक्षम करने के लिए स्थान सेटिंग बदलें
+msg_app_wont_work_without_permission,App won't work without the permission. Grant permission from settings,एप बिना अनुमति के कार्य नहीं करेगा| सेटिंग्स से अनुमति प्रदान करें
+msg_mobile_not_verified,Mobile number is not verified!,मोबाइल संख्या सत्यापित नहीं है!
+msg_qr_less_amount_error,"Scanned amount is less than the total fare, Scan different QR or change the payment mode to continue the booking !","स्कैन की गई राशि कुल किराए से कम है, बुकिंग जारी रखने के लिए अलग-अलग क्यूआर स्कैन करें या भुगतान मोड बदलें!"
+msg_fill_info,Fill with customer Mobile number and Email ID(optional) to generate prepaid card against the mobile number.,मोबाइल संख्या पर प्रीपेड कार्ड बनाने के लिए ग्राहक की मोबाइल संख्या और ईमेल आईडी (वैकल्पिक) दर्ज करें।
+msg_cover_warning_for_other_booking_type,Only Payment Type Paid Is Applicable For This Consignment Type,"इस प्रकार के कंसाईन्मेंट के भुगतान के लिए लिए केवल ""भुगतान किया गया"" विकल्प ही लागू होगा  "
+msg_packet_warning_for_other_booking_type,Payment Type should not be TO-PAY for this consignment type,"इस प्रकार के कंसाईन्मेंट के भुगतान के लिए ""भुगतान करना है"" वाला विकल्प नहीं होना चाहिए "

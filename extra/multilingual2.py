@@ -1,8 +1,7 @@
 import pandas as pd
 
 # Specify the path to your XML file
-fli = "strings_pun.csv"
-flo = "strings_pun.xml"
+fli = "strings_in.csv"
 i = 0
 
 # <string name="d8">8</string>
