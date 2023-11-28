@@ -1,988 +1,426 @@
 0,1
-agent_branch,Agent/Branch
-booking_transfer,Booking Transfer
-booking_type,Booking Type
-branch_transfer,Branch Transfer
-branch_transfer_receive,Branch Transfer Receive
-branch_transfer_received,Branch Transfer Received
-block_lr,Block LR
-dispatch_report,Dispatch Report
-bus_no,Bus No
-cancel_transfer,Cancel Transfer
-contact_no,Contact No
-current_branch,Current Branch
-current_city,Current City
-delivery_transfer,Delivery Transfer
-filter,Filter
-group_boarding_report,Group Boarding Report
-journey_date_,Journey Date
-less,Less
-loading_godown_city_list,Godown City List is loading!
-luggage_short_received_successfully,Luggage Short Received Successfully!
-more_options_underline,<u>More\nOptions</u>
-book_wo_seat_nos_underline,<u>Book w/o\nSeat Nos</u>
-msg_transfer_success,Transfer Success
-new_bus_type,New Bus Type
-no_godown_branch_found,No Godown Branch Found
-no_godown_cities,No Godown Cities Found
-express_checkout,Express Checkout
-delayed_by,Delayed By
-pickup_point,Pickup Point
-please,Please
-pre_bus_type,Pre Bus Type
-qr_charge_title,Additional charges for using QR
-pd_refund,PD Charges Refund
-fare_refund,Fare Refund
-select_consignment_type,Select Consignment Type
-select_godown_city_first,Please select Godown City first
-select_destination_city_short,Select Destination City
-select_transfer_branch,Select Transfer Branch
-service_name,Service Name
-show_list,Show List
-more,More
-select_option_search_by,Select Option Search By
-sms_template,SMS Template
-sms_type,SMS Type
-source_city,Source City
-source_branch,Source Branch
-staff_mno,Staff MNo.
-transfer,Transfer
-transfer_branch,Transfer Branch
-transfer_date,Transfer Date
-transfer_luggage,Transfer Luggage
-transfer_reason,Reason
-transfer_receive,Transfer Receive
-transfer_to,Transfer To
-actual_weight,Actual Weight
-charged_weight,Charged Weight
-saved_details,Select from saved details
-otp,Enter OTP
-resend_otp,Resend
-short_receive,Short Receive
-cover_warning_for_other_booking_type,Only Payment Type Paid Is Applicable For This Consignment Type
-packet_warning_for_other_booking_type,Payment Type should not be TO-PAY  for this consignment type
-cover_freight_restrictions,Minimum freight should be 40
-packet_freight_restrictions,Minimum freight should be 90
-label_consignor,Consignor
-label_consignee,Consignee
-hint_party_id,Party ID
-label_credit_limit,Credit Limit :
-label_usages,Usage :
-label_location_not_provided,Location is not provided
-label_show_qr,Show QR
-label_hide_qr,Hide QR
-label_sr,Sr. 
-label_branch_name,Branch: 
-label_mode,Mode: 
-label_recharge_date,RechargeDate: 
-label_amount,Amount: 
-label_qr_pending_payment,QR Pending Payments
-label_edit_dispatch,Edit Dispatch
-toolbar_dispatched,Cancel Dispatch
-msg_cancel_dispatch_success,Dispatch Cancelled Successfully
-msg_cancel_dispatch_faild,Dispatch Cancelled Fail
-transporter_name,Transporter Name
-label_correct_information,Is the information correct?
-message_ewaybilt_different_transporter,Transporter-ID does not match to yours
-label_add,ADD
-label_select_ewaybill,Please Select At Least One Eway Bill
-label_already_added,This Eway bill already added
-label_correct_eway_bill,Enter Correct Eway Bill
-select_party,Select Party
-party_name,Party Name
-party_mobile,Party Mobile No
-party_address,Party Address
-party_gstn,Party GSTN
-party_credit_limit,Party creditLimit
-block_lr_remarks,"Blocked LRNO is: 123 , Please Enter Remarks"
-toolbar_rate_inquiry,Cargo | Rate\ETA Inquiry
-label_rate_enquiry,Show Rate
-label_rate_enquiry_underlined,<u>Show Rate</u>
-label_rate_per_kg,Rate (Rs/KG)
-label_eta_days,ETA (Days)
-label_crossings,Crossings
-label_lr_number,LR Number
-label_block_lr_number,LR Number : 123
-label_blocking_party,Blocking Party : 123
-toolbar_dispatch_report,Dispatch Report
-select_dispatch_by_branch,Select Dispatch By Branch
-label_dispatch_by_branch,Dispatched By Branch
-label_go,GO
-select_vehicle_no,select Vehicle No
-label_report_type,Report Type
-label_challan_no,Challan No
-label_dispatch_date_range,Dispatch Date Range
-label_dispatch_date,Dispatch Date
-toolbar_select_from_map,Select Branch From Map
-label_user_location,User Location Point :
-label_near_by_branches,Show Near By Branches
-label_both,Both
-label_select_summary_type,Select Summary Type
-label_dispatch_to_city,Dispatched To City
-label_dispatch_to_branch,Dispatched To Branch
-label_dispatch_to,Dispatched To
-dispatch_report_type_1,Vehicle-wise Challan-wise Summary
-dispatch_report_type_2,Vehicle-wise Summary (Cancelled dispatch)
-dispatch_report_type_3,Summary Only
-dispatch_report_type_4,Detailed Summary
-dispatch_report_type_5,Summary with Hamali &amp; Cartage
-dispatch_report_type_6,Summary with other charges
-dispatch_report_type_7,Branch Summary
-dispatch_report_type_8,No Vehicle Group
-toolbar_report_type,Select Summary Type
-label_report_generation_time,Generation Time: 
-label_detail,Detail
-label_sender_name,Sender Name
-label_receiver_name,Receiver Name
-label_cartage,Cartage
-label_all_hamali,All Hamali
-other_charges,Other Charges
-label_payment_summary,Payment Summary - 
-label_total_gst,Total GST
-label_refresh,Refresh
-label_cancel_by_user,CAND User
-label_cancel_by_branch,CAND Branch
-label_cancel_date,CAND Date
-label_company_name,Company Name
-label_to_pay_units,ToPay Units
-label_to_pay_lr_count,ToPay LR Count
-label_to_pay_amount,ToPay Amount
-label_to_pay_freight,ToPay Freight
-label_to_pay_gst_other,ToPay GST + Other
-label_paid_lr_count,Paid Units
-label_paid_lr_count1,Paid LR Count
-label_paid_amount,Paid Amount
-label_paid_freight,Paid Freight
-label_paid_gst_other,Paid GST + Other
-label_on_account_lr_count,OnAccount Units
-label_on_account_lr_count1,OnAccount LR Count
-label_on_account_amount,OnAccount Amount
-label_on_account_freight,OnAccount Freight
-label_on_account_gst_other,OnAccount GST + Other
-label_foc_self_lr_count,FOC + Self Units
-label_foc_self_lr_count1,FOC + Self LR Count
-label_foc_self_amount,FOC + Self Amount
-label_foc_self_freight,FOC + Self Freight
-label_foc_self_gst_other,FOC + Self GST+ Other
-label_ddv_count,DDDV Units
-label_ddv_count1,DDDV LR Count
-label_dddv_amount,DDDV Amount
-label_dddv_freight,DDDV Freight
-label_dddv_gst_other,DDDV GST + Other
-label_total_units,Total Units
-label_total_lr,Total LR Count
-label_total_freight,Total Freight
-label_total_gst_other,Total GST + Other
-label_self_freight,Self Freight
-label_dispatch_from_city,Dispatch From City
-label_total_net_amount,Total Net Amount
-label_dispatch_by_city,Dispatch By City
-label_from_lr_booking_date,From LR Booking Date
-label_to_lr_booking_date,To LR Booking Date
-label_lr_count,LR Count/Unit
-label_more,more
-label_less,less
-label_ddv_ftl,DDDV/FTL
-label_amount_tooltext,Freight + Hamali + Cartage	
-toolbar_receive_report,Receive Report
-toolbar_detailed_receive_report,Detailed - Receive Report
-toolbar_summary_receive_report,Summary -Receive Report
-label_booking_city,Booking City
-label_select_report_type,Select Report Type
-label_received_by_branch,Received By Branch
-label_select_received_by_branch,Select Received By Branch
-receive_report_type_1,Detailed
-receive_report_type_2,Summary
-label_select_booking_type,Select Booking Type
-label_online,Online
-label_offline,Offline
-label_show_auto_receive,Show Auto Receive Only
-label_lr_report,LR Report
-label_nop_units,NOP/Units
-label_receipt,Receipt
-label_dispatch_by,Dispatch By
-label_lr_details,LR Details
-label_dis_from_city,Disp From City
-label_dis_from_branch,Disp From Branch
-label_dest_city,Dest City
-label_dest_branch,Dest Branch
-label_receive_branch,Receive Branch
-receive_city,Receive City
-label_on_account_amt,OnAccount Amt
-tracking,Bus Tracking
-toolbar_chart_transfer,Chart Transfer
-label_arrange_transfer,Arrange Transfer
-toolbar_chart_details,Chart Details
-label_select_chart,Select Chart
-label_select_chart1,--Select Chart--
-label_old_Seat_chart,Old Chart
-label_new_Seat_chart,new Chart
-dropoff2,Dropoff :
-label_select_seat,Selected old seats
-transfer_all,Transfer all
-label_chat_and_arrangement,Chart / Arrange Transfer
-message_type_1,Please select empty seats
-message_type_2,Please select booked seats
-toolbar_arrange_transfer,Arrange Transfer
-label_transfer_succesfully,You have successfully transferred old seats to new seats
-label_confirm_sms,Confirm SMS
-label_select_different_seat,Please select different seat
-label_old_seat,Old Seats
-label_new_seat,New Seats
-label_sms_success,Sms sent successfully
-label_route_is_loading,Route is loading
-error_select_chart,Select chart for transfer
-select_pickup_droooff,Select Pickup &amp; Dropoff
-label_old_pick_up,Old Pickup
-label_old_drop_off,Old Dropoff
-label_new_pick_up,New Pickup
-label_new_drop_off,New Dropoff
-label_select_new_pick_up,Select New Pickup
-label_select_new_drop_off,Select New Dropoff
-booked_by,Booked By
-delivered_by,Delivered By
-msg_pickup_loading,Pickup is loading
-msg_drop_off_loading,Dropoff is loading
-valid,Valid
-validate_boarding,Validate Boarding for seat
-validate_pin,Validation using pin 
-cash_amount,Cash Amount
-cb_cash_amount,CB Cash amount
-cb_non_cash_amount,CB Non Cash amount
-pin,Pin
-qr,QR
-inactive_trip,Currently all sub-routes are closed !
-confirm_add_expense_msg,\nDo you want to add expense ?
-yes_add_expense,Yes
-no_close,Close
-not_available,Not Available
-lr_waybill,Lr(s)/Waybill(s)
-lr_waybill_single,Lr/Waybill
-total_qty,Total Qty
-volumetric_cm,Volumetric Weight(KG) =(Length*Width*Height/5000)
-volumetric_mm,Volumetric Weight(KG) =(Length*Width*Height/5000000)
-volumetric_inch,Volumetric Weight(KG) =(Length*Width*Height*16.3871/5000)
-please_enter_goods_value,Please enter goods value
-crossing_cartage,Crossing Cartage
-please_enter_crossing_remarks,Please enter Crossing Remarks
-crossing_remarks,Crossing Remarks
-validate,Validate
-please_enter_collection_cartage,Please enter Collection cartage
-branch_stock,Branch Stock
-units,Units
-add_manually,Add Manually
-add_lr,Add LR Manually
-lrs,LRs
-lrno,LRNO
-consignment_refund,Consignment Refund
-consignment_type,Consignment Type
-refund_amount,Refund amount
-reason_for_refund,Reason for refund
-refund_success,Refund is successful
-type_of_goods,Type of goods
-type_of_collection,Type of collection
-sender_mobile_no_,Sender mobile No
-receiver_mobile_no_,Receiver mobile No
-manuel_lr_no,Manual LR No
-common_lr,LR Search
-delivery_date,Delivery date
-bill_date,Bill date
-dispatch_date_time,Dispacth date time
-from_branch,From branch
-datetime,Date Time
-balance,Balance
-recharge_amount,Recharge amount
-mode_type,Cheque / Draft / Card #
-select_input_type,Select input type
-label_to_pay,To-Pay
-label_self,Self
-label_dddv,DDDV
-label_ftl,FTL
-scam_qr,Scan QR
-print_office_copy,Print office copy
-print_cust_copy,Print customer copy
-desc,Desc
-sender_name_,Sender Name
-receiver_name_,Reciever Name
-label_valuation,Valuation
-hamali_all,All Hamali
-label_dispatch_from_branch,Dispatch From Branch
-label_dispatch_from,Dispatch From
-label_dddv_dispatch,DDDV Dispatch
-select_item_type,Select item type
-special_vehicle,Special vehicle
-hired_vehicle,Hired vehicle
-dispatch_date_,Dispatch Date:
-change_destination_branch,Do you want to change the Destination Branch?
-crossing,Crossing
-godown,Godown
-gstn,GSTN
-label_destination_branch,Destination Branch
-select_items,Select Items
-date,Date
-monthly,Monthly
-month,Month
-generated_on,Generated on
-by_branch,By branch
-dispatch_memo_no,Dispatch memo no
-item_type_,Item type
-add_more_details,<u>Add More Details</u>
-show_less,<u>Show less</u>
-show_list_all,Show list all
-label_vehicle_wise,vehicle wise
-label_challan_wise,challan wise
-label_dddv_receive,DDDV Receive
-label_lit_receive,LIT
-dispatched_from_city,Dispatched from City
-lebel_receiving_city,Receiving City
-label_receiving_branch,Receiving Branch
-label_select_vehicle,Select Vehicle
-vehicle_wise,vehicle wise
-challan_wise,challan wise
-selected_lr_no,Selected LR No
-select_receving_branch,Select Receving Branch
-select_challan,Select Challan
-total_short_qty,Total Short Qty
-total_damage_qty,Total Damage Qty
-label_transfer_from_city,Transfer From City
-label_transfer_from_branch,Transfer From Branch
-label_destination_city,Destination City
-label_source_city,Source City
-label_source_branch,Source Branch
-total_items_,Total Items:
-isd_code,ISD
-add_receiver_details,<u>Add Receiver Details</u>
-add_sender_details,<u>Add Sender Details</u>
-compliance,compliance
-bill_info,Bill Info
-select_id_proof_type,Select ID Proof
-party_details,Party Details
-show_all,Show All
-party_email_id,Party Email ID
-party_pin_code,Party Pincode
-email_id,Email ID
-pinCode,Pincode
-upload_underline,<u>Upload</u>
-validate_underline,<u>Validate</u>
-sender_city_state,<![CDATA[Sender City & State]]>
-close_all,Close All
-close_sender_details,Close Sender Details
-receiver_city_state,<![CDATA[Reciever City & State]]>
-add,Add
-operator_hamali,Operator Hamali
-weight_charge,Weight Charge
-sender_id_and_image,<![CDATA[Sender ID & Image]]>
-select_sender_id_type,Select Sender ID Type
-enter_sender_id_number,Enter Sender ID Number
-sender_id_image,Sender ID Image
-upload_sender_id_image,Upload Sender ID Image
-sender_image,Sender Image
-upload_sender_image,Upload Sender Image
-receiver_pin_code,Receiver Pincode
-for_approval,FOC approval authority
-rupees_symbol,₹
-self_booking_pnr,PNR Number
-btn_save,Save
-print_report,Print Report
-consignment,Consignment
-booking_reprint,booking reprint
-booking_cancel,booking cancel
-delivery_cancel,delivery cancel
-delivery_reprint,delivery reprint
-book_again,book again
-hello_blank_fragment,Hello blank fragment
-booking_date_and_time,<![CDATA[Booking Date & Time]]>
-way_bill_no_lr_no,Way Bill No (LR No.)
-reprint_duplicate_copy,REPRINT (DUPLICATE COPY)
-destination_city,Destination City
-destination_branch,Destination Branch
-delivery_date_and_time,<![CDATA[Delivery Date & Time]]>
-search_new_lr,search new lr
-dispatch_remarks,Dispatch Remarks
-receive_remarks,Receive Remarks
-received_date_and_time,<![CDATA[Received Date & Time]]>
-label_received_by,Received By
-delivery_charge,Delivery Charge
-agent_city,Agent City
-select_agent_city,Select agent city
-bank_name,Bank name
-transaction_id,Transaction Id
-choose_date,Choose a payment date!
-payment_modes_not_loaded,Payment modes list is not loaded!
-bus_advance,Bus Advance
-total_fare_gst,Total Fare(+GST)
-trip_detail_not_found_error,Trip Details Not Found For Selected Chart Date
-error_non_reporting_seat,Error while non-reporting seats!
-error_storing_in_cache,Error while storing into cache!
-msg_confirm_non_report_seat,Seat will be non-reported by following action.
-inKM,0 – 20\nKMPH
-inKM2,20 – 50\nKMPH
-inKM3,50 – 80\nKMPH
-inKMfinal,80+\nKMPH
-select_pnr,Select PNR
-disable_old_devices,Disable Old Devices
-manage_devices,Manage Devices
-branch_recharge,Branch Recharge
-pickup_man_mob_no,Pickupman mobile number
-label_gps_config_fail,Bus not assigned or GPS not configured.
-i_was_there,I was there
-send_i_was_there,Send I was there SMS
-pd_charge,Pickup dropoff charge
-quick_view_detail,Quick View Detail
-chart_date_wise_report,Chart Date Wise Report
-base_fare,Base Fare
-base_fare_with_gst,Base fare with GST
-net_fare,Net fare
-net_fare_gst,Net fare with GST
-cc_earned,CC Earned
-booking_date_wise,Booking Datewise report
-select_payment_mode,Select payment mode
-select_qr_payment_mode,Select QR payment mode
-bus_qrs,Bus QRs
-other_qrs,Other QRs
-selected_transaction,Selected transaction Ids
-transaction_amount,Transaction amount
-qr_less_amount_error,"Scanned amount is less than the total fare, Scan different QR or change the payment mode to continue the booking !"
-trans_dt_time,Transaction date time
-mobile_number,Mobile number
-apply,Apply
-quota_of,Quota of
-cancel_chart,Cancel chart
-get_qr_to_scan,Get QR to scan
-pdbf_voucher,PBDF Voucher
-fill_info,Fill with customer Mobile number and Email ID(optional) to generate prepaid card against the mobile number.
-coupon_code,Coupon code
-validity,Validity
-transaction_code,Enter transaction code
-transaction_code_,Transaction code
-click_swipe_machine,Click preferred swipe machine type to proceed
-warning_payment,Please do not press back button or home button through the payment for a better payment experience
-swipe_charges,Swipe charges
-order_id,Order ID
-ezetap_payment,Card payment
-review_and_proceed,Review and proceed
-payment_info,Payment info
-go_to_seatchart,go to seat chart
-pay,Pay
-amount_payable,Amount payable
-customer_name,Customer name
-review_and_pay,Review and Pay
-label_tnc,T&amp;C
-label_view_coupons,View coupons
-coupon_discount,Coupon discount
-select_issuer,Select issuer
-qr_valid_fail,"QR validation failed , use a different QR or scan again !"
-trans_amount,Transaction amount
-bus_transactions,Bus transaction
-other_transactions,Other transactions
-offline_trips_tonetag,Tonetag - Offline trips
-four,Four
-fare_in_rupees,Fare in rs
-version_name,Version name
-build__number,Build number
-tv_last_synced,Last synced
-amntin_rs,Pass penalty
-show_date,Show date
-show_time,Show time
-dec_date,Start date
-route_len,Route
-number_given,Number given
-operator_name,Operator name
-end_price,End price
-book_amount,Booking amount
-booking_count,Booking count
-pnr_number,PNR number
-seat_type_number,Seat type number
-path_route,Path route
-conc_rate,Concession rate
-travels_name,Mantis travels
-security_pattern,"For security, set pattern"
-hold_release,Hold release
-copy_fare,Copy fare
-start_date,Start date
-voucher_success,Voucher success
-order_list,Order list
-other_expenses,Other expenses
-tnc_link,You agree to our Terms of Use agreement and Privacy Policy
-agent_details,Agent Details
-agenta_net_amount_,Agent Net Amount :
-add_penalty,Add Penalty
-additional_charges_qr,Additional charges - QR
-adv_book_amnt,Adv. Book Amnt
-adv_book_seates,Adv. Book Seats
 advance_booking,Advance Booking
+agent_details,Agent Details
+all_branches,All Branches
 all_cities,All Cities
 all_details,All Details
-all_seat,All Seat
-amounts,Amounts
-amount_gst,Amount+GST
-amt,Amt
-applied,Applied
-applied_to_seat,Applied to Seat
-assigned_trip_total,Assigned Trip Total
-msg_assignment_data_sync,Assignment Data Sync
+all_users,All Users
+an_error_occured,An error occurred
 assigned,Assigned
-auto_pos,AutoPOS
-available,Available
-berth,Berth
-berth_no,Berth No
-boarded,Boarded
+assigned_trip_total,Assigned Trip Total
+autopos,AutoPOS
+bkd_seats,Bkd Seats
+block_lr_failed,Block LR Failed
 blocked,Blocked
-boarding_data_synced,Boarding data synced!
-booking_dt,Booking dt
-boarding_report_sync,Boarding Report Sync
-booked_successfully,Booked successfully
+bluetooth_already_connected,Bluetooth already connected
+bluetooth_connected,Bluetooth connected.
+booking_dt,Booking Dt
+booking_print,Booking Print
 branch_details,Branch Details
 brand,Brand
+buildnumber,BuildNumber
 bus_cancellation,Bus Cancellation
-bus_conductor,BUS | Conductor
-bus_early,Bus Early
+nus_early,Bus Early
+bus_delay,Bus Delay
 bus_no_change,Bus No Change
+bus_conductor,BUS | Conductor
 bus_passenger,BUS | Passenger
 bus_type_change,Bus Type Change
-c_b_cash_amnt,C.B Cash Amnt
-c_b_non_cash_amnt,C.B Non Cash Amnt
-cache_data_sync,Cache Data Sync
-can_not_logout,Can not logout!
-cargo_refund,Cargo Refund
-cargo_report,Cargo report
+camera_permission_granted,Camera permission granted!!
+cancel_chart_successfull,Cancel chart sucessfull
+cancelled_successfully,Cancelled successfully
+charges,Charges
 cargo_block_lr,Cargo | Block LR
 cargo_booking,Cargo | Booking
 cargo_branch_recharge,Cargo | Branch Recharge
-cargo_dispatch,Cargo | Dispatch
+cargo_branch_transfer_receive,Cargo | Branch Transfer Receive
+cargo_branch_transfer_received,Cargo | Branch Transfer Received
+cargo_cancel_branch_transfer,Cargo | Cancel Branch Transfer
 cargo_delivery,Cargo | Delivery
+cargo_dispatch,Cargo | Dispatch
+cargo_files_cleared,Cargo Files Cleared
 cargo_lr_search,Cargo | LR Search
 cargo_receive,Cargo | Receive
 cargo_recharge,Cargo | Recharge
-cash,Cash
-cess,Cess
-characters_test,CHARACTERS TEST
+cargo_refund,Cargo Refund
+cargo_report,Cargo report
+cargo_service_created,cargo Service Created
+challan_number,Challan Number
 chart_cancelled,Chart cancelled
-charges,Charges
-checked_ok,CHECKED OK
-checker_login,Checker Login
-check_result,CheckResult
-child,Child
-current_booking,Current Booking
-comm,Comm
-cond_code,Cond Code
-conducor_name,Conducor Name
+chartdate,ChartDate
+companyid,CompanyID
 conductor_penalty_details,Conductor Penalty Details
-confirm_rent,Confirm Rent
-contact_booking_office,contact booking office
+confirmation,Confirmation
+connecting_with_bluetooth,Connecting with bluetooth
+consigner,Consigner
 coupon_applied_successfully,Coupon applied successfully
-curr_book_cash_amnt,Curr. Book Cash Amnt
-curr_book_seat,Curr. Book Seat
-curr_book_non_cash_amnt,Curr. Book Non-Cash Amnt
-current,Current
-customer_id,Customer Id
+couponid,CouponId
+couponname,CouponName
+cover,Cover
+curr_book_seats,Curr. Book Seat
+current_booking,Current Booking
 custom_sms,Custom SMS
-data_not_loaded,Data not loaded!
-datePickerDialog,DatePickerDialog
-device,Device
-device_id,Device Id
+customer_copy,Customer copy
+customer_pnr,Customer PNR
+data_not_found,Data not found
+date_not_valid,Date Not Valid
+delivery_failed,Delivery  Failed!!
+delivery_print,Delivery Print
+delivery_successful,Delivery Successful
 device_id_copied,Device id copied!
-device_metrics,Device metrics :
-device_name,Device Name
+device_metrics,Device metrics
 diesel,Diesel
-diesel_added_successfully,Diesel Added Successfully!
-dispatch_memo,Dispatch Memo
-displaytext,displayText
-div_code,Driv Code
-draw_pattern,Draw pattern
-drop_off,Drop-Off
-doc_no_,Doc No:
-enable_printing,Enable Printing
+diesel_added_successfully,Diesel Added Successfully
+dispatch_successful,Dispatch Successful
+doc_charges,Doc charges
+driv_code,Driv Code
+drop_charges,Drop Charges
+enable_gps,Enable GPS
+enabling_bluetooth,Enabling bluetooth
 end_time,End Time
-enable_gps, Enable GPS 
-enter_booking_id,Enter Booking Id
-enter_coupon_code,Enter coupon code
-enter_expense_amount,Enter expense amount!
+enter_bank_name,Enter bank name
 enter_diesel_litres,Enter diesel litres!
-enter_otp_received,Enter OTP received
-enter_passenger_mobile,Enter Passenger Mobile
-enter_remarks,Enter remarks
+enter_expense_amount,Enter expense amount!
+enter_from_date,Enter from date
+enter_lr_no,Enter LR no
+enter_mode_type,Enter mode type
+enter_pnr,Enter PNR
+enter_recharge_amount,Enter recharge amount
+enter_refund_amount,Enter refund amount
+enter_ticket_number,Enter ticket number
+enter_to_date,Enter to date
+enter_valid_data,Enter valid data!
+enter_valid_fare,Enter valid fare for
+enter_valid_notes,Enter valid notes!
 error_scanning_qr,Error scanning QR
-enter_search_text,Enter search text!
-enter_ticket_number,Enter ticket number!
-enter_valid_email,Enter valid email!
-enter_valid_notes, Enter valid notes! 
-error_listening,ERROR LISTENING:
+error_while_adding_expense,Error while adding expense
 exit,Exit
-failed_to_update,Failed to update
-msg_fetch_pending_transactions,Fetch - Pending transactions
-for_agent_name,For Agent Name:
-for_branch_user,For Branch User: 
-for_seat, for seat
+express_checkout_failure,Express checkout failure
+for_agent,For Agent :
+for_branch_user,For Branch User : 
 frieght,Frieght
-from_stage,From Stage
 fuel,Fuel
-full,Full
-generate_qr, Generate QR 
-get_pass,Get Pass
-get_orders,Get orders
-hrs,Hrs
-Issuer,Issuer
-in_bus_bookings,In Bus Bookings
-inspector,Inspector
+general,General (Pine Labs)
+general_conductor,General Conductor (Pine Labs)
+generalm,General ( Mswipe )
+general_conductorm,General Conductor ( Mswipe )
+guest,Guest
+inspection_report,Inspection Report
 inspector_name,Inspector Name
-inspector_report,Inspector Report
-insta_booking_seat,Insta Booking - seat 
 invalid_data,Invalid data
-invalid_qr,Invalid Qr
-invalid_qr_code,Invalid QR Code 
-item_selected,Item Selected
-jour_date,Jour. Date
-journey_in_progress,Journey in progress
-kms,KMS
-last_closed_time,Last closed time
+invalid_open_ticket,Invalid open ticket.
+journey_dt,Journey Dt
+last_closed_time,Last closed time : 
 later,Later
-liable_for_inspection,LIABLE FOR INSPECTION
-litres,litres
-loading,Loading…
-loading_data,Loading data!
-location_settings,Location settings
-login_data_sync,Login Data Sync
+load_seat_chart1,Load Seat Chart 1
+log_out,Log out
+luggage_amt,Luggage Amnt
 lugg_conductor,LUGG | Conductor
 lugg_passenger,LUGG | Passenger
-luggage_amnt,Luggage Amnt
-luggage_charge,Luggage Charge
+luggage_ticket,Luggage Ticket
+luggage_units,luggage units
+mailid,MailId
+manual_lr,Manual LR:
+manual_lr_number,Manual LR Number
 maven_device_id,Maven Device Id
-maven_periodic_sync,Maven Periodic Sync
-max_lenth_test,MAX LENGTH TEST
-min,Min
 misc,Misc
 misc_penalty_details,Misc Penalty Details
-my_button_fragment,MyButtonFragment
-nearby_buses,Nearby buses
+mobilenumber,MobileNumber
+multiple,Multiple
+unlimited,Unlimited
 net_trip_amnt,Net Trip Amnt
 net_trip_amount,Net Trip Amount
-net_total,Net Total
-new_,New
+no_branch_found,No branch found !
 no_cases_booked,No cases booked!
 no_coupons_found,No coupons found
-no_internet_connection,No Internet connection!
+no_internet_connection,No Internet connection
+no_match_found,No Match Found!
 no_network_available,No network available!
-no_pass_available,No pass available!
+no_penalty,No Penalty
+no_of_lrs,No of LRs : 
+no_offline_trips,No offline trips
+no_route_found,No route found
 no_section_found,No section found
 no_subroutes_found,No subroutes found
-no_of_tickets,
-no_offline_trips,No offline trips!
-no_penalty,No Penalty
+no_trips,No Trips Assigned
 no_user_found,No User Found
-not_authorised,Not Authorised
-not_transferable,NOT TRANSFERABLE
-number,Number
-o_b_cash_amnt,O.B Cash Amnt
-o_b_seat,O.B Seat
-o_b_non_cash_amnt,O.B Non Cash Amnt
-offline_bkg_cash,Offline Bkg cash
-off_bkg_cash_amnt,Off.Bkg Cash Amnt
-off_bkg_non_cash_amnt,Off.  Bkg Non Cash Amnt
-offline_booking_sync,Offline Booking Sync
+no_vehicle_found,No vehicle found !
+office_copy,Office copy
 offline_bkg_seat,Offline Bkg Seat
-offline_data_synced,Offline data synced!
-offline_login_sync,Offline Login Sync
-offline_luggage_sync,Offline Luggage Sync
-offline_penalty_sync,Offline Penalty Sync
-offline_penalties_synced,Offline penalties synced!
-open_report,Open Report
-open_ticket,Open Ticket
+offline_bookings,Offline Bookings
 open_tickets,Open Tickets
-otp_verified_successfully,OTP verified successfully
+orientation,orientation
 otp_not_verified,OTP not verified
-otp_sent_successfully,OTP sent successfully
-otp_validation_fails,OTP validation fails
-paid_type,Paid type
-pass,Pass
-pass_applied,Pass Applied 
-pass_discount,Pass Discount
-passenger_report,Passenger Report
-passenger_seat,Passenger - seat :
+otp_validation_fail,OTP validation fails
+otp_verified_successfully,OTP verified successfully
+packet,Packet
 passenger_penalty_details,Passenger Penalty Details
-payment_fails,Payment fails
+paid_topay,Paid-ToPay
+paid_type,Paid type
+parcel,Parcel
+passenger_seat,Passenger - seat :
+penalties,penalties
 penalty_added,Penalty Added
 penalty_amnt,Penalty Amnt
-penalty_amount,Penalty Amount
 penalty_case,Penalty Case
-penalty_id,Penalty ID
-penalty_report_,Penalty Report - 
-penalty_ticket,Penalty Ticket
-periodic_sync_job,Periodic Sync Job
-periodic_sync_started,Periodic sync started!
+penaly_id,Penalty ID
+permission_granted,Permission granted!!
+pickup_change,Pick Up Change
+pickup_van_details,Pick Up Van Details
 pin_validated_successfully,Pin validated successfully
-pickup_man,pickupMan
-pick_up,Pick-Up
-pick_up_change,Pick Up Change
-play_services, Play services :
-please_enter_amount,Please enter amount
+play_services,Play services
+please_collect_rs,Please collect Rs
+please_select_branch,Please select branch !!
+please_select_consignment,Please select consignment
 please_select_pickup,Please select pickup !
-please_select_seats,Please select seats!!
 pnr_name,PNR/Name
-pos,POS
-primary_mobile_number,Primary mobile number
-print_remarks,Print remarks
+pnr_not_valid,PNR Not valid
+pnrno,PNRNo
+police_warrant,Police Warrant
+postpaid,Postpaid
+prepaid,Prepaid
+print_preview,Print Preview
 print_success,Print success
+printed_successfully,Printed successfully!
+printer_connected_successfully,Printer connected successfully!
+printing_data,Printing data!
+qr_charge_customer,QR charge from customer
 qr_scanning_cancelled,QR scanning cancelled
-qty,Qty
-quick_view_details,Quick view details
-rates,Rates
+receiver_id_image,Receiver ID &amp; Image
+receiver_mobile_number,Receiver Mobile Number
 receiver_no,Receiver No
-remark,Remark
-remote_pos,Remote POS
-report,Report
-report_time,ReportTime
-search_booking,Search Booking
-search_with_name,Search with Name
-search_with_pnr,Search with PNR
-seat_count,Seat Count
-seat_fare,Seat Fare
-seat_route,Seat/Route
-select_all,Select all
-select_coupon,Select coupon
-select_coupon_type,Select coupon type
-select_ledger,Select ledger
-select_one_chart,select one chart
-select_pass,Select Pass
-select_pickups,Select Pickups
-select_provider_bank,Select provider(Bank)
-select_qr_provider,Select QR provider
-select_qr_type,Select QR Type
-select_stage,Select Stage
-send_express_checkout,Send Express Checkout
+reciept,Reciept
+redeem_coupons,Redeem Coupons
+remotepos,Remote POS
 scan_qr_code,Scan QR code
+search_booking,Search Booking
+search_with_pnr,Search with PNR
+seats_count,Seats Count
+seats_total_fare,"Seats, Total Fare ₹"
+seatwise_fare_edit,SeatWise Fare Edit
+select_dispatch,Select dispatch
+select_from_branch,Select from Branch
+select_godown_city,Select godown city
+select_items_for_sms,Select Items for SMS
+select_pickups,Select Pickups
+select_qr_type,Select QR type
+seat_route,Seat/Route
 select_services,Select Services
-send_gps_link,Send GPS Link
-sender_no,Sender No
+select_source_city,Select source city
+select_valid_connection,Select valid concession.
+sender_mobile_number,Sender Mobile Number
+services_notification,Services Notification
 should_not_happened,Should not happened
-sms_gps_link,SMS GPS Link
-sms_info,SMS Info
-sms_pnr_info,SMS PNR Info
-sms_sent,SMS sent!
-sms_template_here,sms template here..
-stage_name,Stage Name
+stage,Stage
 stage_wise_report,Stage Wise Report
-start_recording,Start recording
-start_syncing,Start Syncing
 start_time,Start Time
-stop_recording,Stop recording
-stop_syncing,Stop syncing
-submit_otp,SUBMIT OTP
-sync_job_started,Sync job started!
-sync_service,Sync Service
-sync_successful,Sync successful
-sync_worker,Sync worker
-syncing_internet_status,Syncing internet status
+subroute,Subroute
+successfully_cancelled,Successfully cancelled!
 terms,Terms
-ticket_fare,Ticket Fare
+ticket,Ticket
+ticket_booked_successfully,Ticket booked successfully
+tickets_cancelled_successfully,Tickets cancelled successfully
 title,Title
-tkt_no,Tkt-No
-to_stage,To Stage
-total_base_fare,Total Base Fare
+total_instances_found,Total Instances Found = 
 total_coll,Total Coll
-total_coll_amnt,Total Coll Amnt
-total_trips,Total Trips
-transaction_status,Transaction status
-transactionid, transactionid
-transaction_failiure,Transaction failiure
-transactions_from,transactions from 
+ottal_coll_amnt,Total Coll Amnt
+transaction_failure,Transaction failure
+transfer_items,Transfer Items
+transfer_successful,Transfer Successful
+transporter,Transporter
 trip_end_time,Trip End Time
+tripid,TripID
 unable_to_copy,Unable to copy!
-update_available,Update available
-unknown,UNKNOWN
-username, Username :
-validate_with_pin,Validate with Pin
-verification_status,Verification status
-verify,Verify
+validate_foc_otp,validate FOC OTP
+verification,Verification
 version_check,Version Check
-voucher_no,Voucher No
+version_upto_date,Version up to-date!
 voucher_based_booking,Voucher based booking
-voucher_receipt,Voucher Receipt
-warrant,Warrant
-way_bill_no,WayBill No
+voucher_no,Voucher No
+waybill_no,WayBill No
 wb_number,WB Number
 without_luggage_case,Without Luggage Case
 without_ticket_case,Without Ticket Case
-worker_cancelled,Worker cancelled
-msg_a_booking_is_already_done,A booking is already done against this seequence no..
-msg_account_heads_are_not_loaded,Account heads are not loaded!
-msg_against_the_mobile_number,against the mobile number :
+msg_booking_already_done,A booking is already done against this seequence no..
+msg_account_heads_not_loaded,Account heads are not loaded!
+msg_account_subheads_not_loaded,Account sub-heads are not loaded!
+msg_against_mobile, against the mobile number : 
+msg_used_fares_cleared,All used fares are cleared
 msg_amount_can_not_be_zero,Amount can not be Zero
-msg_amount_to_pay_qr,Amount to pay (Total + QR Charges) = Rs
-msg_app_cache_is_being_updated,App cache is being updated and pending data is synced to the server!
-msg_app_requires_gps_to_run_change_location,App requires GPS to run! Change the location setting to enable GPS
-msg_app_version_is_checked,App version is checked in the background!
-msg_arg_multi_scan_enabled,arg_multi_scan_enabled
-msg_as_qr_charge_from_customer,as QR charge from customer
-msg_app_won_t_work_without_the_permission,App won\'t work without the permission. Grant permission from settings 
-msg_account_sub_heads_are_not_loaded,Account sub-heads are not loaded!
-msg_bluetooth_connect_permission_granted,Bluetooth connect permission granted!!
-msg_boarding_already_done_for_the_pnr,Boarding already done for the PNR.
-msg_booking_details_pending_sync,Booking details pending sync!
-msg_cached_data_is_being_synced,Cached data is being synced in the background!
-msg_cannot_start_seat_route_fare_edit,Cannot start Seat Route Fare Edit
-msg_cargo_branch_transfer_receive,Cargo |Branch Transfer Receive
-msg_cargo_branch_transfer_received,Cargo | Branch Transfer Received
-msg_cargo_cancel_branch_transfer,Cargo | Cancel Branch Transfer
-msg_cess_data_not_loaded,Cess data not loaded!
-msg_chart_and_arrangement_transfer,Chart and arrangement transfer
-msg_consumed_amount_is_less_than_total,Consumed amount is less than the total amount !
-msg_concession_pass_not_selected,Concession Pass not selected!!
-msg_confirm_pattern_to_unlock,Confirm pattern to unlock
-msg_connect_at_least_four_dots,Connect at least 4 dots
-msg_customer_id_not_entered,Customer id not entered!!
-msg_data_pending_to_upload,Data pending to upload!
-msg_data_manager_does_not_exist_in_adapter,DataManager does not exist in adapter
-msg_device_not_supported,DeviceNotSupported - Company :
-msg_disabled_old_devices_successfully,Disabled old devices successfully!
-msg_dropoff_locations_not_loaded,"Dropoff locations not loaded!, try again"
-msg_empty_from_city_or_to_city_or_date,Empty from city or to city or date
+ms_amount_to_pay,Amount to pay (Total + QR Charges) = Rs 
+msg_app_permission_from_settings,App won\'t work without the permission. Grant permission from settings
+msg_sure_to_cancel,Are you sure want to cancel ?
+msg_sure_to_reprint,Are you sure want to reprint ?
+msg_qr_charge_customer,as QR charge from customer
+msg_binder_not_found_for_position,Binder not found for position
+msg_bluetooth_connect_granted,Bluetooth connect permission granted
+msg_bluetooth_not_connected,Bluetooth not connected with first attempt.
+msg_bluetooth_not_connected_error,Bluetooth not connected. Unknown error!
+msg_boarding_done_for_pnr,Boarding already done for the PNR.
+msg_branch_list_loading,Branch list is loading !
+msg_branch_transfer_received_items,Branch Transfer Received Items
+msg_bus_number_not_available,Bus Number Not Available
+msg_not_greater_than,Can not be greater than
+msg_cannot_start_route_fare,Cannot start Seat Route Fare Edit
+msg_cargo_service_created,Cargo Report Service Created
+msg_concession_pass_already_use,"Concession pass already in use , please use a different concession pass"
+msg_confirm_pattern,Confirm pattern to unlock
+msg_consignment_status_unavailable,Consignment status not available
+msg_consignment_type_loading,Consignment type is loading..
+msg_contact_offuce,contact booking office.
+msg_crop_feature_not_available,Crop feature not supported by this phone!!
+msg_dispatch_failed,"Dispatch failed, try again"
+msg_dropoff_not_loaded,"Dropoff locations not loaded!, try again"
+msg_empty,Empty from city or to city or date
 msg_empty_response_from_server,Empty response from server
-msg_empty_route_or_subroute,"Empty route or subroute, try again"
-msg_enter_four_digit_pin,Enter 4 digit PIN
+msg_empty_route,"Empty route or subroute, try again"
+msg_enter_lr_no,Enter an LR No / Manual LR No
 msg_enter_litres_in_notes,Enter litres in notes!
-msg_enter_otp_sent_on,Enter OTP sent on
-msg_enter_otp_sent_to_customer,Enter OTP sent to Customer Mobile No.
-msg_enter_passenger_detail_for_sending_sms,Enter passenger detail for sending sms!
-msg_enter_passenger_details,Enter passenger details to send link
+msg_enter_otp_sent,Enter OTP sent on
+msg_enter_otp_sent_to_customer_mobile,Enter OTP sent to Customer Mobile No.
+msg_detail_for_sms,Enter passenger detail for sending sms!
+msg_enter_reason_for_refund,Enter reason for refund
 msg_enter_valid_booking_id,Enter valid booking id to search!
-msg_enter_valid_secondary_mobile_number,Enter valid secondary mobile number!
-msg_error_while_fetching_seat_chart,Error while fetching seat chart!
-msg_error_while_adding_penalties,Error while adding penalties!
-msg_error_while_adding_expense,Error while adding expense!
-msg_error_while_blocking_chart,Error while blocking chart! Try again!
-msg_error_while_cancelling_ticket,Error while cancelling ticket!
-msg_error_while_fetching_bus_numbers,Error while fetching bus numbers!
-msg_error_while_fetching_the_latest,Error while fetching the latest pickups/dropoffs!
-msg_error_while_fetching_concession_pass,Error while fetching concession pass
-msg_error_while_fetching_the_route,Error while fetching the route!
-msg_error_while_getting_bus_numbers,Error while getting bus numbers!
-msg_error_while_modifying_seats,Error while modifying seats! Try again!
-msg_error_while_loading_report,Error while loading report!
-msg_error_while_loading_seat,Error while loading seat chart!
-msg_error_while_sending_sms,Error while sending SMS!
-msg_error_while_sending_otp,Error while sending otp!
-msg_error_while_fetching_seat,Error while fetching seat chart
-msg_error_while_fetching_sub_routes,Error while fetching sub routes!
-msg_error_while_getting_trips,Error while getting trips!
-msg_error_while_transferring_seat,Error while transferring seat! Try again!
-msg_error_while_verifying_otp,Error while verifying otp!
-msg_failed_to_generate_order_id_try_again,"Failed to generate order ID, try again or try a different payment mode"
-msg_failed_to_scan_qr,Failed to scan QR
-msg_failed_to_scan_invalid_qr_code,"Failed to scan , Invalid qr code"
-msg_failed_to_store_logo,Failed to store logo..
-msg_failed_to_validate_pin,"Failed to validate , Invalid PIN"
-msg_failed_to_scan,"Failed to scan , Invalid Qr Code !"
+msg_enter_vehicle_number,Enter valid vehicle No
+msg_error_fetching_city_list,Error Occurred while Fetching City List
+mag_dropoff_charge_error,Error Fetching Dropoff charge
+msg_pickup_caherge_error,Error Fetching Pickup charge
+msg_error_resending_otp,Error in resending OTP for delivery!!
+msg_error_uploading_id_proof,Error in uploading ID proof image!!
+msg_erroe_uploading_sender_image,Error in uploading sender image!!
+msg_error_adding_pnalities,Error while adding penalties!
+msg_error_blocking_chart,Error while blocking chart! Try again!
+msg_error_cancelling_ticket,Error while cancelling ticket
+msg_error_fetching,Error while fetching sub routes!
+msg_error_fetching_seat_chart,Error while fetching seat chart!
+msg_error_fetching_pickups_drops,Error while fetching the latest pickups/dropoffs!
+msg_error_fetching_route,Error while fetching the route!
+msg_error_booking_luggage,Error while booking luggage!
+msg_error_while_getting_bus_numbers,Error while getting bus numbers
+msg_error_loading_report,Error while loading report
+msg_error_modifying_seats,Error while modifying seats! Try again!
+msg_error_sending_otp,Error while sending otp
+msg_error_sending_sms,Error while sending SMS!
+msg_error_transferring_seat,Error while transferring seat! Try again!
+msg_ticket_booking_failed,Failed to book ticket
+msg_printer_connection_failed,"Failed to connect printer, try again"
+msg_failed_to_generate_order_id,"Failed to generate order ID, try again or try a different payment mode"
+recharge_request_failed,Failed to request recharge
+msg_failed_to_scan,"Failed to scan , Invalid qr code"
+msg_failed_logo_store,Failed to store logo..
+msg_invalid_pin,"Failed to validate , Invalid PIN"
 msg_fare_cannot_be_zero,Fare cannot be zero !!
 msg_fare_change_not_allowed,Fare change not allowed
-msg_fare_should_be_greater_than_zero,Fare should be greater than zero..
-msg_from_city_is_loading,from city is loading
-msg_for_security_confirm_pattern,"For security, confirm pattern"
-msg_for_terms_and_conditions,For terms and conditions
-msg_generate_qr_for_scanning,Generate QR for scanning
-msg_hold_release_succesfull,Hold release succesfull
-msg_if_you_have_forgotten_the_saved_pattern,"*If you have forgotten the saved pattern , logout,login and create a new pattern"
-msg_invalid_position_for_data_manager,Invalid position for DataManager!
-msg_insufficient_rights,Insufficient Rights: Fare change is not allowed below
-msg_kindly_contact_the_mavenTech_labs,Kindly contact the MavenTech Labs accounts team for assistance! 
-msg_kindlya_contact_your_representative,Kindly contact your representative for more information.
-msg_link_has_been_sent_successfully,Link has been sent successfully to the customer!!
-msg_load_seat_shart_one,Load Seat Chart 1
-msg_location_sync_is_in_progress,Location sync is in progress…
-msg_login_data_is_being_synced,Login data is being synced in the background!
-msg_login_details_pending_sync,Login details pending sync!
-msg_mobilen_number_is_not_verified,Mobile number is not verified!
-msg_monthly_rental_for_this_app_is,Monthly rental for this app is 
-msg_new_update_for_the_app,New update for the app is available. Update the app to enjoy latest features!
-msg_no_cash_ledger_exists_for_the_selected_user,No Cash Ledger Exists for the selected User. Please configure Cash Ledger
-msg_no_data_to_print,No data to print!
-msg_no_data_to_sync,No data to sync!
-msg_no_network_Connect,"No network ,Connect to internet !"
-msg_no_pass_is_applicable_along_with_child_concession,No pass is applicable along with child concession!
-msg_no_swipe_issuer_found_selectcash_mode,"No swipe issuer found , select cash mode and finish transaction."
+msg_terms_and_conditions,"For terms and conditions,"
+msg_from_city_loading,from city is loading
+msg_id_number_not_entered,Id proof number not entered!!
+msg_id_not_selected,Id proof type not selected!!
+msg_insufficient_rights,Insufficient Rights: Fare change is not allowed below 
+msg_link_sent_success,Link has been sent successfully to the customer!!
+msg_luggage_fare_not_configured,Luggage fare is not configured!
+msg_no_case_sent,\'No case\' status sent!
+msg_no_cash_ledger,No Cash Ledger Exists for the selected User. Please configure Cash Ledger
+msg_no_data,No data for latest pickups/dropoffs!
+msg_no_data_print,No data to print!
+msg_no_qr_information,No QR information found
+msg_no_rights_to_change_fare,User don\'t have sufficient rights to change the fare..
+msg_no_swiper_found,"No swipe issuer found , select cash mode and finish transaction."
+msg_no_data_to_print,No data found to print
 msg_no_transactions_found,No transactions found for the entered mobile number
 msg_no_transaction_list_found,No transaction list found
-msg_no_qr_infomation_found,No QR information found
-msg_not_all_subroutes_are_closed,Not all subroutes are closed or current time has not crossed trip end time
-msg_offline_bkg_non_cash,Offline Bkg non cash
-msg_offline_bkg_non_cash_amt,Offline Bkg Non cash Amt
-msg_offline_luggage_details_pending,Offline luggage details pending sync!
-msg_offline_penalties_are_being_synced,Offline penalties are being synced in the background!
-msg_offline_penalties_sync_failed,Offline penalties sync failed!
-msg_only_nine_seats_can_be_booked,Only 9 seats can be booked in offline mode!
+msg_subroutes_not_closed,Not all subroutes are closed or current time has not crossed trip end time
+msg_offline_bkg_cash_amt,Off.Bkg Cash Amnt
+msg_offline_bkg_non_cash,Off.  Bkg Non Cash Amnt
+msg_only_9_seats,Only 9 seats can be booked
+msg_only_9_seats_offline,Only 9 seats can be booked in offline mode!
+msg_max_9_seats_booking_allowed,Only max 9 seats booking allowed in offline mode !
 msg_order_status_updated,Order status updated successfully
-mag_otp_has_been_resend_successfully,OTP has been resend successfully!!
-msg_otp_succesfully_sent_to_the_contact_no,OTP succesfully sent to the contact no:
-msg_otp_verified_successfully,OTP verified successfully
-msg_passenger_boarding_details,Passenger boarding details are syncing!
-msg_pattern_successfully_recorded,"Pattern successfully recorded , press continue"
-msg_pickup_locations_not_loaded,"Pickup locations not loaded!, try again"
-msg_pick_up_van_details,Pick Up Van Details
-msg_pin_does_not_match,"Pin doesn\'t match ,failed to perform booking"
-msg_please_agree_to_our_terms,Please agree to our Terms of Use agreement and Privacy Policy
-msg_please_confirm_seat,Please confirm seat non-report
-msg_please_connect_atleast_four_dots,Please connect atleast 4 dots
-msg_pleasr_enter_valid_mobile_number,Please enter valid mobile number for initiating autopos transaction
-msg_please_enter_diesel_in_liters,Please enter Diesel in Liters
-msg_please_enter_Diesel_liters,Please enter Diesel liters
-msg_please_enter_staff_mobile_no,Please enter staff mobile no
-msg_please_enter_valid_contact_no,please enter valid contact no
-msg_please_enter_valid_min,please enter valid min
-msg_please_enter_the_otp,Please enter the OTP.
-msg_please_enter_sms_template,please enter sms template
-msg_please_enter_transaction_code,Please enter transaction code
-msg_please_enter_a_valid_fare,Please enter a valid fare
-msg_please_enter_valid_otp,Please enter valid OTP!!
-msg_please_give_us_bluetooth_connect,Please give us bluetooth connect or nearby devices permission!!
-msg_please_give_us_bluetooth_connect_permission,Please give us Bluetooth connect permission for bluetooth printer connection!!
-msg_please_give_us_bluetooth_scan,Please give us bluetooth scan permission!!
-msg_please_give_us_camera_permission,Please give us camera permission!!
-msg_please_give_us_read_storage,Please give us read storage permission!!
-msg_please_give_us_write_storage_permission,Please give us write storage permission!!
-msg_please_make_valid_seat,Please make a valid seat selection
-msg_please_select_different_payment_mode,Please select a different payment mode!!
-msg_please_select_a_valid_date,Please select a valid date
-msg_please_select_atleast_a_seat,Please select atleast a seat to continue
+msg_otp_resend_to_mobile,OTP has been resend to your mobile no 
+msg_otp_sent_to_mobile,OTP has been sent to your mobile no 
+msg_otp_sent_to_contact,OTP succesfully sent to the contact no:
+msg_party_list_loading,Party list is loading !
+msg_patter_found,Pattern Found at Position:
+msg_pattern_recorded,"Pattern successfully recorded , press continue"
+msg_pickup_dropoff_not_loaded,"Pickup and dropoff not loaded, wait"
+msg_pickup_not_loaded,"Pickup locations not loaded!, try again"
+msg_pin_doesnt_match,"Pin doesn\'t match ,failed to perform booking"
+msg_seat_non_report,Please confirm seat non-report
+msg_connect_dots,Please connect atleast 4 dots
+msg_enter_amount,Please enter amount
+msg_enter_valid_fare,Please enter a valid fare
+msg_enter_correct_pin_code,Please enter correct Pin code
+msg_enter_diesel_liters,Please enter Diesel Liters
+msg_enter_diesel_in_liters,Please enter Diesel in Liters
+msg_enter_lr_number,Please enter LR number
+msg_enter_pnr,Please Enter PNR Number
+msg_enter_otp,Please enter the OTP
+_msg_enter_sms_template,please enter sms template
+msg_enter_staff_details,Please enter staff mobile no
+msg_enter_valid_contact,please enter valid contact no
+msg_enter_valid_min,please enter valid min
+msg_enter_valid_mobile,Please enter valid Mobile no
+msg_enter_valid_mobile_num,Please enter a valid mobile number
+msg_enter_valid_name,Please enter Valid name
+msg_enter_valid_otp,Please enter valid OTP!!
+msg_fill_correct_delivery_cartage,Please fill correct Delivery cartage !!
+msg_fill_demurrage_charge,Please fill correct Demurrage charge!!
+msg_bluetooth_connection_for_printer,Please give us Bluetooth connect permission for bluetooth printer connection!!
+msg_permission_to_take_picture,Please give us camera permission to take picture!!
+msg_permission_access_image,Please give us read permission to access image from your device!!
+msg_storage_read_permission,Please give us storage read permission!!
+msg_provide_valid_mobile_number,Please provide valid mobile number for initiating auto POS transaction
+msg_search_for_date,Please Search for any date
+msg_select_coupon_type,Please select a coupon type
+msg_select_different_payment,Please select a different payment mode!!
+msg_select_any_transaction,Please select any transaction
+msg_select_seat,Please select atleast a seat to continue
+msg_select_valid_date,Please select a valid date
+msg_select_consignment_type,Please select consignment type !!
+msg_select_delivery_type,Please select delivery Type
+msg_select_input,Please select input type
+msg_select_one_party,Please select one party
 msg_select_pickup_groups,Please select pickup groups !
-msg_please_select_template_type,please select template type
-msg_please_select_a_coupon_type,Please select a coupon type
-msg_please_select_a_issuer_type,Please select a issuer type
-msg_please_select_any_transaction,Please select any transaction
-msg_please_wait_sub_routes_loading,"Please wait, SubRoutes are loading!"
+msg_select_received_by_branch,please select received by branch
+msg_select_some_luggage,Please select some luggage!!
+msg_select_some_seats,Please select some seats first!!
+msg_template_typle,please select template type
+msg_enter_valid_input,Please enter valid input
 msg_prepaid_card_generated_for,Prepaid card generated for
 msg_prepaid_card_already_generated,Prepaid card already generated for the orderid..
-msg_provide_contact_details,Provide contact details to send Express Checkout
+qr_from_different_lr,QR from different LR
 msg_qr_not_otp_verified,QR not OTP verified
-msg_recharge_request_submitted_successfully,Recharge request submitted successfully!
-msg_scan_qr_or_select_a_pending_transaction,Scan Qr or select a pending transaction
-msg_scanned_amount_is_less_than_amount,Scanned amount is less than amount to be paid !
-msg_scanned_amount_is_ln_the_total_fare,"Scanned amount is ln the total fare, Scan different QR or change the payment mode to continue the booking !ess tha"
-msg_scanned_qr_amount_is_less,Scanned QR amount is less than total fare 
+msg_range_cant_be_more_31,Range can not be more than 31 days
+msg_recharge_request_submitted_successfully,Recharge request submitted successfully
+msg_scan_qr_or_select_pending_transaction,Scan Qr or select a pending transaction
+msg_scanned_amount_less,Scanned amount is less than amount to be paid !
+msg_scanned_qr_less_than_total,Scanned QR amount is less than total fare !
 msg_search_with_mobile_no,Search with mobile no:
-msg_seat_wise_fare_edit,SeatWise Fare Edit
-msg_select_a_bus_number,Select a bus number!
-msg_select_a_trip_to_add_expense,Select a  Trip to add expense
-msg_select_qr_provider_and_type,Select QR provider and QR type to proceed!!
+msg_select_bus_number,Select a bus number!
+msg_select_a_trip_to_add_expense,Select a Trip to add expense
+msg_select_transfer_branch,Select branch to transfer
+msg_select_items_to_cancel,Select Items to Cancel
+msg_select_luggage_to_receive,Select Luggage to Receive
+msg_select_luggage_to_transfer,Select Luggage to Transfer
+msg_sms_for_passengers,Select passengers for sending sms!
 msg_select_seat_from_new_chart,Select seat from new chart
-msg_selected_seats_are_empty_in_booking_request,Selected seats are empty in booking request!
-msg_service_is_already_running,Service is already running!
-msg_send_link_to_multiple_passenger,Send link to multiple passenger
-msg_booking_is_failed_and_payment_is_prepaid,Since booking is failed and payment is successful a prepaid card is generated
+msg_select_transfer_vehicle,Select vehicle to transfer
+msg_consignment_cannot_deliver,Selected Consignment Cannot be Delivered
+msg_service_running,Service is already running!
+msg_prepaid_card_generated,Since booking is failed and payment is successful a prepaid card is generated
+msg_failed_sending_link,"Sorry,failed to send link!!"
+msg_no_routes,Sorry! No routes found!
 msg_problem_in_sending_otp,Sorry there is some problem in sending otp
-msg_stop_the_trip_to_logout,Stop the trip to logout..
-msg_sync_service_successfully_ran,Sync service successfully ran!
-msg_sync_started_from_worker,Sync started from worker!
-msg_sync_worker_successfully_ran,Sync worker successfully ran!
-msg_tickets_cancelled_successfully,Tickets cancelled successfully!
-msg_transaction_amount_can_not_be_less_,Transaction amount can\'t be less than total fare 
-msg_tripSheet_and_sub_routes_are_being_synced,TripSheet and sub-routes are being synced in the background!
-msg_unknown_error_occurred_try_again.,Unknown Error Occurred! Please try again.
-msg_unable_to_get_data,Unable to get data!
-msg_unable_to_open_google_play_store,Unable to open Google Play Store
-msg_user_is_not_logged_in,User is not logged in!
-msg_validation_failed_Kindly_try,"Validation failed , Kindly try a different QR"
-msg_verification_success_order_confirmed,Verification success - Order confirmed
-msg_version_up_to_date,Version up to-date!
-msg_wrong_pattern_try_again,"Wrong pattern, try again"
-msg_you_are_offline_status_synced_later,You are offline! Status will be synced later!
-msg_your_access_to_app_is_not_authorised_or_expired,Your access to app is not authorised or expired
+msg_stop_trip_to_logout,Stop the trip to logout..
+msg_storage_read_granted,Storage read permission granted!!
+msg_doesnt_support_crop,This device doesn\'t support the crop action!
+msg_non_reported_seat,This seat is non-reported.
+msg_transaction_amount_cannot_be_less,Transaction amount can\'t be less than total fare
+mag_transfer_branch_loading,Transfer branch is loading
+msg_error_while_printing,Unknown error while printing!
+msg_user_not_logged_in,User is not logged in!
+msg_verified_and_order_confirmed,Verification success - Order confirmed
+msg_weight_range,Weight should be in between 1.0 to 5.0 k
+msg_wrong_pattern,"Wrong pattern, try again"
+msg_youre_offline,You are offline! Status will be synced later!
+msg_youve_changed_rate,You have changed the rate from
+msg_recharge_request_successful,Your recharge request is successful
