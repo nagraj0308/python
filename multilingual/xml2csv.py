@@ -1,7 +1,6 @@
 import pandas as pd
 
-# Specify the path to your XML file
-fli = "strings.xml"
+fli = "strings_in.xml"
 flo = "strings.csv"
 i = 0
 j = 0

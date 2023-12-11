@@ -1,0 +1,426 @@
+Tag,String,Translation
+advance_booking,Advance Booking,एडवांस बुकिंग 
+agent_details,Agent Details,एजेंट विवरण
+all_branches,All Branches,सभी शाखाएँ
+all_cities,All Cities,सभी शहर
+all_details,All Details,सभी विवरण
+all_users,All Users,सभी उपयोगकर्ता
+an_error_occured,An error occurred,एक त्रुटि उत्पन्न हुई 
+assigned,Assigned,असाइन किया गया 
+assigned_trip_total,Assigned Trip Total,असाइन यात्रा का टोटल/कुल योग
+autopos,AutoPOS,ऑटोपीओएस
+bkd_seats,Bkd Seats,बुक की गयी सीटें
+block_lr_failed,Block LR Failed,ब्लॉक एलआर विफल हुआ 
+blocked,Blocked,ब्लॉक किया गया 
+bluetooth_already_connected,Bluetooth already connected,ब्लूटूथ पहले से ही कनेक्ट है
+bluetooth_connected,Bluetooth connected.,ब्लूटूथ कनेक्ट किया गया।
+booking_dt,Booking Dt,बुकिंग दिनांक
+booking_print,Booking Print,बुकिंग प्रिंट
+branch_details,Branch Details,शाखा विवरण
+brand,Brand,ब्रांड
+buildnumber,BuildNumber,बिल्ड संख्या 
+bus_cancellation,Bus Cancellation,बस रद्दीकरण
+nus_early,Bus Early,बस में जल्दी 
+bus_delay,Bus Delay,बस में देरी
+bus_no_change,Bus No Change,बस में कोई बदलाव नहीं
+bus_conductor,BUS | Conductor,बस | कंडक्टर
+bus_passenger,BUS | Passenger,बस | यात्री
+bus_type_change,Bus Type Change,बस का प्रकार बदला गया 
+camera_permission_granted,Camera permission granted!!,कैमरे की अनुमति प्रदान की गयी!!
+cancel_chart_successfull,Cancel chart sucessfull,चार्ट सफलतापूर्वक रद्द किया गया 
+cancelled_successfully,Cancelled successfully,सफलतापूर्वक रद्द किया गया
+charges,Charges,शुल्क
+cargo_block_lr,Cargo | Block LR,कार्गो | ब्लॉक एलआर
+cargo_booking,Cargo | Booking,कार्गो | बुकिंग
+cargo_branch_recharge,Cargo | Branch Recharge,कार्गो | शाखा रीचार्ज 
+cargo_branch_transfer_receive,Cargo | Branch Transfer Receive,कार्गो | शाखा हस्तांतरण प्राप्त हुआ 
+cargo_branch_transfer_received,Cargo | Branch Transfer Received,कार्गो | शाखा स्थानांतरण प्राप्त हुआ
+cargo_cancel_branch_transfer,Cargo | Cancel Branch Transfer,कार्गो | शाखा स्थानांतरण रद्द करना
+cargo_delivery,Cargo | Delivery,कार्गो | वितरण
+cargo_dispatch,Cargo | Dispatch,कार्गो | डिस्पैच 
+cargo_files_cleared,Cargo Files Cleared,कार्गो फ़ाइलें हटाई गईं 
+cargo_lr_search,Cargo | LR Search,कार्गो | एलआर खोज
+cargo_receive,Cargo | Receive,कार्गो | प्राप्त करना
+cargo_recharge,Cargo | Recharge,कार्गो | रीचार्ज करना 
+cargo_refund,Cargo Refund,कार्गो रिफंड
+cargo_report,Cargo report,कार्गो रिपोर्ट
+cargo_service_created,cargo Service Created,कार्गो सेवा बनाई गई
+challan_number,Challan Number,चालान संख्या 
+chart_cancelled,Chart cancelled,चार्ट रद्द कर दिया गया
+chartdate,ChartDate,चार्ट दिनांक
+companyid,CompanyID,कंपनी आईडी
+conductor_penalty_details,Conductor Penalty Details,कंडक्टर दंड विवरण
+confirmation,Confirmation,पुष्टीकरण
+connecting_with_bluetooth,Connecting with bluetooth,ब्लूटूथ से कनेक्ट हो रहा है
+consigner,Consigner,कंसाइनर 
+coupon_applied_successfully,Coupon applied successfully,कूपन सफलतापूर्वक लागू हो गया
+couponid,CouponId,कूपन आईडी
+couponname,CouponName,कूपन नाम
+cover,Cover,कवर 
+curr_book_seats,Curr. Book Seat,वर्तमान बुक की गयी सीट 
+current_booking,Current Booking,वर्तमान बुकिंग
+custom_sms,Custom SMS,कस्टम एसएमएस
+customer_copy,Customer copy,ग्राहक की प्रति
+customer_pnr,Customer PNR,ग्राहक पी.एन.आर
+data_not_found,Data not found,डेटा नहीं मिला
+date_not_valid,Date Not Valid,दिनांक मान्य नहीं है
+delivery_failed,Delivery  Failed!!,डिलीवरी विफल रही!!
+delivery_print,Delivery Print,डिलिवरी प्रिंट
+delivery_successful,Delivery Successful,डिलीवरी सफल हुई 
+device_id_copied,Device id copied!,डिवाइस/उपकरणआईडी कॉपी की गई!
+device_metrics,Device metrics,डिवाइस/उपकरणमेट्रिक्स
+diesel,Diesel,डीज़ल
+diesel_added_successfully,Diesel Added Successfully,डीजल सफलतापूर्वक जोड़ा गया
+dispatch_successful,Dispatch Successful,सफलतापूर्वक डिस्पैच किया गया 
+doc_charges,Doc charges,दस्तावेज शुल्क 
+driv_code,Driv Code,ड्राइवर कोड 
+drop_charges,Drop Charges,ड्राप करने का शुल्क 
+enable_gps,Enable GPS,जीपीएस सक्षम करना 
+enabling_bluetooth,Enabling bluetooth,ब्लूटूथ सक्षम करना
+end_time,End Time,अंत समय
+enter_bank_name,Enter bank name,बैंक का नाम दर्ज करना
+enter_diesel_litres,Enter diesel litres!,डीजल लीटर दर्ज करना!
+enter_expense_amount,Enter expense amount!,व्यय राशि दर्ज करना!
+enter_from_date,Enter from date,किस दिनांक से हैं यह दर्ज करना 
+enter_lr_no,Enter LR no,एलआर संख्या दर्ज करना
+enter_mode_type,Enter mode type,मोड प्रकार दर्ज करना
+enter_pnr,Enter PNR,पी.एन.आर. दर्ज करना
+enter_recharge_amount,Enter recharge amount,रीचार्ज राशि दर्ज करना
+enter_refund_amount,Enter refund amount,धनवापसी राशि दर्ज करना
+enter_ticket_number,Enter ticket number,टिकट संख्या दर्ज करना
+enter_to_date,Enter to date,दिनांक दर्ज करना
+enter_valid_data,Enter valid data!,वैध डेटा दर्ज करना!
+enter_valid_fare,Enter valid fare for,के लिए वैध किराया दर्ज करना
+enter_valid_notes,Enter valid notes!,वैध नोट दर्ज करना!
+error_scanning_qr,Error scanning QR,क्यूआर स्कैन करने में त्रुटि
+error_while_adding_expense,Error while adding expense,व्यय जोड़ते समय त्रुटि
+exit,Exit,बाहर आएं 
+express_checkout_failure,Express checkout failure,एक्सप्रेस चेकआउट विफलता
+for_agent,For Agent :,एजेंट के लिए:
+for_branch_user,For Branch User : ,शाखा उपयोगकर्ता के लिए:
+frieght,Frieght,किराया 
+fuel,Fuel,ईंधन
+general,General (Pine Labs),जनरल  (पाइन लैब्स)
+general_conductor,General Conductor (Pine Labs),जनरल कंडक्टर (पाइन लैब्स)
+generalm,General ( Mswipe ),जनरल (एमस्वाइप)
+general_conductorm,General Conductor ( Mswipe ),जनरल कंडक्टर (एमस्वाइप)
+guest,Guest,मेहमान 
+inspection_report,Inspection Report,निरीक्षण रिपोर्ट
+inspector_name,Inspector Name,इंस्पेक्टर का नाम
+invalid_data,Invalid data,अमान्य डेटा
+invalid_open_ticket,Invalid open ticket.,अमान्य ओपन टिकट 
+journey_dt,Journey Dt,यात्रा का दिनांक 
+last_closed_time,Last closed time : ,अंतिम बंद समय:
+later,Later,बाद में
+load_seat_chart1,Load Seat Chart 1,लोड सीट चार्ट 1
+log_out,Log out,लॉग आउट
+luggage_amt,Luggage Amnt,सामान राशि
+lugg_conductor,LUGG | Conductor,सामान | कंडक्टर
+lugg_passenger,LUGG | Passenger,सामान | यात्री
+luggage_ticket,Luggage Ticket,सामान का टिकट
+luggage_units,luggage units,सामान इकाइयाँ
+mailid,MailId,मेल आईडी
+manual_lr,Manual LR:,मैनुअल एलआर:
+manual_lr_number,Manual LR Number,मैनुअल एलआर संख्या
+maven_device_id,Maven Device Id,मेवेन डिवाइस/उपकरणआईडी
+misc,Misc,विविध
+misc_penalty_details,Misc Penalty Details,विविध दंड विवरण
+mobilenumber,MobileNumber,मोबाइल संख्या 
+multiple,Multiple,विविध 
+unlimited,Unlimited,असीमित
+net_trip_amnt,Net Trip Amnt,यात्रा की शुद्ध राशि 
+net_trip_amount,Net Trip Amount,यात्रा की शुद्ध राशि 
+no_branch_found,No branch found !,कोई शाखा नहीं मिली!
+no_cases_booked,No cases booked!,कोई मामला दर्ज नहीं!
+no_coupons_found,No coupons found,कोई कूपन नहीं मिला
+no_internet_connection,No Internet connection,कोई इंटरनेट कनेक्शन नहीं
+no_match_found,No Match Found!,कोई मेल नहीं मिला!
+no_network_available,No network available!,कोई नेटवर्क उपलब्ध नहीं!
+no_penalty,No Penalty,कोई दंड नहीं
+no_of_lrs,No of LRs : ,एलआर की संख्या:
+no_offline_trips,No offline trips,कोई ऑफ़लाइन यात्रा नहीं
+no_route_found,No route found,कोई मार्ग नहीं मिला
+no_section_found,No section found,कोई सेक्शन नहीं मिला 
+no_subroutes_found,No subroutes found,कोई उपमार्ग नहीं मिला
+no_trips,No Trips Assigned,कोई यात्रा असाइन नहीं 
+no_user_found,No User Found,कोई उपयोगकर्ता नहीं मिला
+no_vehicle_found,No vehicle found !,कोई वाहन नहीं मिला!
+office_copy,Office copy,ऑफिस कॉपी/कार्यालय प्रति 
+offline_bkg_seat,Offline Bkg Seat,  ऑफलाइन बुकिंग सीट 
+offline_bookings,Offline Bookings,ऑफलाइन बुकिंग
+open_tickets,Open Tickets,ओपन टिकट्स 
+orientation,orientation,ओरिएंटेशन 
+otp_not_verified,OTP not verified,ओटीपी सत्यापित नहीं है
+otp_validation_fail,OTP validation fails,ओटीपी सत्यापन विफल हुआ 
+otp_verified_successfully,OTP verified successfully,ओटीपी सफलतापूर्वक सत्यापित हो गया
+packet,Packet,पैकेट
+passenger_penalty_details,Passenger Penalty Details,यात्री जुर्माने का विवरण
+paid_topay,Paid-ToPay,भुगतान करने के लिए भुगतान 
+paid_type,Paid type,भुगतान प्रकार
+parcel,Parcel,पार्सल
+passenger_seat,Passenger - seat :,यात्री सीट :
+penalties,penalties,दंड
+penalty_added,Penalty Added,दंड जोड़ा गया
+penalty_amnt,Penalty Amnt,दंड राशि
+penalty_case,Penalty Case,जुर्माने का मामला
+penaly_id,Penalty ID,दंड आईडी
+permission_granted,Permission granted!!,अनुमति प्रदान की गयी 
+pickup_change,Pick Up Change,पिक अप में परिवर्तन 
+pickup_van_details,Pick Up Van Details,पिकअप वैन विवरण
+pin_validated_successfully,Pin validated successfully,पिन सफलतापूर्वक मान्य किया गया
+play_services,Play services,प्ले सर्विस 
+please_collect_rs,Please collect Rs,कृपया रुपये एकत्र करें
+please_select_branch,Please select branch !!,कृपया शाखा का चयन करें!!
+please_select_consignment,Please select consignment,कृपया कन्साइनमेंट का चयन करें 
+please_select_pickup,Please select pickup !,कृपया पिकअप का चयन करें!
+pnr_name,PNR/Name,पी.एन.आर./नाम
+pnr_not_valid,PNR Not valid,पी.एन.आर. मान्य नहीं है
+pnrno,PNRNo,पी.एन.आर. संख्या 
+police_warrant,Police Warrant,पुलिस वारंट
+postpaid,Postpaid,पोस्टपेड
+prepaid,Prepaid,प्रीपेड
+print_preview,Print Preview,मुद्रण पूर्वावलोकन
+print_success,Print success,प्रिंट सफल हुआ 
+printed_successfully,Printed successfully!,सफलतापूर्वक प्रिंट किया गया 
+printer_connected_successfully,Printer connected successfully!,प्रिंटर सफलतापूर्वक कनेक्ट हुआ!
+printing_data,Printing data!,प्रिंटिंग डेटा 
+qr_charge_customer,QR charge from customer,ग्राहक से क्यूआर शुल्क
+qr_scanning_cancelled,QR scanning cancelled,क्यूआर स्कैनिंग रद्द की गयी 
+receiver_id_image,Receiver ID &amp; Image,पाने वाले की आईडी और एएमपी;तस्वीर 
+receiver_mobile_number,Receiver Mobile Number,पाने वाले की मोबाइल संख्या
+receiver_no,Receiver No,पाने वाले की संख्या 
+reciept,Reciept,रसीद
+redeem_coupons,Redeem Coupons,रिडीम कूपन्स 
+remotepos,Remote POS,रिमोट पीओएस
+scan_qr_code,Scan QR code,क्यूआर कोड स्कैन करना 
+search_booking,Search Booking,बुकिंग खोजना 
+search_with_pnr,Search with PNR,पी एन आर से खोजना 
+seats_count,Seats Count,सीटों की गिनती करना 
+seats_total_fare,"Seats, Total Fare â‚¹","सीटें, कुल किराया â‚¹"
+seatwise_fare_edit,SeatWise Fare Edit,सीटवार किराया संपादित करना
+select_dispatch,Select dispatch,डिस्पैच का चयन करना 
+select_from_branch,Select from Branch,किस शाखा से है यह चयन करना 
+select_godown_city,Select godown city,गोदाम शहर का चयन करना
+select_items_for_sms,Select Items for SMS,एसएमएस के लिए आइटम का चयन करना
+select_pickups,Select Pickups,पिकअप का चयन करना
+select_qr_type,Select QR type,क्यूआर प्रकार का चयन करना 
+seat_route,Seat/Route,सीट/मार्ग
+select_services,Select Services,सेवाओं का चयन करना 
+select_source_city,Select source city,स्रोत शहर का चयन करना 
+select_valid_connection,Select valid concession.,वैध छूट का चयन करना।
+sender_mobile_number,Sender Mobile Number,भेजने वाले की मोबाइल संख्या
+services_notification,Services Notification,सेवा नोटिफिकेशन 
+should_not_happened,Should not happened,नहीं होना चाहिए
+stage,Stage,स्टेज 
+stage_wise_report,Stage Wise Report,स्टेज अनुसार रिपोर्ट 
+start_time,Start Time,समय आरम्भ 
+subroute,Subroute,उपमार्ग
+successfully_cancelled,Successfully cancelled!,सफलतापूर्वक रद्द किया गया!
+terms,Terms,शर्तें
+ticket,Ticket,टिकट
+ticket_booked_successfully,Ticket booked successfully,टिकट सफलतापूर्वक बुक हो गया
+tickets_cancelled_successfully,Tickets cancelled successfully,टिकटें सफलतापूर्वक रद्द कर दी गईं
+title,Title,शीर्षक
+total_instances_found,Total Instances Found = ,कुल पाए गए उदाहरण =
+total_coll,Total Coll,कुल संग्रह
+ottal_coll_amnt,Total Coll Amnt,कुल संग्रह राशि
+transaction_failure,Transaction failure,लेन-देन विफलता
+transfer_items,Transfer Items,आइटम स्थानांतरित करना
+transfer_successful,Transfer Successful,स्थानांतरण सफल हुआ 
+transporter,Transporter,ट्रांसपोर्टर
+trip_end_time,Trip End Time,यात्रा समाप्ति समय
+tripid,TripID,यात्रा आईडी 
+unable_to_copy,Unable to copy!,कॉपी करने में विफल 
+validate_foc_otp,validate FOC OTP,एफओसी ओटीपी को मान्य करना
+verification,Verification,सत्यापन
+version_check,Version Check,संस्करण की जाँच करना
+version_upto_date,Version up to-date!,संस्करण अपटूडेट
+voucher_based_booking,Voucher based booking,वाउचर आधारित बुकिंग
+voucher_no,Voucher No,वाउचर संख्या
+waybill_no,WayBill No,वेबिल संख्या 
+wb_number,WB Number,वे बिल संख्या 
+without_luggage_case,Without Luggage Case,बिना लगेज मामले 
+without_ticket_case,Without Ticket Case,बिना टिकट केस
+msg_booking_already_done,A booking is already done against this seequence no..,इस क्रम संख्या के लिए एक बुकिंग पहले ही हो चुकी है।।
+msg_account_heads_not_loaded,Account heads are not loaded!,अकाउंट हेड को अभी तक लोड नहीं किया है 
+msg_account_subheads_not_loaded,Account sub-heads are not loaded!,अकाउंट सब-हेड को अभी तक लोड नहीं किया है 
+msg_against_mobile, against the mobile number : ,इस मोबाइल संख्या के लिए:
+msg_used_fares_cleared,All used fares are cleared,उपयोग किए गए सभी किराए हटा दिए गए हैं 
+msg_amount_can_not_be_zero,Amount can not be Zero,राशि शून्य नहीं हो सकती
+ms_amount_to_pay,Amount to pay (Total + QR Charges) = Rs ,भुगतान की जाने वाली राशि (कुल + क्यूआर शुल्क) = रु
+msg_app_permission_from_settings,App won\'t work without the permission. Grant permission from settings,अनुमति के बिना ऐप काम नहीं करेगा। सेटिंग्स से अनुमति प्रदान करना
+msg_sure_to_cancel,Are you sure want to cancel ?,क्या आप इसे वास्तव में रद्द करना चाहते हैं?
+msg_sure_to_reprint,Are you sure want to reprint ?,क्या आप इसे दोबारा प्रिंट करना चाहते हैं?
+msg_qr_charge_customer,as QR charge from customer,ग्राहक से क्यूआर शुल्क के रूप में
+msg_binder_not_found_for_position,Binder not found for position,पोजीशन के लिए बाइंडर नहीं मिला
+msg_bluetooth_connect_granted,Bluetooth connect permission granted,ब्लूटूथ कनेक्ट अनुमति प्रदान की गयी
+msg_bluetooth_not_connected,Bluetooth not connected with first attempt.,पहले प्रयास में ब्लूटूथ कनेक्ट नहीं हुआ।
+msg_bluetooth_not_connected_error,Bluetooth not connected. Unknown error!,ब्लूटूथ कनेक्ट नहीं है। अज्ञात त्रुटि!
+msg_boarding_done_for_pnr,Boarding already done for the PNR.,पी.एन.आर. के लिए बोर्डिंग पहले ही हो चुकी है।
+msg_branch_list_loading,Branch list is loading !,शाखा सूची लोड हो रही है!
+msg_branch_transfer_received_items,Branch Transfer Received Items,शाखा स्थानांतरण प्राप्त वस्तुएँ
+msg_bus_number_not_available,Bus Number Not Available,बस संख्या उपलब्ध नहीं है
+msg_not_greater_than,Can not be greater than,यह इससे बड़ा नहीं हो सकता है 
+msg_cannot_start_route_fare,Cannot start Seat Route Fare Edit,सीट रूट किराया एडिट आरम्भ नहीं हो सकता है 
+msg_cargo_service_created,Cargo Report Service Created,कार्गो रिपोर्ट सेवा बनाई गई
+msg_concession_pass_already_use,"Concession pass already in use , please use a different concession pass","छूट पास पहले से ही उपयोग में है, कृपया किसी भिन्न छूट पास का उपयोग करें"
+msg_confirm_pattern,Confirm pattern to unlock,अनलॉक करने के लिए पैटर्न की पुष्टि करना 
+msg_consignment_status_unavailable,Consignment status not available,कंसाइन्मेंट की स्थिति उपलब्ध नहीं है
+msg_consignment_type_loading,Consignment type is loading..,कंसाइन्मेंट प्रकार लोड हो रहा है।।
+msg_contact_offuce,contact booking office.,बुकिंग कार्यालय से संपर्क करना।
+msg_crop_feature_not_available,Crop feature not supported by this phone!!,क्रॉप सुविधा इस फ़ोन में उपलब्ध नहीं है 
+msg_dispatch_failed,"Dispatch failed, try again","डिस्पैच विफल, पुनः प्रयास करें "
+msg_dropoff_not_loaded,"Dropoff locations not loaded!, try again","ड्रॉपऑफ़ स्थान लोड नहीं हुए!, पुनः प्रयास करें"
+msg_empty,Empty from city or to city or date,"शहर से खाली करना, या शहर तक खाली करना या दिनांक तक खाली करना "
+msg_empty_response_from_server,Empty response from server,सर्वर से खाली प्रतिक्रिया
+msg_empty_route,"Empty route or subroute, try again","खाली मार्ग या उपमार्ग, पुनः प्रयास करें"
+msg_enter_lr_no,Enter an LR No / Manual LR No,एक एलआर संख्या / मैनुअल एलआर संख्या दर्ज करना
+msg_enter_litres_in_notes,Enter litres in notes!,नोट में लीटर दर्ज करना!
+msg_enter_otp_sent,Enter OTP sent on,भेजे गए ओटीपी को दर्ज करना
+msg_enter_otp_sent_to_customer_mobile,Enter OTP sent to Customer Mobile No.,ग्राहक की मोबाइल संख्या पर भेजा गया ओटीपी दर्ज करना।
+msg_detail_for_sms,Enter passenger detail for sending sms!,एसएमएस भेजने के लिए यात्री विवरण दर्ज करना!
+msg_enter_reason_for_refund,Enter reason for refund,धनवापसी का कारण दर्ज करना
+msg_enter_valid_booking_id,Enter valid booking id to search!,खोजने के लिए वैध बुकिंग आईडी दर्ज करना!
+msg_enter_vehicle_number,Enter valid vehicle No,वैध वाहन संख्या दर्ज करना
+msg_error_fetching_city_list,Error Occurred while Fetching City List,शहर सूची लाते समय त्रुटि हुई
+mag_dropoff_charge_error,Error Fetching Dropoff charge,ड्रॉपऑफ़ शुल्क प्राप्त करने में त्रुटि
+msg_pickup_caherge_error,Error Fetching Pickup charge,पिकअप शुल्क प्राप्त करने में त्रुटि
+msg_error_resending_otp,Error in resending OTP for delivery!!,डिलीवरी के लिए ओटीपी दोबारा भेजने में त्रुटि!!
+msg_error_uploading_id_proof,Error in uploading ID proof image!!,आईडी प्रूफ तस्वीर अपलोड करने में त्रुटि!!
+msg_erroe_uploading_sender_image,Error in uploading sender image!!,भेजने वाले की तस्वीर अपलोड करने में त्रुटि!!
+msg_error_adding_pnalities,Error while adding penalties!,दंड जोड़ते समय त्रुटि!
+msg_error_blocking_chart,Error while blocking chart! Try again!,चार्ट ब्लॉक करते समय त्रुटि! पुनः प्रयास करें 
+msg_error_cancelling_ticket,Error while cancelling ticket,टिकट रद्द करते समय त्रुटि
+msg_error_fetching,Error while fetching sub routes!,उपमार्ग निकालते समय त्रुटि!
+msg_error_fetching_seat_chart,Error while fetching seat chart!,सीट चार्ट निकालते समय त्रुटि!
+msg_error_fetching_pickups_drops,Error while fetching the latest pickups/dropoffs!,नवीनतम पिकअप/ड्रॉपऑफ़ निकालते समय त्रुटि!
+msg_error_fetching_route,Error while fetching the route!,मार्ग निकालते समय त्रुटि!
+msg_error_booking_luggage,Error while booking luggage!,सामान बुक करते समय त्रुटि!
+msg_error_while_getting_bus_numbers,Error while getting bus numbers,बस संख्या प्राप्त करते समय त्रुटि
+msg_error_loading_report,Error while loading report,रिपोर्ट लोड करते समय त्रुटि
+msg_error_modifying_seats,Error while modifying seats! Try again!,सीटें संशोधित करते समय त्रुटि! पुनः प्रयास करें!
+msg_error_sending_otp,Error while sending otp,ओटीपी भेजते समय त्रुटि
+msg_error_sending_sms,Error while sending SMS!,एसएमएस भेजते समय त्रुटि!
+msg_error_transferring_seat,Error while transferring seat! Try again!,सीट स्थानांतरित करते समय त्रुटि! पुनः प्रयास करें!
+msg_ticket_booking_failed,Failed to book ticket,टिकट बुक करने में विफलता 
+msg_printer_connection_failed,"Failed to connect printer, try again","प्रिंटर कनेक्ट करने में विफलता, पुनः प्रयास करें"
+msg_failed_to_generate_order_id,"Failed to generate order ID, try again or try a different payment mode","ऑर्डर आईडी जनरेट करने में विफलता, पुनः प्रयास करें या कोई भिन्न भुगतान मोड आज़माएं"
+recharge_request_failed,Failed to request recharge,रीचार्ज का अनुरोध करने में विफलता 
+msg_failed_to_scan,"Failed to scan , Invalid qr code","स्कैन करने में विफलता, अमान्य क्यूआर कोड"
+msg_failed_logo_store,Failed to store logo..,लोगो संग्रहीत करने में विफलता 
+msg_invalid_pin,"Failed to validate , Invalid PIN","सत्यापित करने में विफलता, अमान्य पिन"
+msg_fare_cannot_be_zero,Fare cannot be zero !!,किराया शून्य नहीं हो सकता!!
+msg_fare_change_not_allowed,Fare change not allowed,किराया परिवर्तन की अनुमति नहीं है
+msg_terms_and_conditions,"For terms and conditions,","नियम एवं शर्तों के लिए,"
+msg_from_city_loading,from city is loading,किस शहर से यह लोड हो रहा है
+msg_id_number_not_entered,Id proof number not entered!!,आईडी प्रूफ संख्या दर्ज नहीं की गयी
+msg_id_not_selected,Id proof type not selected!!,आईडी प्रमाण प्रकार चयनित नहीं!!
+msg_insufficient_rights,Insufficient Rights: Fare change is not allowed below ,अपर्याप्त अधिकार: नीचे किराया नहीं बदला जा सकता है 
+msg_link_sent_success,Link has been sent successfully to the customer!!,ग्राहक को लिंक सफलतापूर्वक भेज दिया गया है!!
+msg_luggage_fare_not_configured,Luggage fare is not configured!,सामान का किराया निर्धारित नहीं है!
+msg_no_case_sent,\'No case\' status sent!,\'कोई मामला नहीं\' स्थिति भेजी गई!
+msg_no_cash_ledger,No Cash Ledger Exists for the selected User. Please configure Cash Ledger,चयनित उपयोगकर्ता के लिए कोई कैश लेजर मौजूद नहीं है। कृपया कैश लेजर कॉन्फ़िगर करें
+msg_no_data,No data for latest pickups/dropoffs!,नवीनतम पिकअप/ड्रॉपऑफ़ के लिए कोई डेटा नहीं!
+msg_no_data_print,No data to print!,प्रिंट करने के लिए कोई डेटा नहीं!
+msg_no_qr_information,No QR information found,कोई क्यूआर जानकारी नहीं मिली
+msg_no_rights_to_change_fare,User don\'t have sufficient rights to change the fare..,उपयोगकर्ता किराया नहीं बदल सकता है 
+msg_no_swiper_found,"No swipe issuer found , select cash mode and finish transaction.","कोई स्वाइप जारीकर्ता नहीं मिला, नकद मोड का चयन करें और लेनदेन समाप्त करें।"
+msg_no_data_to_print,No data found to print,प्रिंट करने के लिए कोई डेटा नहीं मिला
+msg_no_transactions_found,No transactions found for the entered mobile number,दर्ज मोबाइल संख्या के लिए कोई लेनदेन नहीं मिला
+msg_no_transaction_list_found,No transaction list found,कोई लेन-देन सूची नहीं मिली
+msg_subroutes_not_closed,Not all subroutes are closed or current time has not crossed trip end time,सभी उपमार्ग बंद नहीं हैं या वर्तमान समय ने यात्रा समय पार नहीं किया है 
+msg_offline_bkg_cash_amt,Off.Bkg Cash Amnt,ऑफलाइन बुकिंग नकद राशि
+msg_offline_bkg_non_cash,Off.  Bkg Non Cash Amnt,ऑफलाइन बुकिंग गैर नकद राशि
+msg_only_9_seats,Only 9 seats can be booked,सिर्फ 9 सीटें ही बुक की जा सकेंगी
+msg_only_9_seats_offline,Only 9 seats can be booked in offline mode!,ऑफ़लाइन मोड में केवल 9 सीटें बुक की जा सकती हैं!
+msg_max_9_seats_booking_allowed,Only max 9 seats booking allowed in offline mode !,ऑफ़लाइन मोड में केवल अधिकतम 9 सीटों की बुकिंग की अनुमति है!
+msg_order_status_updated,Order status updated successfully,ऑर्डर स्थिति सफलतापूर्वक अपडेट की गई
+msg_otp_resend_to_mobile,OTP has been resend to your mobile no ,आपकी मोबाइल संख्या पर ओटीपी पुनः भेज दिया गया है
+msg_otp_sent_to_mobile,OTP has been sent to your mobile no ,आपकी मोबाइल संख्या पर ओटीपी भेजा गया है
+msg_otp_sent_to_contact,OTP succesfully sent to the contact no:,ओटीपी सफलतापूर्वक संपर्क संख्या पर भेजा गया:
+msg_party_list_loading,Party list is loading !,पार्टी सूची लोड हो रही है!
+msg_patter_found,Pattern Found at Position:,इस पोजीशन पर पाया गया पैटर्न:
+msg_pattern_recorded,"Pattern successfully recorded , press continue","पैटर्न सफलतापूर्वक रिकॉर्ड किया गया, जारी रखें दबाएँ"
+msg_pickup_dropoff_not_loaded,"Pickup and dropoff not loaded, wait","पिकअप और ड्रॉपऑफ़ लोड नहीं हुआ, प्रतीक्षा करें"
+msg_pickup_not_loaded,"Pickup locations not loaded!, try again","पिकअप स्थान लोड नहीं हुए!, पुनः प्रयास करें"
+msg_pin_doesnt_match,"Pin doesn\'t match ,failed to perform booking","पिन नहीं मिल रहा है, बुकिंग करने में विफल"
+msg_seat_non_report,Please confirm seat non-report,कृपया सीट गैर-रिपोर्ट की पुष्टि करें
+msg_connect_dots,Please connect atleast 4 dots,कृपया कम से कम 4 बिंदु जोड़ें
+msg_enter_amount,Please enter amount,कृपया राशि दर्ज करें
+msg_enter_valid_fare,Please enter a valid fare,कृपया वैध किराया दर्ज करें
+msg_enter_correct_pin_code,Please enter correct Pin code,कृपया सही पिन कोड दर्ज करें
+msg_enter_diesel_liters,Please enter Diesel Liters,कृपया डीजल लीटर दर्ज करें
+msg_enter_diesel_in_liters,Please enter Diesel in Liters,कृपया डीजल लीटर में दर्ज करें
+msg_enter_lr_number,Please enter LR number,कृपया एलआर संख्या दर्ज करें
+msg_enter_pnr,Please Enter PNR Number,कृपया पी।एन।आर। संख्या दर्ज करें
+msg_enter_otp,Please enter the OTP,कृपया ओटीपी दर्ज करें
+_msg_enter_sms_template,please enter sms template,कृपया एसएमएस टेम्प्लेट दर्ज करें
+msg_enter_staff_details,Please enter staff mobile no,कृपया स्टाफ की मोबाइल संख्या दर्ज करें
+msg_enter_valid_contact,please enter valid contact no,कृपया वैध संपर्क संख्या दर्ज करें
+msg_enter_valid_min,please enter valid min,कृपया वैध मिनट दर्ज करें
+msg_enter_valid_mobile,Please enter valid Mobile no,कृपया वैध मोबाइल संख्या दर्ज करें
+msg_enter_valid_mobile_num,Please enter a valid mobile number,कृपया एक वैध मोबाइल संख्या दर्ज करें
+msg_enter_valid_name,Please enter Valid name,कृपया मान्य नाम दर्ज करें
+msg_enter_valid_otp,Please enter valid OTP!!,कृपया वैध ओटीपी दर्ज करें!!
+msg_fill_correct_delivery_cartage,Please fill correct Delivery cartage !!,कृपया सही डिलिवरी कार्टेज भरें!!
+msg_fill_demurrage_charge,Please fill correct Demurrage charge!!,कृपया सही विलंब शुल्क भरें!!
+msg_bluetooth_connection_for_printer,Please give us Bluetooth connect permission for bluetooth printer connection!!,कृपया हमें ब्लूटूथ प्रिंटर कनेक्शन के लिए ब्लूटूथ कनेक्ट अनुमति दें!!
+msg_permission_to_take_picture,Please give us camera permission to take picture!!,कृपया हमें चित्र लेने के लिए कैमरे की अनुमति दें!!
+msg_permission_access_image,Please give us read permission to access image from your device!!,कृपया हमें अपने डिवाइस/उपकरण से तस्वीर तक पहुँचने के लिए पढने की अनुमति दें 
+msg_storage_read_permission,Please give us storage read permission!!,कृपया हमें भंडारण पढ़ने की अनुमति दें!!
+msg_provide_valid_mobile_number,Please provide valid mobile number for initiating auto POS transaction,कृपया ऑटो पीओएस लेनदेन शुरू करने के लिए वैध मोबाइल संख्या प्रदान करें
+msg_search_for_date,Please Search for any date,कृपया कोई भी दिनांक खोजें
+msg_select_coupon_type,Please select a coupon type,कृपया एक कूपन प्रकार का चयन करें 
+msg_select_different_payment,Please select a different payment mode!!,कृपया किसी भिन्न भुगतान मोड का चयन करें 
+msg_select_any_transaction,Please select any transaction,कृपया किसी भी लेनदेन का चयन करें 
+msg_select_seat,Please select atleast a seat to continue,कृपया जारी रखने के लिए कम से कम एक सीट का चयन करें
+msg_select_valid_date,Please select a valid date,कृपया मान्य दिनांक का चयन करें 
+msg_select_consignment_type,Please select consignment type !!,कृपया कंसाइन्मेंट प्रकार का चयन करें!!
+msg_select_delivery_type,Please select delivery Type,कृपया डिलीवरी प्रकार का चयन करें 
+msg_select_input,Please select input type,कृपया इनपुट प्रकार का चयन करें 
+msg_select_one_party,Please select one party,कृपया एक पार्टी का चयन करें
+msg_select_pickup_groups,Please select pickup groups !,कृपया पिकअप समूह का चयन करें 
+msg_select_received_by_branch,please select received by branch,कृपया शाखा द्वारा प्राप्त का चयन करें
+msg_select_some_luggage,Please select some luggage!!,कृपया कुछ सामान का चयन करें 
+msg_select_some_seats,Please select some seats first!!,कृपया पहले कुछ सीटों का चयन करें 
+msg_template_typle,please select template type,कृपया टेम्प्लेट प्रकार का चयन करें 
+msg_enter_valid_input,Please enter valid input,कृपया वैध इनपुट दर्ज करें
+msg_prepaid_card_generated_for,Prepaid card generated for,किसके लिए प्रीपेड कार्ड बनाया गया 
+msg_prepaid_card_already_generated,Prepaid card already generated for the orderid..,ऑर्डरआईडी के लिए प्रीपेड कार्ड पहले ही जेनरेट हो चुका है।
+qr_from_different_lr,QR from different LR,विभिन्न एलआर से क्यूआर
+msg_qr_not_otp_verified,QR not OTP verified,क्यूआर ओटीपी सत्यापित नहीं है
+msg_range_cant_be_more_31,Range can not be more than 31 days,सीमा 31 दिन से अधिक नहीं हो सकती
+msg_recharge_request_submitted_successfully,Recharge request submitted successfully,रिचार्ज अनुरोध सफलतापूर्वक दर्ज किया गया
+msg_scan_qr_or_select_pending_transaction,Scan Qr or select a pending transaction,क्यूआर स्कैन करना या लंबित लेनदेन का चयन करना
+msg_scanned_amount_less,Scanned amount is less than amount to be paid !,स्कैन की गई राशि भुगतान की जाने वाली राशि से कम है!
+msg_scanned_qr_less_than_total,Scanned QR amount is less than total fare !,स्कैन की गई क्यूआर राशि कुल किराये से कम है!
+msg_search_with_mobile_no,Search with mobile no:,मोबाइल संख्या से खोजें:
+msg_select_bus_number,Select a bus number!,किसी बस संख्या का चयन करें 
+msg_select_a_trip_to_add_expense,Select a Trip to add expense,व्यय जोड़ने के लिए किसी यात्रा का चयन करें 
+msg_select_transfer_branch,Select branch to transfer,स्थानांतरण के लिए शाखा का चयन करें
+msg_select_items_to_cancel,Select Items to Cancel,रद्द करने के लिए आइटम का चयन करें
+msg_select_luggage_to_receive,Select Luggage to Receive,प्राप्त करने के लिए सामान का चयन करें
+msg_select_luggage_to_transfer,Select Luggage to Transfer,स्थानांतरण के लिए सामान का चयन करें
+msg_sms_for_passengers,Select passengers for sending sms!,एसएमएस भेजने के लिए यात्रियों का चयन करें!
+msg_select_seat_from_new_chart,Select seat from new chart,नए चार्ट से सीट का चयन करें 
+msg_select_transfer_vehicle,Select vehicle to transfer,स्थानांतरित करने के लिए वाहन का चयन करें
+msg_consignment_cannot_deliver,Selected Consignment Cannot be Delivered,चयनित कंसाइन्मेंट को डिलीवर नहीं किया जा सकता है 
+msg_service_running,Service is already running!,सेवा पहले से ही चल रही है!
+msg_prepaid_card_generated,Since booking is failed and payment is successful a prepaid card is generated,"चूंकि बुकिंग विफल हो गई है और भुगतान सफल है, इसलिए प्रीपेड कार्ड तैयार किया जाता है"
+msg_failed_sending_link,"Sorry,failed to send link!!","क्षमा करें, लिंक भेजने में विफल हुआ!!"
+msg_no_routes,Sorry! No routes found!,क्षमा करें! कोई मार्ग नहीं मिला!
+msg_problem_in_sending_otp,Sorry there is some problem in sending otp,क्षमा करें ओटीपी भेजने में कुछ समस्या आ रही है
+msg_stop_trip_to_logout,Stop the trip to logout..,लॉगआउट करने के लिए यात्रा रोकें।।
+msg_storage_read_granted,Storage read permission granted!!,भंडारण पढ़ने की अनुमति प्रदान की गयी!!
+msg_doesnt_support_crop,This device doesn\'t support the crop action!,इस डिवाइस/उपकरणमें क्रॉप कार्य नहीं हो सकता है 
+msg_non_reported_seat,This seat is non-reported.,इस सीट को रिपोर्ट नहीं किया जा सकता है 
+msg_transaction_amount_cannot_be_less,Transaction amount can\'t be less than total fare,लेन-देन राशि कुल किराये से कम नहीं हो सकती है 
+mag_transfer_branch_loading,Transfer branch is loading,स्थानांतरण शाखा लोड हो रही है
+msg_error_while_printing,Unknown error while printing!,प्रिंट करते समय अज्ञात त्रुटि 
+msg_user_not_logged_in,User is not logged in!,उपयोगकर्ता लॉग इन नहीं है!
+msg_verified_and_order_confirmed,Verification success - Order confirmed,सत्यापन सफल - ऑर्डर की पुष्टि 
+msg_weight_range,Weight should be in between 1.0 to 5.0 k,वजन 1.0 से 5.0 कि.मी. के बीच होना चाहिए
+msg_wrong_pattern,"Wrong pattern, try again","ग़लत पैटर्न, पुनः प्रयास करें"
+msg_youre_offline,You are offline! Status will be synced later!,आप ऑफलाइन हैं! आपके स्टेटस को बाद में सिनिक किया जाएगा !
+msg_youve_changed_rate,You have changed the rate from,आपने मूल्य/दर को ------ से बदल दिया है 
+msg_recharge_request_successful,Your recharge request is successful,आपका रिचार्ज अनुरोध सफल हुआ 
